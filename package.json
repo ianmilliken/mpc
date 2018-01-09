@@ -15,7 +15,6 @@
   "license": "MIT",
   "dependencies": {
     "babel-eslint": "^6.1.2",
-    "babel-loader": "^7.0.0",
     "babel-plugin-syntax-object-rest-spread": "^6.13.0",
     "babel-plugin-transform-class-properties": "^6.10.2",
     "babel-plugin-transform-object-assign": "^6.8.0",
@@ -40,5 +39,9 @@
     "url-loader": "^0.5.7",
     "webpack": "3.6.0",
     "whatwg-fetch": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2"
   }
 }
