@@ -9,6 +9,9 @@ import BrowserSync from "browser-sync";
 import watch from "gulp-watch";
 import webpack from "webpack";
 import webpackConfig from "./webpack.conf";
+//
+import cp from "child_process";
+import replace from "gulp-replace";
 
 const browserSync = BrowserSync.create();
 
@@ -23,6 +26,22 @@ gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview));
 // Build/production tasks
 gulp.task("build", ["css", "js"], (cb) => buildSite(cb, [], "production"));
 gulp.task("build-preview", ["css", "js"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
+
+// Comple CMS
+gulp.task("cms", () => {
+  const match = process.env.REPOSITORY_URL ? process.env.REPOSITORY_URL : cp.execSync("git remote -v", {encoding: "utf-8"});
+  let repo = null;
+  match.replace(/github.com[:/](\S+)(\.git)?/, (_, m) => {
+    repo = m.replace(/\.git$/, "");
+  });
+  gulp.src("./src/cms/*")
+    .pipe(replace("<% GITHUB_REPOSITORY %>", repo))
+    .pipe(gulp.dest("./dist/admin"))
+    .pipe(browserSync.stream());
+  gulp.src(["./node_modules/netlify-cms/dist/*.*", "!./node_modules/netlify-cms/dist/*.html"])
+    .pipe(gulp.dest("./dist"))
+    .pipe(browserSync.stream())
+});
 
 // Compile CSS with PostCSS
 gulp.task("css", () => (
@@ -48,13 +67,14 @@ gulp.task("js", (cb) => {
 });
 
 // Development server with browsersync
-gulp.task("server", ["hugo", "css", "js"], () => {
+gulp.task("server", ["hugo", "css", "js", "cms"], () => {
   browserSync.init({
     server: {
       baseDir: "./dist"
     }
   });
   watch("./src/js/**/*.js", () => { gulp.start(["js"]) });
+	watch("./src/cms/*", ["cms"]);
   watch("./src/css/**/*.css", () => { gulp.start(["css"]) });
   watch("./site/**/*", () => { gulp.start(["hugo"]) });
 });
