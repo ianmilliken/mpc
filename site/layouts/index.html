@@ -1,5 +1,5 @@
 {{ define "main" }}
-<p>
-	Here is some of that main stuff
-</p>
+<h1>{{ .Title }}</h1>
+<h3>{{ .Params.subtitle }}</h3>
+<img src="{{ .Params.image }}" alt="{{ .Title }}"/>
 {{ end }}
