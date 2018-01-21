@@ -39,7 +39,13 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Brief", name: "brief", widget: "object", fields: [
+          {label: "Body", name: "body", widget: "text"}
+        ]}
+      - {label: "SEO", name: "seo", widget: "object", fields" [
+          {label: "Title Tag", name: "title_tag", widget: "string"},
+          {label: "Meta Description", name: "meta_secription", widget: "text"},
+        ]}
 
   - name: "settings"
     label: "Settings"
