@@ -4,4 +4,10 @@
 	<base href="{{ $.Site.BaseURL }}">
 	<title>{{ $.Site.Title }}</title>
 	<link rel="stylesheet" href="css/main.css" />
+
+	<script id="_agile_min_js" async type="text/javascript" src="https://syrup.agilecrm.com/stats/min/agile-min.js"> </script>
+	<script type="text/javascript" >
+	var Agile_API = Agile_API || {}; Agile_API.on_after_load = function(){_agile.set_account('dj1gtpv4aa8urm3m7og4ek113l', 'syrup');
+	_agile.track_page_view();};
+	</script>
 </head>

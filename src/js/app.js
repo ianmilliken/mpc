@@ -1,4 +1,4 @@
-// JS Goes here - ES6 supported
+import ContactForm from './contactForm';
 
-// Say hello
-console.log("🦊 Hello! Edit me in src/js/app.js");
+// Internal scripts
+ContactForm();
