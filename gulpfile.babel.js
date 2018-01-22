@@ -27,7 +27,7 @@ gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview));
 gulp.task("build", ["css", "js", "cms"], (cb) => buildSite(cb, [], "production"));
 gulp.task("build-preview", ["css", "js"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
 
-// Comple CMS
+// Compile CMS
 gulp.task("cms", () => {
   const match = process.env.REPOSITORY_URL ? process.env.REPOSITORY_URL : cp.execSync("git remote -v", {encoding: "utf-8"});
   let repo = null;
@@ -46,7 +46,7 @@ gulp.task("cms", () => {
 // Compile CSS with PostCSS
 gulp.task("css", () => (
   gulp.src("./src/css/*.css")
-    .pipe(postcss([cssImport({from: "./src/css/main.css"}), cssnext()]))
+    .pipe(postcss([cssImport({from: "./src/css/app.css"}), cssnext()]))
     .pipe(gulp.dest("./dist/css"))
     .pipe(browserSync.stream())
 ));
@@ -74,7 +74,7 @@ gulp.task("server", ["hugo", "css", "js", "cms"], () => {
     }
   });
   watch("./src/js/**/*.js", () => { gulp.start(["js"]) });
-	watch("./src/cms/*", ["cms"]);
+	watch("./src/cms/*", () => { gulp.start(["cms"]) });
   watch("./src/css/**/*.css", () => { gulp.start(["css"]) });
   watch("./site/**/*", () => { gulp.start(["hugo"]) });
 });
