@@ -1,0 +1,36 @@
+baseurl: "/"
+languageCode: "en-us"
+languageLang: "en"
+title: "MPC"
+
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details:
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+disableKinds: ["RSS", "taxonomy", "taxonomyTerm"]
+
+menu:
+  main:
+    - Name: "Home"
+      URL: "/"
+      weight: 1
+      Identifier: "home"
+    - Name: "Services"
+      URL: "/services/"
+      weight: 2
+      Identifier: "services"
+    - Name: "Work"
+      URL: "/work/"
+      weight: 3
+      Identifier: "work"
+    - Name: "About"
+      URL: "/about/"
+      weight: 4
+      Identifier: "about"
+    - Name: "Blog"
+      URL: "/blog/"
+      weight: 5
+      Identifier: "blog"
+    - Name: "Get in touch"
+      URL: "/contact/"
+      weight: 6
+      Identifier: "contact"

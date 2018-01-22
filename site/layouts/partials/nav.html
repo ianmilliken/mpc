@@ -1,3 +1,12 @@
 <nav>
-	I am the nav
+	{{ if .Site.Menus.main }}
+	<ul>
+		{{ $currentNode := . }}
+		{{ range .Site.Menus.main }}
+		<li>
+			<a class="nav {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">{{ .Name }}</a>
+		</li>
+		{{ end }}
+	</ul>
+	{{ end }}
 </nav>
