@@ -48,7 +48,7 @@ collections: # A list of collections the CMS should be able to edit
 
   - label: "Blog"
     name: "blog"
-    folder: "_posts/blog"
+    folder: "site/content/blog"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -57,7 +57,7 @@ collections: # A list of collections the CMS should be able to edit
 
   - label: "Case Study"
     name: "case_study"
-    folder: "_posts/casestudy"
+    folder: "site/content/work"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
