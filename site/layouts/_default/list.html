@@ -4,5 +4,10 @@
 <p>
 	I am the list template
 </p>
+<ul>
+	{{ range (.Paginator 4).Pages.ByPublishDate }}
+	<div>{{ .Render "li"}}</div>
+	{{ end }}
+</ul>
 
 {{end}}

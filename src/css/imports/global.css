@@ -1,4 +1,25 @@
+:root {
+	/* Golden Rule */
+	--baseHtmlSize: 62.5%;
+	--baseBodySize: 1.6rem;
+	/* Colors */
+	--brandColor: #B32F3D;
+	/* Typeography */
+	--tinyFont: 	calc(var(--baseBodySize) * 0.563);
+	--smallFont: 	calc(var(--baseBodySize) * 0.75);
+	--mediumFont: 	var(--baseBodySize);
+	--bigFont: 		calc(var(--baseBodySize) * 1.333);
+	--hugeFont: 	calc(var(--baseBodySize) * 1.777);
+	--massiveFont: 	calc(var(--baseBodySize) * 2.369);
+	--enormousFont: calc(var(--baseBodySize) * 3.157);
+}
+
+html {
+	font-size: var(--baseHtmlSize);
+}
+
 body {
 	font-family: 'Montserrat', sans-serif;
+	font-size: var(--baseBodySize);
 	text-align: center;
 }
