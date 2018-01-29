@@ -20,6 +20,10 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Subtitle", name: "subtitle", widget: "string"}
           - {label: "Image", name: "image", widget: "image"}
+          - {label: "Testimonial", name: "testimonial", widget: "object", fields: [
+              {label: "Body", name: "body", widget: "text"},
+              {label: "Client Name", name: "client", widget: "string"},
+              {label: "Client Business", name: "business", widget: "string"}]}
       - file: "site/content/services/_index.md"
         label: "Services"
         name: "services"
