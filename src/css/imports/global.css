@@ -12,6 +12,25 @@
 	--hugeFont: 	calc(var(--baseBodySize) * 1.777);
 	--massiveFont: 	calc(var(--baseBodySize) * 2.369);
 	--enormousFont: calc(var(--baseBodySize) * 3.157);
+	/* Margins */
+	--gutter:	4rem;
+	--gutterBig: 8rem;
+	--pushAuto: {
+		margin-left: auto;
+		margin-right: auto;
+	};
+	/* Positioning */
+	--psuedo: {
+		content: '';
+		position: absolute;
+	};
+	--psuedoCenter: {
+		@apply --psuedo;
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+	};
 }
 
 html {
@@ -22,4 +41,72 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: var(--baseBodySize);
 	text-align: center;
+}
+
+h1 { font-size: var(--enormousFont) }
+h2 { font-size: var(--massiveFont) }
+h3 { font-size: var(--hugeFont) }
+h4 { font-size: var(--bigFont) }
+h5 { font-size: var(--mediumFont) }
+h6 { font-size: var(--smallFont) }
+
+/* - - - - - - - - - - - - - - */
+/* - Banner - */
+/* - - - - - - - - - - - - - - */
+
+.banner {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	&__title {
+		grid-column: 1/3;
+	}
+}
+
+/* - - - - - - - - - - - - - - */
+/* - Blockquote - */
+/* - - - - - - - - - - - - - - */
+
+.blockquote {
+	@apply --pushAuto;
+	max-width: 93.4rem;
+	&__body {
+		font-size: var(--bigFont);
+		font-weight: 300;
+		line-height: 1.74;
+	}
+	&__footer {
+		position: relative;
+		margin-top: var(--gutterBig);
+		font-size: var(--mediumFont);
+		&::before {
+			@apply --psuedoCenter;
+			top: -var(--gutter);
+			width: 17rem;
+			height: 0.2rem;
+			background-color: var(--brandColor);
+		}
+	}
+	&__client {
+		font-weight: 600;
+	}
+}
+
+/* - - - - - - - - - - - - - - */
+/* - Grid - */
+/* - - - - - - - - - - - - - - */
+
+.container {
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.item {
+	background-color: #DDD;
+	&:first-of-type {
+		grid-column: 1 / 3;
+		grid-row: 1 / 3;
+	}
 }

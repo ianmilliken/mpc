@@ -1,5 +1,20 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-<h3>{{ .Params.subtitle }}</h3>
-<img src="{{ .Params.image }}" alt="{{ .Title }}"/>
+
+<header class="banner" role="banner" style="background-image: url({{ .Params.image }})">
+	<h1 class="banner__title">{{ .Title }}</h1>
+	<p class="banner__intro">{{ .Params.subtitle }}</p>
+	<!-- INSERT SERVICE LIST HERE -->
+</header>
+
+<section>
+	{{ range .Params.testimonial }}
+	<blockquote class="blockquote">
+		<p class="blockquote__body">{{ .quote }}</p>
+		<footer class="blockquote__footer">
+			<span class="blockquote__client">{{ .client }}</span>, {{ .position }} at <cite>{{ .company }}</cite>
+		</footer>
+	</blockquote>
+	{{ end }}
+</section>
+
 {{ end }}
