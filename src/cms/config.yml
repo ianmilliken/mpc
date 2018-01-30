@@ -93,3 +93,13 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - { label: "Full Name Label", name: "fullname_label", widget: "string" }
           - { label: "Full Name Placeholder", name: "fullname_placeholder", widget: "string" }
+      - label: Site Navifation
+        name: site_navigation
+        file: "site/data/menu.json"
+        description: "Set custom titles for the nav items"
+        fields:
+          - { label: "Services Title", name: "services", widget: "string" }
+          - { label: "Work Title", name: "work", widget: "string" }
+          - { label: "About Title", name: "about", widget: "string" }
+          - { label: "Blog Title", name: "blog", widget: "string" }
+          - { label: "Contact Title", name: "blog", widget: "string" }
