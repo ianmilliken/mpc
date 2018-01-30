@@ -86,3 +86,10 @@ collections: # A list of collections the CMS should be able to edit
         description: "General app settings"
         fields:
           - { label: "App Title", name: "app_title", widget: "string" }
+      - label: Language
+        name: language
+        file: "site/data/language.json"
+        description: "Language for site forms"
+        fields:
+          - { label: "Full Name Label", name: "fullname_label", widget: "string" }
+          - { label: "Full Name Placeholder", name: "fullname_placeholder", widget: "string" }
