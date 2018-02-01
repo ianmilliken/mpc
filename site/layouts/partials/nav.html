@@ -11,7 +11,13 @@
 
 			{{ if eq .Identifier "home" }}
 			<li class="navbar__li">
-				<a class="navbar__link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">{{ if isset $.Site.Data.logo "logo" }}Logo@{{ else }}{{ .Name }}{{ end }}</a>
+				<a class="navbar__link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">
+					{{ if isset $.Site.Data.logo "logo" }}
+						<img src="{{ index $.Site.Data.logo "logo" }}" alt="{{ .Name }}"/>
+					{{ else }}
+						{{ .Name }}
+					{{ end }}
+				</a>
 			</li>
 
 			{{/*
