@@ -6,6 +6,16 @@
 			<h1 class="banner__title">{{ .Title }}</h1>
 			<p class="banner__intro">{{ .Params.subtitle }}</p>
 			<!-- INSERT SERVICE LIST HERE -->
+			<ul class="banner__services">
+			{{ range where .Data.Pages "Section" "services" }}
+				<li class="service">
+					<a class="service__link" href="{{ .URL }}">
+						<img src="{{ .Params.icon }}" alt="{{ .Title }}" />
+						<span>{{ .Title }}</span>
+					</a>
+				</li>
+			{{ end }}
+			</ul>
 		</div>
 	</div>
 </header>
