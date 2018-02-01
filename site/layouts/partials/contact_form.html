@@ -1,15 +1,24 @@
-<form id="contactForm" name="contactform" action="/">
-	<label for="contactFullName">Full name</label>
-	<input id="contactFullName" type="text" name="fullname" placeholder="e.g. Bert Macklin" />
-
-	<label for="contactEmail">Email address</label>
-	<input id="contactEmail" type="email" name="email" placeholder="e.g. bertmacklin@fbi.com" />
-
-	<label for="contactNumber">Contact number</label>
-	<input id="contactNumber" type="tel" name="number" placeholder="e.g. 0456 789 101" />
-
-	<label for="contactMessage">Enquiry</label>
-	<textarea id="contactMessage" type="textbox" name="message" placeholder="Write your message for us here, and we'll get back to you as soon as possible!"></textarea>
-
-	<input type="submit" id="contactSubmit" value="Send it">
-</form>
+<section class="contact-form">
+	<h2>Start the conversation</h2>
+	<form id="contactForm" name="contactform" action="/">
+		<div class="form-group">
+			<label for="contactFullName">{{ if .Site.Data.language.fullname_label }}{{ .Site.Data.language.fullname_label }}{{ else }}Full Name{{ end }}</label>
+			<input id="contactFullName" type="text" name="fullname" placeholder="{{ if .Site.Data.language.fullname_placeholder }}{{ .Site.Data.language.fullname_placeholder }}{{ else }}e.g. Bert Macklin{{ end }}" />
+		</div>
+		<div class="form-group">
+			<label for="contactEmail">Email address</label>
+			<input id="contactEmail" type="email" name="email" placeholder="e.g. bertmacklin@fbi.com" />
+		</div>
+		<div class="form-group">
+			<label for="contactNumber">Contact number</label>
+			<input id="contactNumber" type="tel" name="number" placeholder="e.g. 0456 789 101" />
+		</div>
+		<div class="form-group">
+			<label for="contactMessage">Enquiry</label>
+			<textarea id="contactMessage" type="textbox" name="message" placeholder="Write your message for us here, and we'll get back to you as soon as possible!"></textarea>
+		</div>
+		<div class="form-group">
+			<input type="submit" id="contactSubmit" value="Send it">
+		</div>
+	</form>
+</section>
