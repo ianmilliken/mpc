@@ -29,12 +29,12 @@ export default function contactForm() {
 
 		window._agile.create_contact(contact, {
 			success: function (data) {
-				console.log("success");
+				alert("Thanks, we'll be in touch!");
 				console.log(data);
 				createAgileTask();
 			},
 			error: function (data) {
-				console.log("error");
+				alert("Sorry, we could not complete your request!");
 				console.log(data);
 			}
 		});
