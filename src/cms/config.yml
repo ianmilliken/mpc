@@ -77,6 +77,14 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Title Tag", name: "title_tag", widget: "string"},
           {label: "Meta Description", name: "meta_secription", widget: "text"}]}
 
+  - label: Services
+    name: services
+    folder: "site/content/services"
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Icon, name: icon, widget: image }
+
   - name: "settings"
     label: "Settings"
     files:
