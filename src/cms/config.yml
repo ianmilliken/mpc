@@ -93,6 +93,12 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - { label: "Full Name Label", name: "fullname_label", widget: "string" }
           - { label: "Full Name Placeholder", name: "fullname_placeholder", widget: "string" }
+      - label: Logo
+        name: logo
+        file: "site/data/logo.json"
+        description: "Upload a logo for your brand. SVG | PNG | JPG"
+        fields:
+          - { label: "Your Logo", name: "logo", widget: "image" }
       - label: Site Navigation
         name: site_navigation
         file: "site/data/menu.json"
