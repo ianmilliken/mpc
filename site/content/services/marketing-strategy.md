@@ -22,13 +22,8 @@ marketing strategy with Marketplace Communications.
 
 
 * Market research and competitive analysis
-
 * Brand strategy and USP
-
 * Short and long term goal planning
-
 * Production of marketing plans
-
 * Strategy implementation and management
-
 * Marketing workshops
