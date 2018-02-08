@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+<article>
+
+	<header class="center">
+		<h1>{{ .Title }}</h1>
+	</header>
+
+	<section class="bg--2">
+		<ul class="container">
+			{{ range .Pages.ByPublishDate }}
+				<li>{{ .Render "li"}}</li>
+			{{ end }}
+		</ul>
+	</section>
+
+</article>
+
+{{end}}
