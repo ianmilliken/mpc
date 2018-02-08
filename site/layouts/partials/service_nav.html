@@ -1,6 +1,6 @@
 <nav class="navbar navbar--colored container">
 	{{ if .Site.Menus.main }}
-	<ul class="navbar__ul">
+
 		{{ $currentNode := . }}
 		{{ range .Site.Menus.services }}
 
@@ -10,24 +10,21 @@
 			*/}}
 
 			{{ if eq .Identifier "home" }}
-			<li class="navbar__li">
-				<a class="navbar__link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">
-					{{ if isset $.Site.Data.logo "logo" }}
-						<img src="{{ index $.Site.Data.logo "logo" }}" alt="{{ .Name }}"/>
-					{{ else }}
-						{{ .Name }}
-					{{ end }}
-				</a>
-			</li>
+			<a class="navbar__link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">
+				<!--{{ if isset $.Site.Data.logo "logo" }}
+					<img src="{{ index $.Site.Data.logo "logo" }}" alt="{{ .Name }}"/>
+				{{ else }}
+					{{ .Name }}
+				{{ end }}-->
+				<i class="icon icon-logo"></i>
+			</a>
 
 			{{/*
 				If the matched node is the contact link, format it as a button
 			*/}}
 
 			{{ else if eq .Identifier "contact" }}
-			<li class="navbar__li">
-				<a class="navbar__button {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">{{ if isset $.Site.Data.menu .Identifier }}{{ index $.Site.Data.menu .Identifier }}{{ else }}{{ .Name }}{{ end }}</a>
-			</li>
+			<a class="navbar__button {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">{{ if isset $.Site.Data.menu .Identifier }}{{ index $.Site.Data.menu .Identifier }}{{ else }}{{ .Name }}{{ end }}</a>
 
 			{{/*
 				For each menu link check whether there is a matching entry in the site
@@ -35,12 +32,8 @@
 			*/}}
 
 			{{ else }}
-			<li class="navbar__li">
-				<a class="navbar__link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">{{ if isset $.Site.Data.menu .Identifier }}{{ index $.Site.Data.menu .Identifier }}{{ else }}{{ .Name }}{{ end }}</a>
-			</li>
+			<a class="navbar__link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">{{ if isset $.Site.Data.menu .Identifier }}{{ index $.Site.Data.menu .Identifier }}{{ else }}{{ .Name }}{{ end }}</a>
 			{{ end }}
-
 		{{ end }}
-	</ul>
 	{{ end }}
 </nav>

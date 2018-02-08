@@ -2,6 +2,7 @@
   You can use import statements to include partials:
  */
 @import "imports/reset";
+@import "imports/fonts";
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900');
 
