@@ -1,0 +1,18 @@
+{{ define "header" }}{{ partial "service_nav" . }}{{ end }}
+
+{{ define "main" }}
+
+<article>
+
+	<header class="center">
+		<h1>{{ .Title }}</h1>
+		<p class="intro">{{ .Params.intro }}</p>
+	</header>
+
+	<section class="content">
+		{{ .Content }}
+	</section>
+
+</article>
+
+{{ end }}
