@@ -1,0 +1,37 @@
+<nav class="navbar navbar--colored container">
+	{{ if .Site.Menus.main }}
+	<ul class="navbar__ul">
+		{{ $currentNode := . }}
+		{{ range .Site.Menus.services }}
+
+			{{/*
+				If a logo has been uploaded via the CMS then grab it from the sites
+				data, otherwise use the fallback
+			*/}}
+
+			{{ if eq .Identifier "home" }}
+			<li class="navbar__li">
+				<a class="navbar__link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">
+					{{ if isset $.Site.Data.logo "logo" }}
+						<img src="{{ index $.Site.Data.logo "logo" }}" alt="{{ .Name }}"/>
+					{{ else }}
+						{{ .Name }}
+					{{ end }}
+				</a>
+			</li>
+
+			{{/*
+				For each menu link check whether there is a matching entry in the site
+				data with a custom name set via the CMS
+			*/}}
+
+			{{ else }}
+			<li class="navbar__li">
+				<a class="navbar__link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">{{ if isset $.Site.Data.menu .Identifier }}{{ index $.Site.Data.menu .Identifier }}{{ else }}{{ .Name }}{{ end }}</a>
+			</li>
+			{{ end }}
+
+		{{ end }}
+	</ul>
+	{{ end }}
+</nav>

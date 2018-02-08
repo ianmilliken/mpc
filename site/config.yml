@@ -34,3 +34,16 @@ menu:
       URL: "/contact/"
       weight: 6
       Identifier: "contact"
+  services:
+    - Name: "Home"
+      URL: "/"
+      weight: 2
+      Identifier: "home"
+    - Name: "Services"
+      URL: "/services/"
+      weight: 1
+      Identifier: "services"
+    - Name: "Contact"
+      URL: "/contact/"
+      weight: 3
+      Identifier: "contact"

@@ -3,7 +3,7 @@
 {{ partial "head" . }}
 
 <body>
-	{{ partial "nav" . }}
+	{{ block "header" . }}{{ partial "nav" . }}{{ end }}
 	<main class="main" role="main">
 		{{ block "main" . }}{{ end }}
 	</main>
