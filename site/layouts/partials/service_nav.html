@@ -21,6 +21,15 @@
 			</li>
 
 			{{/*
+				If the matched node is the contact link, format it as a button
+			*/}}
+
+			{{ else if eq .Identifier "contact" }}
+			<li class="navbar__li">
+				<a class="navbar__button {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">{{ if isset $.Site.Data.menu .Identifier }}{{ index $.Site.Data.menu .Identifier }}{{ else }}{{ .Name }}{{ end }}</a>
+			</li>
+
+			{{/*
 				For each menu link check whether there is a matching entry in the site
 				data with a custom name set via the CMS
 			*/}}
