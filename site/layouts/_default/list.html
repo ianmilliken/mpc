@@ -1,13 +1,21 @@
+{{ define "header" }}{{ partial "nav" (dict "context" . "scheme" "reverse")}}{{ end }}
+
 {{ define "main" }}
 
-<h1>{{ .Title }}</h1>
-<p>
-	I am the list template
-</p>
-<ul class="container">
-	{{ range (.Paginator 8).Pages.ByPublishDate }}
-	<li class="item">{{ .Render "li"}}</li>
-	{{ end }}
-</ul>
+<header class="banner center">
+	<h1 class="banner__title banner__title--solo">{{ .Title }}</h1>
+</header>
+
+<article>
+
+	<section class="bg--2">
+		<ul class="container">
+			{{ range .Pages.ByPublishDate }}
+				<li>{{ .Render "li"}}</li>
+			{{ end }}
+		</ul>
+	</section>
+
+</article>
 
 {{end}}
