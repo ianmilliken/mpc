@@ -3,8 +3,9 @@
 <article>
 	<header class="center">
 		<h1 class="article__title">{{ .Title }}</h1>
+		<div class="article__hero"><img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" /></div>
 	</header>
-	<section class="content brief">
+	<section class="content brief bg--2">
 		<h2 class="content__subtitle"><span>The Brief</span></h2>
 		{{ .Params.brief.body | markdownify }}
 	</section>
