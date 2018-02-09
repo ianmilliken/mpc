@@ -66,4 +66,33 @@ h6 { font-size: var(--smallFont) }
 			background-color: color(var(--brandColor) alpha(50%));
 		}
 	}
+
+	&__subtitle {
+		margin-bottom: 8.4rem;
+		font-size: var(--mediumFont);
+		font-weight: 300;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		text-align: center;
+		color: var(--brandColor);
+		& > span {
+			position: relative;
+		}
+		& > span::before {
+			content: '';
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: -2.4rem;
+			height: 0.2rem;
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+			background-color: var(--brandColor);
+		}
+	}
+}
+
+.article__title {
+	margin-top: 8rem;
 }

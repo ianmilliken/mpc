@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+<article>
+	<header class="center">
+		<h1 class="article__title">{{ .Title }}</h1>
+	</header>
+	<section class="content brief">
+		<h2 class="content__subtitle"><span>The Brief</span></h2>
+		{{ .Params.brief.body | markdownify }}
+	</section>
+	<section class="content solution">
+	<h2 class="content__subtitle"><span>Our Solution</span></h2>
+		{{ .Params.solution.body | markdownify }}
+	</section>
+	<section class="content results">
+		<h2 class="content__subtitle"><span>The Results</span></h2>
+		{{ .Params.results.body | markdownify }}
+	</section>
+</article>
+
+{{ end }}
