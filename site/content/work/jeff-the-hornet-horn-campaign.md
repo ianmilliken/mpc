@@ -61,7 +61,8 @@ results:
     provide media relations support; and offering new business opportunities and
     assistance wherever possible.
 seo:
-  meta_decription: Ploppy Mc Plop Face
-  meta_title: Ploppy
+  keywords: 'Jeff Horn, Oxmar Properties, Marketing'
+  meta_decription: Jeff Description
+  meta_title: Jeff Meta
 ---
 
