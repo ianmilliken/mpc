@@ -1,8 +1,7 @@
-<nav class="navbar container">
-	{{ if .Site.Menus.main }}
-
-		{{ $currentNode := . }}
-		{{ range .Site.Menus.main }}
+<nav class="navbar {{ if .scheme }}navbar--{{ .scheme }}{{ end }} container">
+	{{ if .context.Site.Menus.main }}
+		{{ $currentNode := .context }}
+		{{ range .context.Site.Menus.main }}
 			{{/*
 				If a logo has been uploaded via the CMS then grab it from the sites
 				data, otherwise use the fallback
@@ -10,7 +9,7 @@
 			{{ if eq .Identifier "home" }}
 				<a class="navbar__link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">
 					<!--<a class="navbar__link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">
-          {{ if isset $.Site.Data.logo "logo" }} 
+          {{ if isset $.Site.Data.logo "logo" }}
             <img src="{{ index $.Site.Data.logo "logo" }}" alt="{{ .Name }}"/>
           {{ else }}
             {{ .Name }}
@@ -22,7 +21,7 @@
 		{{ end }}
 
 		<div class="list list--inline">
-		{{ range .Site.Menus.main }}
+		{{ range .context.Site.Menus.main }}
 			{{/*
 				For each menu link check whether there is a matching entry in the site
 				data with a custom name set via the CMS
@@ -33,7 +32,7 @@
 		{{ end }}
 		</div>
 
-		{{ range .Site.Menus.main }}
+		{{ range .context.Site.Menus.main }}
 			{{/*
 				If the matched node is the contact link, format it as a button
 			*/}}

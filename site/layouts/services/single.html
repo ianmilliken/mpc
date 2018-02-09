@@ -1,4 +1,4 @@
-{{ define "header" }}{{ partial "service_nav" . }}{{ end }}
+{{ define "header" }}{{ partial "service_nav" (dict "context" . ) }}{{ end }}
 
 {{ define "main" }}
 

@@ -3,7 +3,7 @@
 {{ partial "head" . }}
 
 <body>
-	{{ block "header" . }}{{ partial "nav" . }}{{ end }}
+	{{ block "header" . }}{{ partial "nav" (dict "context" .) }}{{ end }}
 	<main class="main" role="main">
 		{{ block "main" . }}{{ end }}
 	</main>

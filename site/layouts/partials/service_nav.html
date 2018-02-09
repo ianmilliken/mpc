@@ -1,8 +1,8 @@
-<nav class="navbar navbar--colored container">
-	{{ if .Site.Menus.main }}
+<nav class="navbar {{ if .scheme }}navbar--{{ .scheme }}{{ end }} navbar--colored container">
+	{{ if .context.Site.Menus.main }}
 
 		{{ $currentNode := . }}
-		{{ range .Site.Menus.services }}
+		{{ range .context.Site.Menus.services }}
 
 			{{/*
 				If a logo has been uploaded via the CMS then grab it from the sites
