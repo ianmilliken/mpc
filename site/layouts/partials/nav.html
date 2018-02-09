@@ -27,7 +27,7 @@
 				data with a custom name set via the CMS
 			*/}}
 			{{ if and (ne .Identifier "home") (ne .Identifier "contact") }}
-				<a class="navbar__link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">{{ if isset $.Site.Data.menu .Identifier }}{{ index $.Site.Data.menu .Identifier }}{{ else }}{{ .Name }}{{ end }}</a>
+				<a class="navbar__link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">{{ if isset $.context.Site.Data.menu .Identifier }}{{ index $.context.Site.Data.menu .Identifier }}{{ else }}{{ .Name }}{{ end }}</a>
 			{{ end }}
 		{{ end }}
 		</div>
@@ -37,7 +37,7 @@
 				If the matched node is the contact link, format it as a button
 			*/}}
 			{{ if eq .Identifier "contact" }}
-				<a class="navbar__button {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">{{ if isset $.Site.Data.menu .Identifier }}{{ index $.Site.Data.menu .Identifier }}{{ else }}{{ .Name }}{{ end }}</a>
+				<a class="navbar__button {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">{{ if isset $.context.Site.Data.menu .Identifier }}{{ index $.context.Site.Data.menu .Identifier }}{{ else }}{{ .Name }}{{ end }}</a>
 			{{ end }}
 		{{ end }}
 

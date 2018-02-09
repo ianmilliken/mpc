@@ -1,7 +1,7 @@
 <nav class="navbar {{ if .scheme }}navbar--{{ .scheme }}{{ end }} navbar--colored container">
 	{{ if .context.Site.Menus.main }}
 
-		{{ $currentNode := . }}
+		{{ $currentNode := .context }}
 		{{ range .context.Site.Menus.services }}
 
 			{{/*
@@ -24,7 +24,7 @@
 			*/}}
 
 			{{ else if eq .Identifier "contact" }}
-			<a class="navbar__button {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">{{ if isset $.Site.Data.menu .Identifier }}{{ index $.Site.Data.menu .Identifier }}{{ else }}{{ .Name }}{{ end }}</a>
+			<a class="navbar__button {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">{{ if isset $.context.Site.Data.menu .Identifier }}{{ index $.context.Site.Data.menu .Identifier }}{{ else }}{{ .Name }}{{ end }}</a>
 
 			{{/*
 				For each menu link check whether there is a matching entry in the site
@@ -32,7 +32,7 @@
 			*/}}
 
 			{{ else }}
-			<a class="navbar__link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">{{ if isset $.Site.Data.menu .Identifier }}{{ index $.Site.Data.menu .Identifier }}{{ else }}{{ .Name }}{{ end }}</a>
+			<a class="navbar__link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">{{ if isset $.context.Site.Data.menu .Identifier }}{{ index $.context.Site.Data.menu .Identifier }}{{ else }}{{ .Name }}{{ end }}</a>
 			{{ end }}
 		{{ end }}
 	{{ end }}
