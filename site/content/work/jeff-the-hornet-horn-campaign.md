@@ -1,5 +1,7 @@
 ---
 title: Jeff 'The Hornet' Horn Campaign
+description: This is the jeff hornet campaign
+keywords: 'Jeff, Hornet, Wasp, MPC, Marketing'
 thumbnail: /img/mpc-homepage.png
 brief:
   body: >-
@@ -61,3 +63,4 @@ results:
     provide media relations support; and offering new business opportunities and
     assistance wherever possible.
 ---
+
