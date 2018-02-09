@@ -60,9 +60,4 @@ results:
     their activities are on track and run smoothly. We are working with Oxmar to
     provide media relations support; and offering new business opportunities and
     assistance wherever possible.
-seo:
-  keywords: 'Jeff Horn, Oxmar Properties, Marketing'
-  meta_decription: Jeff Description
-  meta_title: Jeff Meta
 ---
-

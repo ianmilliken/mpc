@@ -69,6 +69,8 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - { label: Title, name: title, widget: string }
+      - { label: Meta Description, name: description, widget: string }
+      - { label: Meta Keywords, name: keywords, widget: string }
       - { label: Featured Image, name: thumbnail, widget: image }
       - { label: Brief, name: brief, widget: object, fields: [
           { label: Body, name: body, widget: markdown }]}
@@ -76,10 +78,6 @@ collections: # A list of collections the CMS should be able to edit
           { label: Body, name: body, widget: markdown }]}
       - { label: Results, name: results, widget: object, fields: [
           { label: Body, name: body, widget: markdown }]}
-      - { label: SEO, name: seo, widget: object, fields: [
-          { label: Meta Title, name: meta_title, widget: string },
-          { label: Meta Description, name: meta_decription, widget: text },
-          { label: Keywords, name: keywords, widget: string }]}
 
   - label: Services
     name: services
