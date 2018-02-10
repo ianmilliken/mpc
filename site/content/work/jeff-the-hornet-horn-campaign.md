@@ -16,13 +16,13 @@ brief:
     in-depth digital marketing strategy in line with a review of Oxmar’s
     existing digital practices.
 service_list:
-  - service: Marketing Strategy
-  - service: Advertising
+  - service: Half-day Strategy Workshop
   - service: Digital Marketing Solutions
+  - service: Advertising
+  - service: Media Relations
+  - service: Media Purchasing
+  - service: Branding
   - service: Business Development
-  - service: Design
-  - service: Websites
-  - service: Media & Communications
 solution:
   body: >-
     Following two strategy meetings run by MPC, Oxmar Properties were eager to
