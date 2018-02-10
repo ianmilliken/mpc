@@ -68,12 +68,10 @@ collections: # A list of collections the CMS should be able to edit
     folder: "site/content/work"
     create: true
     fields:
-      - { label: Test, name: test, widget: dataSelect }
       - { label: Title, name: title, widget: string }
       - { label: Meta Description, name: description, widget: string }
       - { label: Meta Keywords, name: keywords, widget: string }
       - { label: Featured Image, name: thumbnail, widget: image }
-      - { label: Client, name: client, widget: relation, collection: clients.client_list.client, searchFields: [name, contact], valueField: name }
       - { label: Brief, name: brief, widget: object, fields: [
           { label: Body, name: body, widget: markdown }]}
       - label: Services
