@@ -12,22 +12,23 @@
 		{{ .Params.brief.body | markdownify }}
 	</section>
 
-	<section class="content services bg--3">
-		<h2 class="content__subtitle reverse"><span>Services we provided</span></h2>
+	<section class="area services bg--3">
+		<div class="container">
+			<h2 class="content__subtitle reverse"><span>Services we provided</span></h2>
 
-		{{/*
-			--
-			-- Logic for finding the matching service from the works font matter
-			-- Check the the title of the service conatined in the front matter
-			-- against each service content type title, if a match is found grab its
-			-- data
-			--
-		*/}}
+			{{/*
+				--
+				-- Logic for finding the matching service from the works font matter
+				-- Check the the title of the service conatined in the front matter
+				-- against each service content type title, if a match is found grab its
+				-- data
+				--
+			*/}}
 
-		{{ range .Params.service_list }}
-			{{/* Store the current service because scope changes in nested loops */}}
-			{{ $currentService := .service }}
 			<ul class="banner__services">
+			{{ range .Params.service_list }}
+				{{/* Store the current service because scope changes in nested loops */}}
+				{{ $currentService := .service }}
 				{{/* Access 'services' that have a kind of 'section' */}}
 				{{ with $.Site.GetPage "section" "services" }}
 					{{/* Loop through each individual entry */}}
@@ -42,9 +43,9 @@
 						{{ end }}
 					{{ end }}
 				{{ end }}
+			{{ end }}
 			</ul>
-		{{ end }}
-
+		</div>
 	</section>
 
 	<section class="content solution">

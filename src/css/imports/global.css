@@ -88,6 +88,11 @@ body {
 	}
 }
 
+.area {
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+}
+
 .list {
 	&--inline > * {
 		display: inline-block;
