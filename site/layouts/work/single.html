@@ -1,22 +1,62 @@
 {{ define "main" }}
 
 <article>
+
 	<header class="center">
 		<h1 class="article__title">{{ .Title }}</h1>
 		<div class="article__hero"><img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" /></div>
 	</header>
+
 	<section class="content brief bg--2">
-		<h2 class="content__subtitle"><span>The Brief</span></h2>
+		<h2 class="content__subtitle"><span>The brief</span></h2>
 		{{ .Params.brief.body | markdownify }}
 	</section>
+
+	<section class="content services bg--3">
+		<h2 class="content__subtitle reverse"><span>Services we provided</span></h2>
+
+		{{/*
+			--
+			-- Logic for finding the matching service from the works font matter
+			-- Check the the title of the service conatined in the front matter
+			-- against each service content type title, if a match is found grab its
+			-- data
+			--
+		*/}}
+
+		{{ range .Params.service_list }}
+			{{/* Store the current service because scope changes in nested loops */}}
+			{{ $currentService := .service }}
+			<ul class="banner__services">
+				{{/* Access 'services' that have a kind of 'section' */}}
+				{{ with $.Site.GetPage "section" "services" }}
+					{{/* Loop through each individual entry */}}
+					{{ range where .Data.Pages "Section" "services" }}
+						{{ if eq .Title $currentService }}
+							<li class="service">
+								<a class="service__link" href="{{ .URL }}">
+									<img src="{{ if .Params.icon }}{{ .Params.icon }}{{ else }}{{ end }}" alt="{{ .Title }}" />
+									{{ .Title }}
+								</a>
+							</li>
+						{{ end }}
+					{{ end }}
+				{{ end }}
+			</ul>
+		{{ end }}
+
+	</section>
+
 	<section class="content solution">
-	<h2 class="content__subtitle"><span>Our Solution</span></h2>
+	<h2 class="content__subtitle"><span>Our solution</span></h2>
 		{{ .Params.solution.body | markdownify }}
 	</section>
+
 	<section class="content results">
-		<h2 class="content__subtitle"><span>The Results</span></h2>
+		<h2 class="content__subtitle"><span>The results</span></h2>
 		{{ .Params.results.body | markdownify }}
 	</section>
+
 </article>
 
 {{ end }}

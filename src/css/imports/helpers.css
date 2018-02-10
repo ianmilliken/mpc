@@ -1,0 +1,6 @@
+.reverse {
+	color: var(--absoluteWhite);
+	& > span::before {
+		background-color: var(--absoluteWhite);
+	}
+}
