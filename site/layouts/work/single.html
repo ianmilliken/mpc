@@ -36,7 +36,7 @@
 						{{ if eq .Title $currentService }}
 							<li class="service">
 								<a class="service__link" href="{{ .URL }}">
-									<img src="{{ if .Params.icon }}{{ .Params.icon }}{{ else }}{{ end }}" alt="{{ .Title }}" />
+									<img src="{{ if .Params.icon }}{{ .Params.icon }}{{ else }}/img/service-icon-default.svg{{ end }}" alt="{{ .Title }}" />
 									{{ .Title }}
 								</a>
 							</li>
