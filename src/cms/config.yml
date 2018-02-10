@@ -76,6 +76,11 @@ collections: # A list of collections the CMS should be able to edit
       - { label: Client, name: client, widget: relation, collection: clients.client_list.client, searchFields: [name, contact], valueField: name }
       - { label: Brief, name: brief, widget: object, fields: [
           { label: Body, name: body, widget: markdown }]}
+      - label: Services
+        name: service_list
+        widget: list
+        fields:
+          - { label: Service, name: service, widget: relation, collection: services, searchFields: [title], valueField: title }
       - { label: Solution, name: solution, widget: object, fields: [
           { label: Body, name: body, widget: markdown }]}
       - { label: Results, name: results, widget: object, fields: [
@@ -88,9 +93,15 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-      - { label: Icon, name: icon, widget: image }
+      - { label: Icon, name: icon, widget: image, required: false }
       - { label: Image, name: image, widget: image, required: false }
-      - { label: Content, name: body, widget: markdown }
+      - label: Service Type
+        name: type
+        widget: select
+        options:
+          - { label: Primary, value: PRI }
+          - { label: Secondary, value SEC }
+      - { label: Content, name: body, widget: markdown, required: false }
 
   - label: Clients
     name: clients
