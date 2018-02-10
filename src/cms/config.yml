@@ -90,6 +90,20 @@ collections: # A list of collections the CMS should be able to edit
       - { label: Image, name: image, widget: image, required: false }
       - { label: Content, name: body, widget: markdown }
 
+  - label: Clients
+    name: clients
+    files:
+      - label: Client2
+        name: clients2
+        file: "site/data/clients.json"
+        fields:
+          - { label: Name, name: name, widget: string }
+          - { label: Logo, name: logo, widget: image }
+          - { label: Location, name: location, widget: string }
+          - { label: Contact, name: contact, widget: string }
+          - { label: Contact Position, name: contact_position, string }
+
+
   - name: "settings"
     label: "Settings"
     files:
