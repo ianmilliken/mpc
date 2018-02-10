@@ -1,7 +1,7 @@
 ---
 title: Jeff 'The Hornet' Horn Campaign
 description: This is the jeff hornet campaign
-keywords: 'Jeff, Hornet, Wasp, MPC, Marketing'
+keywords: 'Jeff, Hornet, Wasp, MPC, Marketing, Blob'
 thumbnail: /img/mpc-homepage.png
 brief:
   body: >-
@@ -15,6 +15,8 @@ brief:
     sponsorship of WBO Welterweight World Champion Jeff Horn. We also created an
     in-depth digital marketing strategy in line with a review of Oxmar’s
     existing digital practices.
+service_list:
+  - service: Advertising
 solution:
   body: >-
     Following two strategy meetings run by MPC, Oxmar Properties were eager to
