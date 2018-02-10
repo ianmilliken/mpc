@@ -99,8 +99,8 @@ collections: # A list of collections the CMS should be able to edit
         name: type
         widget: select
         options:
-          - { label: Primary, value: PRI }
-          - { label: Secondary, value SEC }
+          - { label: Primary, value: Primary }
+          - { label: Secondary, value: Secondary }
       - { label: Content, name: body, widget: markdown, required: false }
 
   - label: Clients
