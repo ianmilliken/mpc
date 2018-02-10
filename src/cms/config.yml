@@ -93,15 +93,19 @@ collections: # A list of collections the CMS should be able to edit
   - label: Clients
     name: clients
     files:
-      - label: Client2
-        name: clients2
+      - label: List of clients
+        name: client_list
         file: "site/data/clients.json"
         fields:
-          - { label: Name, name: name, widget: string }
-          - { label: Logo, name: logo, widget: image }
-          - { label: Location, name: location, widget: string }
-          - { label: Contact, name: contact, widget: string }
-          - { label: Contact Position, name: contact_position, string }
+          - label: Client
+            name: client
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Logo, name: logo, widget: image, required: false }
+              - { label: Location, name: location, widget: string }
+              - { label: Contact, name: contact, widget: string, required: false }
+              - { label: Contact Position, name: contact_position, string, required: false }
 
 
   - name: "settings"
