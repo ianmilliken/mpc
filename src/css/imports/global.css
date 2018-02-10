@@ -55,6 +55,10 @@ body {
 	font-size: var(--baseBodySize);
 }
 
+a * {
+	color: inherit;
+}
+
 .center { text-align: center }
 
 .bg--2 {
@@ -96,6 +100,19 @@ body {
 .list {
 	&--inline > * {
 		display: inline-block;
+	}
+	&--high {
+		& > li:not(:first-of-type) {
+			margin-top: 8rem;
+			padding-top: 8rem;
+		}
+	}
+}
+
+.flex {
+	display: flex;
+	&--justify-between {
+		justify-content: space-between;
 	}
 }
 

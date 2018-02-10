@@ -1,15 +1,28 @@
+{{ define "header" }}{{ partial "nav" (dict "context" . "scheme" "reverse")}}{{ end }}
+
 {{ define "main" }}
 
+<header class="banner center">
+	<h1 class="banner__title banner__title--solo">{{ .Title }}</h1>
+	{{ partial "banner_services" (dict "context" . "linkType" "anchor") }}
+</header>
+
 <article>
-
-	<header class="center">
-		<h1>{{ .Title }}</h1>
-	</header>
-
 	<section class="bg--2">
-		<ul class="container">
+		<ul class="list list--high container">
 			{{ range .Pages.ByPublishDate }}
-				<li>{{ .Render "li"}}</li>
+				<li>
+					<a class="flex flex--justify-between" id="{{ .Title | urlize }}" href="{{ .Permalink }}">
+						<div class="flex">
+							<img src="{{ .Params.icon }}" alt="{{ .Title }}" />
+							<div>
+								<h2>{{ .Title }}</h2>
+								<p>{{ .Params.intro }}</p>
+							</div>
+						</div>
+						{{ partial "arrow.svg" }}
+					</a>
+				</li>
 			{{ end }}
 		</ul>
 	</section>

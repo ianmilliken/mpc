@@ -7,7 +7,7 @@
 		<div class="banner__inner">
 			<h1 class="banner__title">{{ .Title }}</h1>
 			<p class="banner__intro">{{ .Params.subtitle }}</p>
-			{{ partial "banner_services" . }}
+			{{ partial "banner_services" (dict "context" .) }}
 		</div>
 	</div>
 </header>
