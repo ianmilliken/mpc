@@ -11,18 +11,20 @@
 	<section class="bg--2">
 		<ul class="list list--high container">
 			{{ range .Pages.ByPublishDate }}
-				<li>
-					<a class="flex flex--justify-between" id="{{ .Title | urlize }}" href="{{ .Permalink }}">
-						<div class="flex">
-							<img src="{{ .Params.icon }}" alt="{{ .Title }}" />
-							<div>
-								<h2>{{ .Title }}</h2>
-								<p>{{ .Params.intro }}</p>
+				{{ if eq .Params.type "Primary" }}
+					<li>
+						<a class="flex flex--justify-between" id="{{ .Title | urlize }}" href="{{ .Permalink }}">
+							<div class="flex">
+								<img src="{{ .Params.icon }}" alt="{{ .Title }}" />
+								<div>
+									<h2>{{ .Title }}</h2>
+									<p>{{ .Params.intro }}</p>
+								</div>
 							</div>
-						</div>
-						{{ partial "arrow.svg" }}
-					</a>
-				</li>
+							{{ partial "arrow.svg" }}
+						</a>
+					</li>
+				{{ end }}
 			{{ end }}
 		</ul>
 	</section>
