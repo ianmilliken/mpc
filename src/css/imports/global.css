@@ -269,41 +269,6 @@ a * {
 }
 
 /* - - - - - - - - - - - - - - */
-/* - Forms - */
-/* - - - - - - - - - - - - - - */
-
-.contact-form {
-	padding-top: 8rem;
-	text-align: center;
-}
-
-.form-group {
-	display: flex;
-	margin-top: 2rem;
-	padding-bottom: 1rem;
-	border-bottom: 0.2rem solid color(var(--black) alpha(25%));
-}
-
-label {
-	display: block;
-	width: 20rem;
-	text-align: left;
-	font-weight: 300;
-}
-
-input,
-textarea {
-	flex-grow: 1;
-	font-size: var(--bigFont);
-	appearance: none;
-	border: 0;
-	color: color(var(--black) alpha(50%));
-	&:focus {
-		outline: none;
-	}
-}
-
-/* - - - - - - - - - - - - - - */
 /* - Footer - */
 /* - - - - - - - - - - - - - - */
 

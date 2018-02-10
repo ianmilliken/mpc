@@ -21,6 +21,12 @@
 		</footer>
 	</blockquote>
 	{{ end }}
+
+	{{/* Get the client logo's from the site data */}}
+	{{ range .Site.Data.clients.client }}
+		<div>{{ .name }}</div>
+	{{ end }}
+
 </section>
 
 {{ end }}

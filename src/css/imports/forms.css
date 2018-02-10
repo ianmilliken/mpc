@@ -1,0 +1,43 @@
+/* - - - - - - - - - - - - - - */
+/* - Forms - */
+/* - - - - - - - - - - - - - - */
+
+.contact-form {
+	padding-top: 8rem;
+	text-align: center;
+}
+
+.form-group {
+	display: flex;
+	padding-bottom: 1rem;
+	&:not(:first-of-type) {
+		margin-top: 2rem;
+	}
+	&:not(:last-of-type) {
+		border-bottom: 0.1rem solid color(var(--black) alpha(25%));
+	}
+}
+
+label {
+	display: block;
+	width: 20rem;
+	text-align: left;
+	font-weight: 300;
+}
+
+input:not([type="submit"]),
+textarea {
+	flex-grow: 1;
+	font-size: var(--bigFont);
+	font-weight: 300;
+	letter-spacing: 0.02em;
+	appearance: none;
+	border: 0;
+	color: var(--black);
+	&:focus {
+		outline: none;
+	}
+  &::placeholder {
+		color: color(var(--black) alpha(50%));
+	}
+}

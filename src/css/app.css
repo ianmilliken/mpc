@@ -8,4 +8,8 @@
 
 @import "imports/global";
 @import "imports/typography";
+
+@import "imports/buttons";
+@import "imports/forms";
+
 @import "imports/helpers";

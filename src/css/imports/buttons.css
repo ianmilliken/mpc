@@ -1,0 +1,12 @@
+button, .button, input[type="submit"] {
+	border: none;
+}
+
+.button {
+	display: inline-block;
+	padding: 1rem 2rem;
+	&--primary {
+		background-color: var(--brandColor);
+		color: var(--absoluteWhite);
+	}
+}
