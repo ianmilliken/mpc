@@ -10,12 +10,14 @@
 			<!-- INSERT SERVICE LIST HERE -->
 			<ul class="banner__services">
 			{{ range where .Data.Pages "Section" "services" }}
-				<li class="service">
-					<a class="service__link" href="{{ .URL }}">
-						<img src="{{ .Params.icon }}" alt="{{ .Title }}" />
-						<span>{{ .Title }}</span>
-					</a>
-				</li>
+				{{ if eq .Params.type "Primary" }}
+					<li class="service">
+						<a class="service__link" href="{{ .URL }}">
+							<img src="{{ .Params.icon }}" alt="{{ .Title }}" />
+							<span>{{ .Title }}</span>
+						</a>
+					</li>
+				{{ end }}
 			{{ end }}
 			</ul>
 		</div>
