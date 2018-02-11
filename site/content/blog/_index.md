@@ -1,3 +1,3 @@
 ---
-title: Blog
+title: Put your reading glasses on
 ---

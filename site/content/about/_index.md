@@ -1,3 +1,3 @@
 ---
-title: About
+title: Who we are
 ---
