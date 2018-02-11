@@ -83,14 +83,27 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: "Title", name: "title", widget: "string"}
 
-  - label: "Blog"
-    name: "blog"
-    folder: "site/content/blog"
+
+  - label: Blog
+    name: blog
+    folder: site/content/blog
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: Title, name: title, widget: string }
+      - { label: Publish Date, name: publishDate, widget: datetime }
+      - { label: Author, name: author, widget: relation, collection: authors, searchFields: [first_name, surname], valueField: first_name }
+      - { label: Body, name: body, widget: markdown }
+
+
+  - label: Authors
+    name: authors
+    folder: site/content/authors
+    create: true
+    slug: "{{first_name}}-{{surname}}"
+    fields:
+      - { label: First Name, name: first_name, widget: string }
+      - { label: Surname, name: surname, widget: string }
+      - { label: Avatar, name: avatar, widget: image, required: false }
 
 
   - label: "Case Study"
