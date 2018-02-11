@@ -118,6 +118,17 @@ collections: # A list of collections the CMS should be able to edit
               - { label: Contact, name: contact, widget: string, required: false }
               - { label: Contact Position, name: contact_position, string, required: false }
 
+  - label: Clients2
+    name: clients2
+    folder: "site/content/clients"
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Logo, name: logo, widget: image, required: false }
+      - { label: Location, name: location, widget: string }
+      - { label: Contact, name: contact, widget: string, required: false }
+      - { label: Contact Position, name: contact_position, string, required: false }
+
 
   - name: "settings"
     label: "Settings"
