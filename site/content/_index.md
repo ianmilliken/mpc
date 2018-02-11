@@ -14,5 +14,7 @@ testimonial:
       effect on our business.
 logo_wall:
   - client: Watpac
+  - client: Childcare Queensland
+  - client: Jones Lang Lasalle
+  - client: Stockland
 ---
-
