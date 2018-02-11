@@ -1,6 +1,8 @@
 button, .button, input[type="submit"] {
 	border: none;
 	cursor: pointer;
+	font-family: var(--primaryFont);
+	font-weight: 300;
 }
 
 .button {
@@ -8,7 +10,6 @@ button, .button, input[type="submit"] {
 	display: inline-block;
 	padding: 1.4rem 3rem;
 	font-size: var(--mediumFont);
-	font-weight: 300;
 	letter-spacing: 0.03em;
 	border-radius: 10rem;
 	transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
