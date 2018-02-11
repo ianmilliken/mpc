@@ -422,6 +422,11 @@ a {
 		z-index: -1;
 		width: 16rem;
 		height: 16rem;
+		& > svg .fill { fill: var(--brandColor) }
+		& > svg .stroke {
+			fill: none;
+			stroke: var(--brandColor);
+		}
 	}
 }
 
@@ -454,4 +459,31 @@ a {
 .next-case {
 	padding-top: 8rem;
 	padding-bottom: 8rem;
+}
+
+/* - - - - - - - - - - - - - - */
+/* - Home - */
+/* - - - - - - - - - - - - - - */
+
+.logo-wall {
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+}
+
+.feature-case-study {
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+	color: var(--absoluteWhite);
+	& .key-result {
+		text-align: center;
+		&__primary,
+		&__supportive {
+			color: var(--absoluteWhite);
+		}
+		&__icon > svg .fill { fill: var(--absoluteWhite) }
+		&__icon > svg .stroke {
+			fill: none;
+			stroke: var(--absoluteWhite);
+		}
+	}
 }

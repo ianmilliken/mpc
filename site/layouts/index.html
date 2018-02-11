@@ -24,19 +24,54 @@
 
 	{{/* Get the client logo's from the site data */}}
 	{{/* Loop through the logo wall list */}}
-	{{ range .Params.logo_wall }}
-		{{ $client := .client }}
-		{{/* Access 'clients' collection entries */}}
-		{{ with $.Site.GetPage "section" "clients" }}
-			{{ range where .Data.Pages "Section" "clients" }}
-			{{/* For matching clients, enter it's scope and render some data */}}
-				{{ if eq .Title $client }}
-					<img src="{{ .Params.logo }}" alt="{{ .Title }}" title="{{ .Title }}"/>
+	{{ if .Params.logo_wall }}
+		<div class="logo-wall">
+			{{ range .Params.logo_wall }}
+				{{ $client := .client }}
+				{{/* Access 'clients' collection entries */}}
+				{{ with $.Site.GetPage "section" "clients" }}
+					{{ range where .Data.Pages "Section" "clients" }}
+					{{/* For matching clients, enter it's scope and render some data */}}
+						{{ if eq .Title $client }}
+							<img src="{{ .Params.logo }}" alt="{{ .Title }}" title="{{ .Title }}"/>
+						{{ end }}
+					{{ end }}
+				{{ end }}
+			{{ end }}
+		</div>
+	{{ end }}
+
+</section>
+
+
+{{/*
+	--
+	-- Featured Case Study
+	--
+	-- */}}
+
+<section class="feature-case-study bg--3">
+	<div class="container">
+		<h4>Featured Case Study</h4>
+		{{ $featuredWork := .Params.featured_work }}
+		{{ with .Site.GetPage "section" "work" }}
+			{{ range where .Data.Pages "Section" "work" }}
+				{{ if eq .Title $featuredWork }}
+					<h2>{{ .Title }}</h2>
+					<div class="flex">
+						{{ range first 2 .Params.results.key_results}}
+							<div class="key-result">
+								<div class="key-result__primary">{{ .big_text }}</div>
+								<div class="key-result__supportive">{{ .supportive_text }}</div>
+								<div class="key-result__icon">{{ partial "key_result_icon.svg" . }}</div>
+							</div>
+						{{ end }}
+					</div>
+					<a class="button button--outline button--reverse" href="{{ .URL }}">Find out more <i class="icon icon-arrow"></i></a>
 				{{ end }}
 			{{ end }}
 		{{ end }}
-	{{ end }}
-
+	</div>
 </section>
 
 {{ end }}

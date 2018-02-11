@@ -36,4 +36,14 @@ button, .button, input[type="submit"] {
 			color: color(var(--brandColor) saturation(+ 100%));
 		}
 	}
+	&--outline {
+		border: 0.1rem solid;
+		background-color: transparent;
+	}
+	&--reverse {
+		color: var(--absoluteWhite);
+		&:hover {
+			color: color(var(--absoluteWhite) alpha(75%));
+		}
+	}
 }

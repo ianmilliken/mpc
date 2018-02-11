@@ -17,4 +17,5 @@ logo_wall:
   - client: Childcare Queensland
   - client: Jones Lang Lasalle
   - client: Stockland
+featured_work: Jeff 'The Hornet' Horn Campaign
 ---
