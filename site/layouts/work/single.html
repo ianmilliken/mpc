@@ -1,9 +1,20 @@
 {{ define "main" }}
 
+{{ $client := .Params.client }}
+
 <article>
 
 	<header class="center">
 		<h1 class="article__title">{{ .Title }}</h1>
+		<div><div>Client</div>{{ .Params.client }}</div>
+		{{ with .Site.GetPage "section" "clients" }}
+			{{ range where .Data.Pages "Section" "clients" }}
+				{{ if eq .Title $client }}
+					<div><div>Location</div>{{ .Params.location }}</div>
+				{{ end }}
+			{{ end }}
+		{{ end }}
+		<div>{{ range .Params.results.key_results}}<p>{{ .big_text }}</p><p>{{ .supportive_text }}</p>{{ end }}</div>
 		<div class="article__hero"><img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" /></div>
 	</header>
 

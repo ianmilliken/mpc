@@ -83,8 +83,19 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Service, name: service, widget: relation, collection: services, searchFields: [title], valueField: title }
       - { label: Solution, name: solution, widget: object, fields: [
           { label: Body, name: body, widget: markdown }]}
-      - { label: Results, name: results, widget: object, fields: [
-          { label: Body, name: body, widget: markdown }]}
+      - label: Results
+        name: results
+        widget: object
+        fields:
+          - label: Key Results
+            name: key_results
+            widget: list
+            fields:
+              - { label: Big Text, name: big_text, widget: string }
+              - { label: Supportive Text, name: supportive_text, widget: string, required: false}
+          - label: Body
+            name: body
+            widget: markdown
 
 
   - label: Services
