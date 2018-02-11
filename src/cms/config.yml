@@ -28,26 +28,36 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Client, name: client, widget: string}
               - {label: Position, name: position, widget: string}
               - {label: Company, name: company, widget: string}
+          - label: Logo Wall
+            name: logo_wall
+            widget: list
+            fields:
+              - { label: Client, name: client, widget: relation, collection: clients, searchFields: [title, contact], valueField: title }
+
       - file: "site/content/services/_index.md"
         label: "Services"
         name: "services"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+
       - file: "site/content/work/_index.md"
         label: "Work"
         name: "work"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+
       - file: "site/content/about/_index.md"
         label: "About"
         name: "about"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+
       - file: "site/content/blog/_index.md"
         label: "Blog"
         name: "blog"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+
       - file: "site/content/contact/_index.md"
         label: "Contact"
         name: "contact"

@@ -23,8 +23,18 @@
 	{{ end }}
 
 	{{/* Get the client logo's from the site data */}}
-	{{ range .Site.Data.clients.client }}
-		<div>{{ .name }}</div>
+	{{/* Loop through the logo wall list */}}
+	{{ range .Params.logo_wall }}
+		{{ $client := .client }}
+		{{/* Access 'clients' collection entries */}}
+		{{ with $.Site.GetPage "section" "clients" }}
+			{{ range where .Data.Pages "Section" "clients" }}
+			{{/* For matching clients, enter it's scope and render some data */}}
+				{{ if eq .Title $client }}
+					<img src="{{ .Params.logo }}" alt="{{ .Title }}" title="{{ .Title }}"/>
+				{{ end }}
+			{{ end }}
+		{{ end }}
 	{{ end }}
 
 </section>
