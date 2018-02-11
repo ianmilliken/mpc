@@ -40,9 +40,7 @@
 			{{ end }}
 		</div>
 	{{ end }}
-
 </section>
-
 
 {{/*
 	--
@@ -71,6 +69,44 @@
 				{{ end }}
 			{{ end }}
 		{{ end }}
+	</div>
+</section>
+
+{{/*
+	--
+	-- Character Area
+	--
+	-- */}}
+
+<section>
+	<div class="container">
+		<div class="content"><h2>{{ .Params.service_picker.title }}</h2></div>
+		<p>Are you...</p>
+		<div class="flex flex--justify-between">
+			{{ range .Params.service_picker.picker_slide }}
+				<div class="slide-left">
+					<h4>{{ .title }}</h4>
+					<p>{{ .info }}</p>
+					{{ range .service_list }}
+						{{ $service := .service }}
+						{{ with $.Site.GetPage "section" "services" }}
+							{{ range where .Data.Pages "Section" "services" }}
+							{{/* For matching clients, enter it's scope and render some data */}}
+								{{ if eq .Title $service }}
+									<a href="{{ .URL }}">
+										<img src="{{ .Params.icon }}" alt="{{ .Title }}" title="{{ .Title }}" />
+										<div>{{ .Title }}</div>
+									</a>
+								{{ end }}
+							{{ end }}
+						{{ end }}
+					{{ end }}
+				</div>
+				<div class="slide-right">
+					<img src="{{ .image }}" alt="{{ .title }}" />
+				</div>
+			{{ end }}
+		</div>
 	</div>
 </section>
 
