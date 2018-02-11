@@ -6,3 +6,8 @@ address:
   postcode: '4034'
   state: Queensland
   suburb: Geelong
+open_hours:
+  - days: Mon–Fri
+    hours: '09:00–17:00'
+  - days: Sat–Sun
+    hours: Closed

@@ -143,7 +143,7 @@ collections: # A list of collections the CMS should be able to edit
             name: social
             widget: list
             fields:
-              - { label: Name, name: name, widget: string }
+              - { label: Name, name: Name, widget: string }
               - { label: URL, name: URL, widget: string }
 
       - label: Contact Information
@@ -162,6 +162,12 @@ collections: # A list of collections the CMS should be able to edit
               - { label: State, name: state, widget: string }
               - { label: Postcode, name: postcode, widget: number }
               - { label: Country, name: country, widget: string, required: false }
+          - label: Open Hours
+            name: open_hours
+            widget: list
+            fields:
+              - { label: "Day(s)", name: days, widget: string }
+              - { label: Hours, name: hours, widget: string }
 
       - label: Language
         name: language

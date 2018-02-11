@@ -10,7 +10,7 @@
 
 <article>
   <section class="bg--2">
-    <div class="container flex flex--justify-between">
+    <div class="container padder flex flex--justify-between">
       <div>
         <h2 class="content__subtitle"><span>Call Us</span></h2>
         <p>{{ .Site.Data.contact.number }}</p>
@@ -31,8 +31,9 @@
       </div>
       <div>
         <h2 class="content__subtitle"><span>Business Hours</span></h2>
-        <p><b>Mon – Fri: </b>09:00 – 17:00</p>
-        <p><b>Sat – Sun: </b>Closed</p>
+        {{ range .Site.Data.contact.open_hours }}
+          <p><b>{{ .days }}: </b>{{ .hours }}</p>
+        {{ end }}
       </div>
     </div>
   </section>
