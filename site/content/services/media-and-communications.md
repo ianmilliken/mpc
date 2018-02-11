@@ -2,10 +2,11 @@
 title: Media & Communications
 intro: Media-driven, promotional communications that get you noticed
 icon: /img/media-and-communications.svg
+thumbnail: /img/service-tester.jpg
 serviceType: Primary
 ---
 
-Communicating effectively with your audience and your potential clients is 
+Communicating effectively with your audience and your potential clients is
 essential for business and brand management. It pays to build your profile
 through optimal media coverage and we have an established media base to
 successfully get your brand ‘out there’.

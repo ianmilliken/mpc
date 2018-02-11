@@ -11,6 +11,7 @@
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
+  display: inline-block;
   font-family: 'icomoon' !important;
   speak: none;
   font-style: normal;
@@ -24,12 +25,19 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-logo:before {
+.icon-logo::before {
   content: "\e901";
 }
 
 .icon-logo { font-size: 4rem; }
 
-.icon-arrow:before {
+.icon-arrow::before {
   content: "\e900";
+}
+
+.icon-arrow-left {
+	transform: rotateY(180deg);
+  &::before {
+  	content: "\e900";
+  }
 }

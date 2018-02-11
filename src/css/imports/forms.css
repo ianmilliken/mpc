@@ -10,11 +10,9 @@
 .form-group {
 	display: flex;
 	padding-bottom: 1rem;
+	border-bottom: 0.1rem solid color(var(--black) alpha(25%));
 	&:not(:first-of-type) {
 		margin-top: 2rem;
-	}
-	&:not(:last-of-type) {
-		border-bottom: 0.1rem solid color(var(--black) alpha(25%));
 	}
 }
 
@@ -39,5 +37,12 @@ textarea {
 	}
   &::placeholder {
 		color: color(var(--black) alpha(50%));
+	}
+}
+
+.newsletter {
+	margin-top: 2rem;
+	& input {
+		font-size: var(--mediumFont);
 	}
 }

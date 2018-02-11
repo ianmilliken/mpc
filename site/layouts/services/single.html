@@ -1,12 +1,16 @@
-{{ define "header" }}{{ partial "service_nav" (dict "context" . ) }}{{ end }}
+{{ define "header" }}{{ partial "nav_service" (dict "context" . ) }}{{ end }}
 
 {{ define "main" }}
 
 <article>
 
-	<header class="center">
-		<h1>{{ .Title }}</h1>
+	<header class="article__header center">
+		<h1 class="article__title">{{ .Title }}</h1>
 		<p class="intro">{{ .Params.intro }}</p>
+		{{ if .Params.thumbnail }}
+			<div class="article__hero"><img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" /></div>
+		{{ end }}
+		</div>
 	</header>
 
 	<section class="bg--2">

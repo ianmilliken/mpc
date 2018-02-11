@@ -32,7 +32,7 @@ menu:
       URL: "/blog/"
       weight: 5
       Identifier: "blog"
-    - Name: "Get in touch"
+    - Name: "Contact"
       URL: "/contact/"
       weight: 6
       Identifier: "contact"
@@ -45,6 +45,19 @@ menu:
       URL: "/services/"
       weight: 1
       Identifier: "services"
+    - Name: "Contact"
+      URL: "/contact/"
+      weight: 3
+      Identifier: "contact"
+  work:
+    - Name: "Home"
+      URL: "/"
+      weight: 2
+      Identifier: "home"
+    - Name: "Work"
+      URL: "/work/"
+      weight: 1
+      Identifier: "work"
     - Name: "Contact"
       URL: "/contact/"
       weight: 3
