@@ -130,13 +130,33 @@ collections: # A list of collections the CMS should be able to edit
 
   - name: "settings"
     label: "Settings"
+    editor:
+      preview: false
     files:
-      - label: "General"
-        name: "general"
-        file: "site/data/settings.json"
-        description: "General app settings"
+      - label: Brand
+        name: brand
+        file: site/data/brand.yml
         fields:
-          - { label: "App Title", name: "app_title", widget: "string" }
+          - { label: Company Name, name: company_name, widget: string }
+          - { label: Company Tagline, name: company_tagline, widget: text }
+
+      - label: Contact Information
+        name: contact_info
+        file: site/data/contact.yml
+        fields:
+          - { label: Email Address, name: email, widget: string }
+          - { label: Telephone Number, name: number, widget: string }
+          - label: Address
+            name: address
+            widget: object
+            fields:
+              - { label: Address Line 1, name: line_1, widget: string }
+              - { label: Address Line 2, name: line_2, widget: string, required: false }
+              - { label: Suburb, name: suburb, widget: string }
+              - { label: State, name: state, widget: string }
+              - { label: Postcode, name: postode, widget: number }
+              - { label: Country, name: country, widget: string }
+
       - label: Language
         name: language
         file: "site/data/language.json"
@@ -144,12 +164,14 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - { label: "Full Name Label", name: "fullname_label", widget: "string" }
           - { label: "Full Name Placeholder", name: "fullname_placeholder", widget: "string" }
+
       - label: Logo
         name: logo
         file: "site/data/logo.json"
         description: "Upload a logo for your brand. SVG | PNG | JPG"
         fields:
           - { label: "Your Logo", name: "logo", widget: "image" }
+
       - label: Site Navigation
         name: site_navigation
         file: "site/data/menu.json"
