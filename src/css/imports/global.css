@@ -289,3 +289,22 @@ a * {
 	margin-bottom: 4rem;
 	font-size: var(--smallFont);
 }
+
+/* - - - - - - - - - - - - - - */
+/* - Work - */
+/* - - - - - - - - - - - - - - */
+.list--work {
+	display: flex;
+	justify-content: space-between;
+	& > li {
+		width: calc(33.333% - 3rem);
+	}
+}
+.block {
+	&__image {
+		width: 100%;
+		height: 21.8rem;
+		margin-bottom: 2rem;
+		object-fit: cover;
+	}
+}

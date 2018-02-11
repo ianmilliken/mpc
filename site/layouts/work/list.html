@@ -1,0 +1,29 @@
+{{ define "header" }}{{ partial "nav" (dict "context" . "scheme" "reverse")}}{{ end }}
+
+{{ define "main" }}
+
+<header class="banner center">
+	<h1 class="banner__title banner__title--solo">{{ .Title }}</h1>
+</header>
+
+<article>
+
+	<section class="bg--2">
+		<ul class="list list--work container">
+			{{ range .Pages.ByPublishDate }}
+				<li class="block">
+					<a href="{{ .URL }}">
+						<img class="block__image" src="{{ .Params.thumbnail }}" alt="{{ .Title }}"/>
+						<div>
+							<div>{{ .Params.client }}</div>
+							<h4>{{ .Title }}</h4>
+						</div>
+					</a>
+				</li>
+			{{ end }}
+		</ul>
+	</section>
+
+</article>
+
+{{end}}
