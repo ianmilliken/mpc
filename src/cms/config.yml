@@ -108,7 +108,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: Icon, name: icon, widget: image, required: false }
       - { label: Image, name: image, widget: image, required: false }
       - label: Service Type
-        name: serbiceType
+        name: serviceType
         widget: select
         options:
           - { label: Primary, value: Primary }
