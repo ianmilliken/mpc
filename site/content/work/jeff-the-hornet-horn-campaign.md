@@ -3,6 +3,7 @@ title: Jeff 'The Hornet' Horn Campaign
 description: This is the jeff hornet campaign
 keywords: 'Jeff, Hornet, Wasp, MPC, Marketing, Blob'
 thumbnail: /img/mpc-homepage.png
+client: Oxmar Properties
 brief:
   body: >-
     Oxmar Properties is a SME land developer based in North Brisbane. Despite
