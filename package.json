@@ -27,7 +27,6 @@
     "eslint-plugin-import": "^1.11.1",
     "exports-loader": "^0.6.3",
     "file-loader": "^0.11.1",
-    "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-postcss": "^6.4.0",
     "gulp-replace": "^0.6.1",
@@ -45,6 +44,8 @@
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
-    "babel-preset-react": "^6.24.1"
+    "babel-preset-react": "^6.24.1",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1"
   }
 }
