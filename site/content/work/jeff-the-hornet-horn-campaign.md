@@ -71,5 +71,10 @@ results:
     their activities are on track and run smoothly. We are working with Oxmar to
     provide media relations support; and offering new business opportunities and
     assistance wherever possible.
+  key_results:
+    - big_text: 1.3M
+      supportive_text: Views of TV ad in SEQ
+    - big_text: Stat
+      supportive_text: About spike in traffic
 ---
 
