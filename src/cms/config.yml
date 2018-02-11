@@ -73,7 +73,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: Meta Description, name: description, widget: string }
       - { label: Meta Keywords, name: keywords, widget: string }
       - { label: Featured Image, name: thumbnail, widget: image }
-      - { label: Client, name: client, widget: relation, collection, clients, searchFields [title, contact], valueField: title }
+      - { label: Client, name: client, widget: relation, collection: clients, searchFields: [title, contact], valueField: title }
       - { label: Brief, name: brief, widget: object, fields: [
           { label: Body, name: body, widget: markdown }]}
       - label: Services
