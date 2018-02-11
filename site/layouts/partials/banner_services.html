@@ -1,13 +1,13 @@
 {{/*
 	--
 	-- PARTIAL -> Banner Services
-	-- Render services that have the .Param.type of "Primary" in a list format
+	-- Render services that have the .Param.serviceType of "Primary" in a list format
 	--
 */}}
 
 <ul class="banner__services">
 	{{ range where .context.Data.Pages "Section" "services" }}
-		{{ if eq .Params.type "Primary" }}
+		{{ if eq .Params.serviceType "Primary" }}
 			<li class="service">
 				<a class="service__link" href="{{ if and ($.linkType) (eq $.linkType "anchor") }}{{ with $.context.Site.GetPage "section" "services" }}{{ .URL }}{{ end }}#{{ .Title | urlize }}{{ else }}{{ .URL }}{{ end }}">
 					<img src="{{ .Params.icon }}" alt="{{ .Title }}" />

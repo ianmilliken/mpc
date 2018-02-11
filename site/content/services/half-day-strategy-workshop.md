@@ -1,4 +1,4 @@
 ---
 title: Half-day Strategy Workshop
-type: Secondary
+serviceType: Secondary
 ---

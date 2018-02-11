@@ -1,4 +1,4 @@
 ---
 title: Branding
-type: Secondary
+serviceType: Secondary
 ---

@@ -1,4 +1,4 @@
 ---
 title: Media Purchasing
-type: Secondary
+serviceType: Secondary
 ---

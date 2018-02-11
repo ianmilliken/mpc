@@ -2,7 +2,7 @@
 title: Marketing Strategy
 intro: Fastrack to better business opportunities with a tailored marketing strategy
 icon: /img/marketing-strategy.svg
-type: Primary
+serviceType: Primary
 ---
 
 Marketing without a strategy is like a journey without a map; you might know

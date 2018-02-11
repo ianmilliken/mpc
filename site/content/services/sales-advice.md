@@ -1,4 +1,4 @@
 ---
 title: Sales Advice
-type: Secondary
+serviceType: Secondary
 ---

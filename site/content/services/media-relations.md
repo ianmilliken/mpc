@@ -1,4 +1,4 @@
 ---
 title: Media Relations
-type: Secondary
+serviceType: Secondary
 ---

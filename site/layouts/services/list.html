@@ -11,7 +11,7 @@
 	<section class="bg--2">
 		<ul class="list list--high container">
 			{{ range .Pages.ByPublishDate }}
-				{{ if eq .Params.type "Primary" }}
+				{{ if eq .Params.serviceType "Primary" }}
 					<li>
 						<a class="flex flex--justify-between" id="{{ .Title | urlize }}" href="{{ .Permalink }}">
 							<div class="flex">

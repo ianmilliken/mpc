@@ -1,4 +1,4 @@
 ---
 title: Market Research
-type: Secondary
+serviceType: Secondary
 ---

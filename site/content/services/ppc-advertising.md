@@ -1,4 +1,4 @@
 ---
 title: PPC Advertising
-type: Secondary
+serviceType: Secondary
 ---
