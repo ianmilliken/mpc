@@ -10,7 +10,7 @@
 			*/}}
 
 			{{ if eq .Identifier "home" }}
-			<a class="navbar__link navbar__logo grid--align-center-x {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">
+			<a class="navbar__link navbar__logo grid--align-center-x {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}" title="{{ $.Site.Data.brand.company_name }}">
 				<!--{{ if isset $.Site.Data.logo "logo" }}
 					<img src="{{ index $.Site.Data.logo "logo" }}" alt="{{ .Name }}"/>
 				{{ else }}

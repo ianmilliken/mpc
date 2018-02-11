@@ -139,6 +139,12 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - { label: Company Name, name: company_name, widget: string }
           - { label: Company Tagline, name: company_tagline, widget: text }
+          - label: Social
+            name: social
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: URL, name: URL, widget: string }
 
       - label: Contact Information
         name: contact_info
@@ -154,8 +160,8 @@ collections: # A list of collections the CMS should be able to edit
               - { label: Address Line 2, name: line_2, widget: string, required: false }
               - { label: Suburb, name: suburb, widget: string }
               - { label: State, name: state, widget: string }
-              - { label: Postcode, name: postode, widget: number }
-              - { label: Country, name: country, widget: string }
+              - { label: Postcode, name: postcode, widget: number }
+              - { label: Country, name: country, widget: string, required: false }
 
       - label: Language
         name: language

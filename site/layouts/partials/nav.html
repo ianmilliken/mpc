@@ -7,7 +7,7 @@
 				data, otherwise use the fallback
 			*/}}
 			{{ if eq .Identifier "home" }}
-				<a class="navbar__link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">
+				<a class="navbar__link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}" title="{{ $.Site.Data.brand.company_name }}">
 					<!--<a class="navbar__link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">
           {{ if isset $.Site.Data.logo "logo" }}
             <img src="{{ index $.Site.Data.logo "logo" }}" alt="{{ .Name }}"/>

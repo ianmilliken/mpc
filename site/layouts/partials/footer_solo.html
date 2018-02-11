@@ -1,14 +1,16 @@
 <footer class="footer container">
 	<div>
-		30+ years in marketing strategies to grow your business
+		<div><i class="icon icon-logo" title="{{ .Site.Data.brand.company_name }}"></i></div>
+		<p style="margin-top: 2rem;">{{ .Site.Data.brand.company_tagline }}</p>
 	</div>
 	<div>
 		<h4 class="footer__heading">Brisbane</h4>
 		<address>
-			331 Ellison Road <br />
-			Geebung <br />
-			Queensland <br />
-			4034 <br />
+			{{ .Site.Data.contact.address.line_1 }}<br />
+			{{ if .Site.Data.contact.address.line_2 }}{{ .Site.Data.contact.address.line_2 }}<br />{{ end }}
+			{{ .Site.Data.contact.address.suburb }}<br />
+			{{ .Site.Data.contact.address.state }}<br />
+			{{ .Site.Data.contact.address.postcode }}
 		</address>
 	</div>
 	<div>
@@ -23,8 +25,9 @@
 	</div>
 	<div class="grid--align-right">
 		<h4 class="footer__heading">Social</h4>
-		<a class="el--block" href="#">Facebook</a>
-		<a class="el--block" href="#">LinkedIn</a>
+		{{ range .Site.Data.brand.social }}
+			<a class="el--block" href="{{ .URL }}">{{ .Name }}</a>
+		{{ end }}
 	</div>
 </footer>
 

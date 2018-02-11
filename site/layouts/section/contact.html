@@ -13,19 +13,20 @@
     <div class="container flex flex--justify-between">
       <div>
         <h2 class="content__subtitle"><span>Call Us</span></h2>
-        <p>07 3350 3870</p>
+        <p>{{ .Site.Data.contact.number }}</p>
       </div>
       <div>
         <h2 class="content__subtitle"><span>Email Us</span></h2>
-        <p>hello@mpc.com.au</p>
+        <p>{{ .Site.Data.contact.email }}</p>
       </div>
       <div>
         <h2 class="content__subtitle"><span>Visit Us</span></h2>
         <address>
-          331 Ellison Road <br />
-          Geebung <br />
-          Queensland <br />
-          4034
+					{{ .Site.Data.contact.address.line_1 }}<br />
+					{{ if .Site.Data.contact.address.line_2 }}{{ .Site.Data.contact.address.line_2 }}<br />{{ end }}
+					{{ .Site.Data.contact.address.suburb }}<br />
+					{{ .Site.Data.contact.address.state }}<br />
+					{{ .Site.Data.contact.address.postcode }}
         </address>
       </div>
       <div>
