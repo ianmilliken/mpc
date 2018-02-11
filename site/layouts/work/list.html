@@ -9,14 +9,17 @@
 <article>
 
 	<section class="bg--2">
-		<ul class="list list--work container">
+		<ul class="list list--work container padder">
 			{{ range .Pages.ByPublishDate }}
 				<li class="block">
 					<a href="{{ .URL }}">
 						<img class="block__image" src="{{ .Params.thumbnail }}" alt="{{ .Title }}"/>
-						<div>
-							<div>{{ .Params.client }}</div>
-							<h4>{{ .Title }}</h4>
+						<div class="flex">
+							<div>
+								<div class="block__pre">{{ .Params.client }}</div>
+								<h4 class="block__title">{{ .Title }}</h4>
+							</div>
+							<i class="icon icon-arrow"></i>
 						</div>
 					</a>
 				</li>

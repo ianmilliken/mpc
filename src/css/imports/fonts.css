@@ -25,7 +25,11 @@
 }
 
 .icon-logo:before {
-  content: "\e900";
+  content: "\e901";
 }
 
 .icon-logo { font-size: 4rem; }
+
+.icon-arrow:before {
+  content: "\e900";
+}
