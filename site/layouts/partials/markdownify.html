@@ -1,0 +1,14 @@
+{{/*
+	--
+	-- PARTIAL -> Markdownify
+	-- Fix for rendering front matter as markdown
+	-- Without this the leading paragraph is not wrapped in a <p> tag
+	-- https://discourse.gohugo.io/t/consistent-behavior-of-markdownify-for-single-multiple-paragaphs/8728/3
+	--
+*/}}
+
+{{ $content := .content | markdownify }}
+{{ $hasP := strings.Contains $content "<p>" }}
+{{ if not $hasP }}<p>{{ end }}
+	{{ $content }}
+{{ if not $hasP }}</p>{{ end }}

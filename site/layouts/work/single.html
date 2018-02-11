@@ -4,23 +4,41 @@
 
 <article>
 
-	<header class="center">
+	<header class="article__header center">
 		<h1 class="article__title">{{ .Title }}</h1>
-		<div><div>Client</div>{{ .Params.client }}</div>
-		{{ with .Site.GetPage "section" "clients" }}
-			{{ range where .Data.Pages "Section" "clients" }}
-				{{ if eq .Title $client }}
-					<div><div>Location</div>{{ .Params.location }}</div>
+		<div class="case">
+			<div class="casemeta">
+				<div class="casemeta__pre">Client</div>
+				<div class="casemeta__title">{{ .Params.client }}</div>
+			</div>
+			<div class="case__results flex">
+				{{ range .Params.results.key_results}}
+					<div class="key-result">
+						<div class="key-result__primary">{{ .big_text }}</div>
+						<div class="key-result__supportive">{{ .supportive_text }}</div>
+						<div class="key-result__icon">{{ partial "key_result_icon.svg" . }}</div>
+					</div>
+				{{ end }}
+			</div>
+			{{ with .Site.GetPage "section" "clients" }}
+				{{ range where .Data.Pages "Section" "clients" }}
+					{{ if eq .Title $client }}
+						<div class="casemeta">
+							<div class="casemeta__pre">Location</div>
+							<div class="casemeta__title">{{ .Params.location }}</div>
+						</div>
+					{{ end }}
 				{{ end }}
 			{{ end }}
-		{{ end }}
-		<div>{{ range .Params.results.key_results}}<p>{{ .big_text }}</p><p>{{ .supportive_text }}</p>{{ end }}</div>
+		</div>
 		<div class="article__hero"><img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" /></div>
 	</header>
 
-	<section class="content brief bg--2">
-		<h2 class="content__subtitle"><span>The brief</span></h2>
-		{{ .Params.brief.body | markdownify }}
+	<section class="brief bg--2">
+		<div class="content">
+			<h2 class="content__subtitle"><span>The brief</span></h2>
+			{{ .Params.brief.body | markdownify }}
+		</div>
 	</section>
 
 	<section class="area services bg--3">
@@ -59,14 +77,46 @@
 		</div>
 	</section>
 
-	<section class="content solution">
-	<h2 class="content__subtitle"><span>Our solution</span></h2>
-		{{ .Params.solution.body | markdownify }}
+	<section class="solution bg--2">
+		<div class="content">
+			<h2 class="content__subtitle"><span>Our solution</span></h2>
+			{{ .Params.solution.body | markdownify }}
+		</div>
 	</section>
 
-	<section class="content results">
-		<h2 class="content__subtitle"><span>The results</span></h2>
-		{{ .Params.results.body | markdownify }}
+	<section class="results">
+		<div class="content">
+			<h2 class="content__subtitle"><span>The results</span></h2>
+			<div class="case__results flex">
+				{{ range .Params.results.key_results}}
+					<div class="key-result">
+						<div class="key-result__primary">{{ .big_text }}</div>
+						<div class="key-result__supportive">{{ .supportive_text }}</div>
+						<div class="key-result__icon">{{ partial "key_result_icon.svg" . }}</div>
+					</div>
+				{{ end }}
+			</div>
+			{{ .Params.results.body | markdownify }}
+		</div>
+	</section>
+
+	<section class="bg--2">
+		<div class="center">
+			<h4>Next case</h4>
+			{{ if .NextInSection }}
+				{{ with .NextInSection }}
+					<a href="{{ .URL }}">
+						<div>{{ .Title }}</div>
+						</a>
+				{{ end }}
+			{{ else }}
+				{{ with .PrevInSection }}
+					<a href="{{ .URL }}">
+						<div>{{ .Title }}</div>
+						</a>
+				{{ end }}
+			{{ end }}
+		</div>
 	</section>
 
 </article>
