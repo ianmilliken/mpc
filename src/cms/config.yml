@@ -33,7 +33,25 @@ collections: # A list of collections the CMS should be able to edit
             widget: list
             fields:
               - { label: Client, name: client, widget: relation, collection: clients, searchFields: [title, contact], valueField: title }
-          - { label: Featured Case Study, name: featured_work, widget: relation, collection: work, searchFields: [title, client], valueField: title }
+          - { label: Featured Case Study, name: featured_work, widget: relation, collection: case_study, searchFields: [title], valueField: title }
+          - label: Service Picker
+            name: service_picker
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - label: Slide
+                name: picker_slide
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Intro, name: info, widget: text }
+                  - { label: Image, name: image, widget: image }
+                  - label: Services
+                    name: service_list
+                    widget: list
+                    fields:
+                      - { label: Service, name: service, widget: relation, collection: services, searchFields: [title], valueField: title }
+
 
       - file: "site/content/services/_index.md"
         label: "Services"
