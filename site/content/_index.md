@@ -12,5 +12,7 @@ testimonial:
       We weren't told to spend big bucks on advertising or useless sales
       materials. We were presented with ideas and strategies that has an instant
       effect on our business.
+logo_wall:
+  - client: Watpac
 ---
 
