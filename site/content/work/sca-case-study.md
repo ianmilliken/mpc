@@ -1,8 +1,8 @@
 ---
 title: SCA Case Study
-description: SCA
+description: SCA Case Study
 keywords: SCA
-thumbnail: /img/mpc-homepage.png
+thumbnail: /img/strata.jpg
 client: Strata Community Association
 brief:
   body: >-
@@ -33,7 +33,12 @@ brief:
     a lead industry voice on, and importantly a key consultant to Government on,
     thanks to media coverage and exposure generated for their brand.
 service_list:
-  - service: Marketing Strategy
+  - service: Press Releases
+  - service: Content Calendar
+  - service: Media Monitoring
+  - service: Media Interview Training
+  - service: Digital Communications Strategy
+  - service: Social Media Strategy
 solution:
   body: >-
     The ability of SCA to grow its member base relied on the public seeing its
@@ -43,33 +48,28 @@ solution:
     ‘go to’ for information about apartment living. 
 
 
-
-
     The strategy being that when the time came to appoint a strata manager,
     apartment owners would go with the managers they could trust, SCA members.
-
-
 
 
     The Australian wants a commentary piece on what needs to happen about
     flammable cladding? We ensured SCA had the opportunity to speak.
 
 
-
-
     The Courier Mail wants a hot take on whether pets should be allowed in
     apartments? We ensured SCA was the leading voice on this issue.
 results:
-  body: |-
-    $2.5 million in media coverage generated
-
-    500+ media mentions for organisation in national media
-
-    10 appearances in The Australian
-
-    Primetime National News interviews on The Project, Nine News, Channel 7, ABC
+  body: >-
+    SCA have gained primetime National News interviews on The Project, Nine
+    News, Channel 7, and ABC, plus a wide range of coverage in major appropriate
+    publications across the country. We are continuing to work alongside SCA
+    branches to develop a further marketing and governmental relations strategy.
   key_results:
     - big_text: $2.5M
-      supportive_text: Media coverage generated
+      supportive_text: In media coverage generated
+    - big_text: 500+
+      supportive_text: Media mentions for organisation in national media
+    - big_text: '10'
+      supportive_text: Appearances in The Australian
 ---
 
