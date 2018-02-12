@@ -146,7 +146,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - { label: Title, name: title, widget: string }
-      - { label: Intro, name: intro, widget: text }
+      - { label: Intro, name: intro, widget: text, required: false }
       - { label: Icon, name: icon, widget: image, required: false }
       - { label: Image, name: image, widget: image, required: false }
       - label: Service Type
