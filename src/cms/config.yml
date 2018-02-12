@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway # github for local, git-gateway for production
   repo: <% GITHUB_REPOSITORY %> # Gulp will replace this with your GitHub repository
   branch: master # Branch to update (master by default)
 
