@@ -100,6 +100,8 @@ collections: # A list of collections the CMS should be able to edit
     folder: site/content/authors
     create: true
     slug: "{{first_name}}-{{surname}}"
+    editor:
+      preview: false
     fields:
       - { label: First Name, name: first_name, widget: string }
       - { label: Surname, name: surname, widget: string }
@@ -162,6 +164,8 @@ collections: # A list of collections the CMS should be able to edit
     name: clients
     folder: "site/content/clients"
     create: true
+    editor:
+      preview: false
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Logo, name: logo, widget: image, required: false }
