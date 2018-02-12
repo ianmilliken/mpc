@@ -1,8 +1,8 @@
 ---
 title: Clanwilliam Case Study
 description: Clanwilliam Case Study
-keywords: Clanwilliam Case Study
-thumbnail: /img/mpc-homepage.png
+keywords: Clanwilliam
+thumbnail: /img/nerangamenities.png
 client: Clanwilliam Aged care
 brief:
   body: >-
@@ -12,7 +12,7 @@ brief:
 
      
 
-    Clanwilliam engaged with MPC from March 2017 to develop a marketing and
+    Clanwilliam engaged with us from March 2017 to develop a marketing and
     branding strategy that would exploit gaps in the competitor’s branding and
     ‘big business’ nature, to position the company as the provider that truly
     ‘cares’.
@@ -35,52 +35,62 @@ service_list:
 solution:
   body: >-
     Like most of our briefs, our work with Clanwilliam began with a strategy
-    workshop including the following steps:
+    workshop in which the following became the way forward;
 
 
-    From the workshop we focused on getting the brand right, and auditing their
-    current digital performance in line with what is best practice for the aged
-    care industry.
+    * Via a company re-brand, position Clanwilliam as the ‘family provider’ in a
+    market full of large corporate players
 
+    * The market has grown some distrust for bigger providers amid the treatment
+    of residents so displaying the family force behind the company was crucial
+    to conveying the level of care and trust families can place in Clanwilliam
 
-    Intensive market research followed in what was a critical step to help
-    understand what competitors were performing the best, across which popular
-    searches on Google.
+    * Target all marketing activities, not at the 70-80 plus age demographic,
+    but at the 40-50, knowing that sons and daughters often have to make the
+    first move to place parents in Aged Care
 
-
-    Understanding that it would be difficult to compete with the marketing
+    * Understanding that it would be difficult to compete with the marketing
     budgets of competitors like Bupa, Aveo, our strategy digitally was to target
     specific searches that would bring the best results and prospective
     residents through the website.
 
-
-    From there, we rolled out a new website, pursued digital advertising on
-    Google, to ensure the company appeared at the top of page 1 on aged care
-    related searches, thus giving the brand HUGE visibility in the online
-    marketplace.
+    * Funnel almost all marketing spend into activities that increase the
+    company’s visibility online. Google AdWords, SEO, more testimonials on
+    Google Reviews etc.
 results:
   body: >-
-    Since June 2017, Oxmar Properties has continued to grow and has been heavily
-    featured in two WBO Welterweight World Championship bouts as a major
-    sponsor. Their ‘celebrity endorsement’ using Jeff Horn in a television
-    commercial MPC produced and coordinated saw roughly 1.3 million views over
-    two weeks, within the designated target market 25-54 years old.
+    We carried out a complete marketing and branding overhaul to address the
+    client’s low awareness in the expanding Aged Care marketplace, with
+    excellent results for their branches:
 
-     
 
-    A targeted press insert campaign MPC produced and coordinated also saw major
-    spikes in Google search results for ‘Oxmar Properties’ on the day it was
-    published within a Newscorp publication.
+    * Directed 1500+ online users at Clanwilliam’s website over a 3 month period
 
-     
+    * 580 unique users clicked from our Google ads direct to the campaign
+    landing pages, throughout our promotion of two feature facilities
 
-    MPC continues to oversee their local area marketing activities and
+    * Made the company visible to the market online by improving organic search
+    rankings from beyond Page 4 to Page 1 
+
+    * Achieved AdWords click through rate 5x better than ‘health and medical’
+    industry average
+
+    * Once a non-existent sales tool, now over 10% of visitors to the contact
+    page leave their details and become qualified sales leads
+
+    * Grew the number of people visiting the website without increasing $$$
+
+
+    To find out more, you can [visit their
+    website](http://www.clanwilliam.com.au/), which we developed in line with
+    their goal to be seen as the 'family player' and unique to the competition
+    in every way.
   key_results:
-    - big_text: 15 New Customers
-      supportive_text: In the first month of the campaign
-    - big_text: 240 Clicks
-      supportive_text: From google serps in the first month
-    - big_text: '#2 Ranking'
-      supportive_text: On Google's search results
+    - big_text: 1500+
+      supportive_text: Online users over 3 months
+    - big_text: '#1'
+      supportive_text: Organic search rankings from beyond Page 4 to Page 1
+    - big_text: 5x average
+      supportive_text: Click through rate 5x ‘health and medical’ industry average
 ---
 
