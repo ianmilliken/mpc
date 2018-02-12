@@ -1,5 +1,4 @@
 ---
 title: Press Releases
-serviceType: Primary
+serviceType: Secondary
 ---
-
