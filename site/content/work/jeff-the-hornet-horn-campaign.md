@@ -1,14 +1,14 @@
 ---
 title: Jeff 'The Hornet' Horn Campaign
 description: This is the jeff hornet campaign
-keywords: 'Jeff, Hornet, Wasp, MPC, Marketing, Blob'
-thumbnail: /img/mpc-homepage.png
+keywords: 'Jeff, Hornet, MPC, Marketing'
+thumbnail: /img/oxmar.jpg
 client: Oxmar Properties
 brief:
   body: >-
     Oxmar Properties is a SME land developer based in North Brisbane. Despite
     their strong portfolio in SEQ, they struggled to gain increased brand
-    recognition in the local market and online.
+    recognition in the local market and online. 
 
 
     Oxmar Properties engaged with MPC from June 2017 to develop a comprehensive
@@ -26,33 +26,47 @@ service_list:
   - service: Business Development
 solution:
   body: >-
+    youtube F8I58Ga_K8w
+
+
     Following two strategy meetings run by MPC, Oxmar Properties were eager to
     participate in a half-day workshop to generate ideas for better digital
-    marketing practice. Their tailored workshop included the following steps:
+    marketing practice. Their tailored workshop included the following steps: 
 
 
     * Define Oxmar’s key messages, unique selling proposition (USP) and points
-    of difference
+    of difference;
 
-    * Build the Oxmar ‘brand’ and position the developer as an industry leader
+    * Build the Oxmar ‘brand’ and position the developer as an industry leader;
 
-    * Build the individual profile of Phil Murphy as expert in the field
+    * Build the individual profile of Phil Murphy as expert in the field;
 
     * Create a formalised digital marketing strategy for boosting sales and
-    leveraging increased brand exposure
+    leveraging increased brand exposure;
 
-    * Identify opportunities for Oxmar
+    * Identify opportunities for Oxmar;
 
-    * Overhaul Oxmar’s online practices
+    * Overhaul Oxmar’s online practices;
 
-    * Develop strategic press campaigns to build brand exposure
+    * Develop strategic press campaigns to build brand exposure;
 
-    * Draft media material to be published
+    * Draft media material to be published;
 
-    * Develop television commercial for Channel 7 Brisbane
+    * Develop television commercial for Channel 7 Brisbane;
 
     * Consistently present out-of-the-box ideas to break through tight
     competition
+
+
+    From the workshop we focused on a television and press advertising campaign
+    featuring Jeff Horn ahead of the WBO Welterweight World Championships 2017. 
+
+
+    Following the press brief MPC presented Oxmar Properties with a formalised
+    digital marketing and branding strategy, which outlined all the key aspects
+    of their marketing and branding activities. Oxmar Properties took on our
+    strategy in-house and hired a dedicated marketer to implement the digital
+    activities.
 results:
   body: >-
     Since June 2017, Oxmar Properties has continued to grow and has been heavily
@@ -76,5 +90,7 @@ results:
       supportive_text: Views of TV ad in SEQ
     - big_text: Stat
       supportive_text: About spike in traffic
+    - big_text: '5,400+'
+      supportive_text: Social media plays
 ---
 
