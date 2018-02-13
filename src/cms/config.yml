@@ -34,6 +34,7 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - { label: Client, name: client, widget: relation, collection: clients, searchFields: [title, contact], valueField: title }
           - { label: Featured Case Study, name: featured_work, widget: relation, collection: case_study, searchFields: [title], valueField: title }
+          - { label: Featured Video, name: featured_video, widget: string }
           - label: Service Picker
             name: service_picker
             widget: object

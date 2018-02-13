@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?m5nejg');
-  src:  url('../fonts/icomoon.eot?m5nejg#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?m5nejg') format('truetype'),
-    url('../fonts/icomoon.woff?m5nejg') format('woff'),
-    url('../fonts/icomoon.svg?m5nejg#icomoon') format('svg');
+  font-family: 'marketplace';
+  src:  url('../fonts/marketplace.eot?2ic4k9');
+  src:  url('../fonts/marketplace.eot?2ic4k9#iefix') format('embedded-opentype'),
+    url('../fonts/marketplace.ttf?2ic4k9') format('truetype'),
+    url('../fonts/marketplace.woff?2ic4k9') format('woff'),
+    url('../fonts/marketplace.svg?2ic4k9#marketplace') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -12,7 +12,7 @@
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   display: inline-block;
-  font-family: 'icomoon' !important;
+  font-family: 'marketplace' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -25,19 +25,17 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-logo::before {
-  content: "\e901";
+.icon-logo {
+	font-size: 4rem;
+	&::before {
+	  content: "\e900";
+	}
 }
 
-.icon-logo { font-size: 4rem; }
-
-.icon-arrow::before {
-  content: "\e900";
+.icon-arrow::before, .icon-arrow-left::before {
+  content: "\e901";
 }
 
 .icon-arrow-left {
 	transform: rotateY(180deg);
-  &::before {
-  	content: "\e900";
-  }
 }

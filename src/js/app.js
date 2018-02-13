@@ -1,8 +1,10 @@
 import ContactForm from './contactForm';
+import Slider from './slider';
 //import SVGImageReplacer from './svgImageReplacer';
 
 // Internal scripts
 ContactForm();
+Slider();
 //SVGImageReplacer();
 
 

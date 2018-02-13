@@ -2,11 +2,13 @@
 
 {{ define "main" }}
 
+{{ $Me := . }}
+
 <header class="banner" role="banner">
 	<div class="container">
 		<div class="banner__inner">
 			<h1 class="banner__title">{{ .Title }}</h1>
-			<p class="banner__intro">{{ .Params.subtitle }}</p>
+			<h3 class="banner__intro">{{ .Params.subtitle }}</h3>
 			{{ partial "banner_services" (dict "context" .) }}
 		</div>
 	</div>
@@ -49,12 +51,13 @@
 	-- */}}
 
 <section class="feature-case-study bg--3">
-	<div class="container">
-		<h4>Featured Case Study</h4>
+	<div class="container grid-50">
 		{{ $featuredWork := .Params.featured_work }}
 		{{ with .Site.GetPage "section" "work" }}
 			{{ range where .Data.Pages "Section" "work" }}
 				{{ if eq .Title $featuredWork }}
+				<div>
+					<h4>Featured Case Study</h4>
 					<h2>{{ .Title }}</h2>
 					<div class="flex">
 						{{ range first 2 .Params.results.key_results}}
@@ -66,6 +69,16 @@
 						{{ end }}
 					</div>
 					<a class="button button--outline button--reverse" href="{{ .URL }}">Find out more <i class="icon icon-arrow"></i></a>
+				</div>
+				{{ if $Me.Params.featured_video }}
+					<div class="featured-video">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ .Params.featured_video }}?showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+				{{ else }}
+					<div class="featured-image">
+						<img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" title={{ .Title }}>
+					</div>
+				{{ end }}
 				{{ end }}
 			{{ end }}
 		{{ end }}
@@ -82,31 +95,39 @@
 	<div class="container">
 		<div class="content"><h2>{{ .Params.service_picker.title }}</h2></div>
 		<p>Are you...</p>
-		<div class="flex flex--justify-between">
+		{{/* Siema carousel starts here */}}
+		<div class="siema">
 			{{ range .Params.service_picker.picker_slide }}
-				<div class="slide-left">
-					<h4>{{ .title }}</h4>
-					<p>{{ .info }}</p>
-					{{ range .service_list }}
-						{{ $service := .service }}
-						{{ with $.Site.GetPage "section" "services" }}
-							{{ range where .Data.Pages "Section" "services" }}
-							{{/* For matching clients, enter it's scope and render some data */}}
-								{{ if eq .Title $service }}
-									<a href="{{ .URL }}">
-										<img src="{{ .Params.icon }}" alt="{{ .Title }}" title="{{ .Title }}" />
-										<div>{{ .Title }}</div>
-									</a>
+				<div class="flex flex--justify-between">
+					<div class="slide-left">
+						<h4>{{ .title }}</h4>
+						<p>{{ .info }}</p>
+						{{ range .service_list }}
+							{{ $service := .service }}
+							{{ with $.Site.GetPage "section" "services" }}
+								{{ range where .Data.Pages "Section" "services" }}
+								{{/* For matching clients, enter it's scope and render some data */}}
+									{{ if eq .Title $service }}
+										<a href="{{ .URL }}">
+											<img src="{{ if .Params.icon }}{{ .Params.icon }}{{ else }}/img/service-icon-default.svg{{ end }}" alt="{{ .Title }}" title="{{ .Title }}" />
+											<div>{{ .Title }}</div>
+										</a>
+									{{ end }}
 								{{ end }}
 							{{ end }}
 						{{ end }}
-					{{ end }}
-				</div>
-				<div class="slide-right">
-					<img src="{{ .image }}" alt="{{ .title }}" />
+					</div>
+					<div class="slide-right">
+						<img src="{{ .image }}" alt="{{ .title }}" />
+					</div>
 				</div>
 			{{ end }}
 		</div>
+		<div class="siema__controls">
+			<button class="siema__prev"><i class="icon icon-arrow-left"></i></button>
+			<button class="siema__next"><i class="icon icon-arrow"></i></button>
+		</div>
+		{{/* Siema carousel ends here */}}
 	</div>
 </section>
 

@@ -3,7 +3,7 @@
 	--baseHtmlSize: 62.5%;
 	--baseBodySize: 1.6rem;
 	/* Colors */
-	--brandColor: #B51F20;
+	--brandColor: #E6232C;
 	--brandYellow: #F5EE9E;
 	--black: #1D2A3A;
 	--offWhite: #FAFAFA;
@@ -231,6 +231,7 @@ a {
 .banner {
 	overflow: hidden;
 	background-color: var(--brandColor);
+	color: var(--absoluteWhite);
 	&__inner {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
@@ -329,6 +330,18 @@ a {
 	margin-top: 8rem;
 	margin-bottom: 4rem;
 	font-size: var(--smallFont);
+}
+
+/* - - - - - - - - - - - - - - */
+/* - Home Page - */
+/* - - - - - - - - - - - - - - */
+.logo-wall {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	& > *:not(:first-child) {
+		margin-left: 4rem;
+	}
 }
 
 /* - - - - - - - - - - - - - - */
@@ -490,4 +503,20 @@ a {
 
 .slide-left {
 	max-width: 60rem;
+}
+
+.slide-right {
+	max-width: 50rem;
+	& > img {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+	}
+}
+
+.grid-50 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 4rem;
+	align-items: center;
 }
