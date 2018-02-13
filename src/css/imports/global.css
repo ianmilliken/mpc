@@ -5,7 +5,7 @@
 	/* Colors */
 	--brandColor: #E6232C;
 	--brandYellow: #F5EE9E;
-	--black: #1D2A3A;
+	--black: #101010;
 	--offWhite: #FAFAFA;
 	--absoluteWhite: #FFFFFF;
 	/* Typography */
@@ -64,6 +64,7 @@ body {
 	font-weight: 300;
 	letter-spacing: 0.01em;
 	line-height: 1.4;
+	color: var(--black);
 }
 
 a {
@@ -111,6 +112,22 @@ a {
 		width: 100%;
 		height: 100%;
 		background-color: var(--brandColor);
+		mix-blend-mode: multiply;
+	}
+}
+
+.bg--4 {
+	position: relative;
+	color: var(--absoluteWhite);
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		width: 100%;
+		height: 100%;
+		background-color: var(--black);
 		mix-blend-mode: multiply;
 	}
 }
@@ -606,5 +623,49 @@ a {
 	}
 	&__link__arrow {
 		color: color(var(--black) alpha(50%));
+	}
+}
+
+/* - - - - - - - - - - - - - - */
+/* - About - */
+/* - - - - - - - - - - - - - - */
+.abo {
+	&__mission {}
+	&__mission__body {
+		font-size: var(--bigFont);
+		font-weight: 300;
+		line-height: 1.74;
+		text-align: center;
+	}
+	&__story {}
+	&__story__grid {
+		display: grid;
+		grid-template-columns: 1fr 3fr;
+		grid-gap: 6rem;
+		max-width: 70vw !important;
+	}
+	&__story__title {
+		grid-column: 1/3;
+	}
+	&__story__highlight {
+		max-width: 30rem;
+		font-size: var(--massiveFont);
+		font-weight: 600;
+		line-height: 1.2;
+	}
+	&__story__body {}
+	&__team {}
+	&__team__ul {
+		justify-content: space-around;
+	}
+	&__team__li {}
+	&__team__member {
+		margin-top: 1rem;
+		font-size: var(--bigFont);
+		font-weight: 600;
+	}
+	&__team__position {
+		font-size: var(--smallFont);
+		color: color(var(--black) alpha(75%));
 	}
 }
