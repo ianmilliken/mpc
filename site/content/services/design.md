@@ -2,6 +2,7 @@
 title: Design
 intro: Ads, flyers, brochures - anything you need to make a great first impression
 icon: /img/design.svg
+icon_reverse: /img/design-reverse.svg
 serviceType: Primary
 ---
 
@@ -27,4 +28,4 @@ brand.
 * Brand materials and company stationery
 * Website design
 * Promotional material
-* Print media 
+* Print media

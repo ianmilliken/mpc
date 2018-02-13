@@ -8,7 +8,7 @@
 	<div class="container">
 		<div class="banner__inner">
 			<h1 class="banner__title">{{ .Title }}</h1>
-			<h3 class="banner__intro">{{ .Params.subtitle }}</h3>
+			<h3 class="banner__subtitle">{{ .Params.subtitle }}</h3>
 			{{ partial "banner_services" (dict "context" .) }}
 		</div>
 	</div>
@@ -102,20 +102,24 @@
 					<div class="slide-left">
 						<h4>{{ .title }}</h4>
 						<p>{{ .info }}</p>
-						{{ range .service_list }}
-							{{ $service := .service }}
-							{{ with $.Site.GetPage "section" "services" }}
-								{{ range where .Data.Pages "Section" "services" }}
-								{{/* For matching clients, enter it's scope and render some data */}}
-									{{ if eq .Title $service }}
-										<a href="{{ .URL }}">
-											<img src="{{ if .Params.icon }}{{ .Params.icon }}{{ else }}/img/service-icon-default.svg{{ end }}" alt="{{ .Title }}" title="{{ .Title }}" />
-											<div>{{ .Title }}</div>
-										</a>
-									{{ end }}
-								{{ end }}
-							{{ end }}
-						{{ end }}
+						{{ if .service_list }} {{/* Start IF .service_list */}}
+							<div class="slide__services">
+								{{ range .service_list }} {{/* Start RANGE .service_list */}}
+									{{ $service := .service }}
+									{{ with $.Site.GetPage "section" "services" }} {{/* Start WITH section */}}
+										{{ range where .Data.Pages "Section" "services" }} {{/* Start RANGE section */}}
+										{{/* For matching clients, enter it's scope and render some data */}}
+											{{ if eq .Title $service }}
+												<a class="slide__services__link center" href="{{ if eq .Params.serviceType "Primary" }}{{ .URL }}{{ end }}">
+													<img src="{{ if .Params.icon }}{{ .Params.icon }}{{ else }}/img/service-icon-default.svg{{ end }}" alt="{{ .Title }}" title="{{ .Title }}" />
+													<div class="text--small">{{ .Title }}</div>
+												</a>
+											{{ end }}
+										{{ end }} {{/* End RANGE section */}}
+									{{ end }} {{/* End WITH section */}}
+								{{ end }} {{/* End RANGE .service_list */}}
+							</div>
+						{{ end }} {{/* End IF .service_list */}}
 					</div>
 					<div class="slide-right">
 						<img src="{{ .image }}" alt="{{ .title }}" />

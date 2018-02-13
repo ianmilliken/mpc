@@ -10,7 +10,7 @@
 		{{ if eq .Params.serviceType "Primary" }}
 			<li class="service">
 				<a class="service__link" href="{{ if and ($.linkType) (eq $.linkType "anchor") }}{{ with $.context.Site.GetPage "section" "services" }}{{ .URL }}{{ end }}#{{ .Title | urlize }}{{ else }}{{ .URL }}{{ end }}">
-					<img src="{{ .Params.icon }}" alt="{{ .Title }}" />
+					<img src="{{ if .Params.icon_reverse }}{{ .Params.icon_reverse }}{{ else }}/img/service-icon-default-reverse.svg{{ end }}" alt="{{ .Title }}" />
 					<span>{{ .Title }}</span>
 				</a>
 			</li>

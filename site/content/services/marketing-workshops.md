@@ -1,7 +1,6 @@
 ---
 title: Workshops & Training
 intro: Get access to professional marketing advice that works towards your business goals
-icon: /img/media-and-communications.svg
 serviceType: Primary
 ---
 

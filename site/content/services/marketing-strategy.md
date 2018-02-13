@@ -2,6 +2,7 @@
 title: Marketing Strategy
 intro: Fastrack to better business opportunities with a tailored marketing strategy
 icon: /img/marketing-strategy.svg
+icon_reverse: /img/marketing-strategy-reverse.svg
 serviceType: Primary
 ---
 
