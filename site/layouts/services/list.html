@@ -13,19 +13,21 @@
 
 <article>
 	<section class="bg--2">
-		<ul class="list list--high container">
+		<ul class="wwd__ul list list--high container">
 			{{ range .Pages.ByPublishDate }}
 				{{ if eq .Params.serviceType "Primary" }}
-					<li>
-						<a class="flex flex--justify-between" id="{{ .Title | urlize }}" href="{{ .Permalink }}">
-							<div class="flex">
-								<img src="{{ .Params.icon }}" alt="{{ .Title }}" />
-								<div>
-									<h2>{{ .Title }}</h2>
-									<p>{{ .Params.intro }}</p>
+					<li class="wwd__li">
+						<a class="wwd__link flex flex--justify-between" id="{{ .Title | urlize }}" href="{{ .Permalink }}">
+							<div class="flex flex--align-center">
+								<div class="wwd__link__icon">
+									<img src="{{ if .Params.icon }}{{ .Params.icon }}{{ else }}/img/service-icon-default.svg{{ end }}" alt="{{ .Title }}" />
+								</div>
+								<div class="wwd__link__wrapper">
+									<h2 class="wwd__link__title">{{ .Title }}</h2>
+									<p class="wwd__link__intro">{{ .Params.intro }}</p>
 								</div>
 							</div>
-							{{ partial "arrow.svg" }}
+							<i class="wwd__link__arrow icon icon-arrow"></i>
 						</a>
 					</li>
 				{{ end }}
