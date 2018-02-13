@@ -66,17 +66,42 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: "Title", name: "title", widget: "string"}
 
-      - file: "site/content/about/_index.md"
-        label: "About"
-        name: "about"
+      - file: site/content/about/_index.md
+        label: About
+        name: about
         fields:
-          - {label: "Title", name: "title", widget: "string"}
+          - { label: Title, name: title, widget: string }
+          - label: Our Mission
+            name: mission
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Body, name: body, widget: markdown }
+          - label: Our Story
+            name: story
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Highlighted Text, name: highlight, widget: text }
+              - { label: Body, name: body, widget: markdown }
+          - label: Our Team
+            name: team
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - label: Members
+                name: members
+                widget: list
+                fields:
+                  - { label: Member Name, name: name, widget: string }
+                  - { label: Position, name: position, widget: string }
 
-      - file: "site/content/blog/_index.md"
-        label: "Blog"
-        name: "blog"
+      - file: site/content/blog/_index.md
+        label: Blog
+        name: blog
         fields:
-          - {label: "Title", name: "title", widget: "string"}
+          - { label: Title, name: title, widget: string }
+          - { label: Intro, name: intro, widget: string }
 
       - file: "site/content/contact/_index.md"
         label: "Contact"
@@ -151,6 +176,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text, required: false }
       - { label: Icon, name: icon, widget: image, required: false }
+      - { label: Icon Reverse Color Scheme, name: icon_reverse, widget: image, required: false }
       - { label: Image, name: image, widget: image, required: false }
       - label: Service Type
         name: serviceType
