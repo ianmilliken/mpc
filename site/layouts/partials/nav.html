@@ -27,7 +27,10 @@
 				data with a custom name set via the CMS
 			*/}}
 			{{ if and (ne .Identifier "home") (ne .Identifier "contact") }}
-				<a class="navbar__link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">{{ if isset $.context.Site.Data.menu .Identifier }}{{ index $.context.Site.Data.menu .Identifier }}{{ else }}{{ .Name }}{{ end }}</a>
+				<a class="navbar__link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" data-strike href="{{ .URL }}">
+					<span class="navbar__link__text">{{ if isset $.context.Site.Data.menu .Identifier }}{{ index $.context.Site.Data.menu .Identifier }}{{ else }}{{ .Name }}{{ end }}</span>
+					<span class="navbar__link__effect"></span>
+				</a>
 			{{ end }}
 		{{ end }}
 		</div>

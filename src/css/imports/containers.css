@@ -1,0 +1,20 @@
+/* - - - - - - - - - - - - - - */
+/* - Containers - */
+/* - - - - - - - - - - - - - - */
+
+.container {
+	max-width: 120rem;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 6rem;
+	padding-right: 6rem;
+	&--x-small {
+		max-width: 68rem;
+	}
+	&--small {
+		max-width: 93.4rem;
+	}
+	&--normal {}
+	&--large {}
+	&--x-large {}
+}

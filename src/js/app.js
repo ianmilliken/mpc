@@ -18,3 +18,20 @@ if (window.netlifyIdentity) {
     }
   });
 }
+
+
+// Navbar link effect
+const links = document.querySelectorAll('[data-strike]');
+let i;
+
+for (i = 0; i < links.length; i++) {
+	var node = links[i];
+	node.addEventListener('mouseover', (e) => {
+		//console.log(e.currentTarget.children[1]);
+    e.currentTarget.children[1].classList.add('animate--strike');
+	})
+  node.addEventListener('mouseout', (e) => {
+    //console.log(e.currentTarget.children[1]);
+    e.currentTarget.children[1].classList.remove('animate--strike');
+  })
+}
