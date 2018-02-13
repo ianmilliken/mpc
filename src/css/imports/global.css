@@ -575,6 +575,9 @@ a {
 			stroke: var(--absoluteWhite);
 		}
 	}
+	& .button {
+		margin-top: var(--gutter);
+	}
 }
 
 .slide-left {
@@ -613,6 +616,17 @@ a {
 	grid-template-columns: 1fr 1fr;
 	grid-gap: var(--gutter);
 	align-items: center;
+}
+
+.hom {
+	&__picker {}
+	&__picker__title {
+		max-width: 68rem;
+		margin: auto;
+		text-align: center;
+		margin-top: var(--gutterBig);
+		margin-bottom: var(--gutter);
+	}
 }
 
 /* - - - - - - - - - - - - - - */
