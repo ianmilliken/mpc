@@ -10,9 +10,10 @@
 }
 
 .copyright {
-	margin-top: var(--gutterBig);
+	margin-top: var(--gutter);
 	margin-bottom: var(--gutter);
 	font-size: var(--smallFont);
+	text-align: left;
 }
 
 @media (--for-phone-only) {
@@ -35,6 +36,11 @@
 		&:not(:first-of-type) {
 			margin-left: 4rem;
 		}
+	}
+
+	.copyright {
+		margin-top: var(--gutterBig);
+		text-align: center;
 	}
 }
 

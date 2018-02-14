@@ -315,62 +315,6 @@ a {
 }
 
 /* - - - - - - - - - - - - - - */
-/* - Services Listings - */
-/* - - - - - - - - - - - - - - */
-.wwd {
-	&__ul {
-		padding-top: var(--gutterBig);
-		padding-bottom: var(--gutterBig);
-	}
-	&__li {}
-	&__link {
-		align-items: baseline;
-		& * {
-			transition: var(--animateTransform), var(--animateColor);
-		}
-		&:hover {
-			& .wwd__link__icon {
-				transform: scale3d(1.3, 1.3, 1.3);
-			}
-			& .wwd__link__title {
-				transform: translate3d(3rem, 0, 0);
-			}
-			& .wwd__link__intro {
-				transform: translate3d(4rem, 0, 0);
-			}
-			& .wwd__link__arrow {
-				transform: scale3d(1.3, 1.3, 1.3) translate3d(-4rem, 0, 0);
-				color: var(--brandColor);
-			}
-		}
-	}
-	&__link__icon {
-		width: var(--gutterBig);
-		height: var(--gutterBig);
-		margin-right: var(--gutter);
-		& > img {
-			width: 100%;
-			height: 100%;
-			object-fit: contain;
-		}
-	}
-	&__link__wrapper {
-		max-width: 54rem;
-	}
-	&__link__title {
-		margin-bottom: 0.6rem;
-		color: var(--black);
-	}
-	&__link__intro {
-		font-size: var(--bigFont);
-		color: color(var(--black) alpha(50%));
-	}
-	&__link__arrow {
-		color: color(var(--black) alpha(50%));
-	}
-}
-
-/* - - - - - - - - - - - - - - */
 /* - About - */
 /* - - - - - - - - - - - - - - */
 .abo {

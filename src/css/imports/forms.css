@@ -18,17 +18,19 @@
 
 label {
 	display: block;
-	width: 20rem;
+	width: 14rem;
 	text-align: left;
-	font-weight: 300;
+	font-weight: 400;
+	font-size: var(--smallFont);
 }
 
 input:not([type="submit"]),
 textarea {
 	flex-grow: 1;
-	font-size: var(--bigFont);
+	font-size: var(--mediumFont);
 	font-weight: 300;
 	letter-spacing: 0.02em;
+	line-height: 1.4;
 	appearance: none;
 	border: 0;
 	color: var(--black);
@@ -44,5 +46,19 @@ textarea {
 	margin-top: 2rem;
 	& input {
 		font-size: var(--mediumFont);
+	}
+}
+
+@media (--for-tablet-portrait-up) {
+
+	label {
+		width: 20rem;
+		font-size: var(--mediumFont);
+		font-weight: 300;
+	}
+
+	input:not([type="submit"]),
+	textarea {
+		font-size: var(--bigFont);
 	}
 }

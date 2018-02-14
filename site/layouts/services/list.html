@@ -13,12 +13,12 @@
 
 <article>
 	<section class="bg--2">
-		<ul class="wwd__ul list list--high container">
+		<ul class="wwd__ul container container--small padder">
 			{{ range .Pages.ByPublishDate }}
 				{{ if eq .Params.serviceType "Primary" }}
 					<li class="wwd__li">
 						<a class="wwd__link flex flex--justify-between" id="{{ .Title | urlize }}" href="{{ .Permalink }}">
-							<div class="flex flex--align-center">
+							<div class="wwd__link__inner">
 								<div class="wwd__link__icon">
 									<img src="{{ if .Params.icon }}{{ .Params.icon }}{{ else }}/img/service-icon-default.svg{{ end }}" alt="{{ .Title }}" />
 								</div>
