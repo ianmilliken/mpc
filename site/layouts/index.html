@@ -70,7 +70,7 @@
 					</div>
 					<div class="hide-at-tablet-landscape">
 						{{ if $Me.Params.featured_video }}
-							<div class="home__featured__video">
+							<div class="home__featured__video video-wrapper">
 								<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ string $Me.Params.featured_video }}?showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 							</div>
 						{{ else }}
@@ -83,8 +83,8 @@
 				</div>
 				<div class="show-at-tablet-landscape">
 					{{ if $Me.Params.featured_video }}
-						<div class="home__featured__video">
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ string $Me.Params.featured_video }}?showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						<div class="home__featured__video video-wrapper">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ string $Me.Params.featured_video }}?showinfo=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
 						</div>
 					{{ else }}
 						<div class="home__featured__image">
