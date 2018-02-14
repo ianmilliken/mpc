@@ -3,16 +3,31 @@
 {{ define "main" }}
 
 <header class="banner center">
-	<h1 class="banner__title banner__title--solo">{{ .Title }}</h1>
-	<p class="content">{{ .Params.intro }}</p>
+	<div class="banner__inner container">
+		<h1 class="banner__title banner__title--solo">{{ .Title }}</h1>
+		<p class="content">{{ .Params.intro }}</p>
+	</div>
 </header>
 
 <article>
 
-	<section class="bg--2">
-		<ul class="container">
+	<section class="bg--2 padder">
+		<ul class="blog__ul container container--small">
 			{{ range .Pages.ByPublishDate }}
-				<li>{{ .Render "li"}}</li>
+				<li class="blog__li">
+					<a class="blog__link" href="{{ .URL }}">
+						<div class="blog__link__image">
+							<img src="{{ if .Params.image }}{{ .Params.image }}{{ else }}/img/placeholder.jpg{{ end }}" alt="{{ .Title }}" title="{{ .Title }}" />
+						</div>
+						<div class="blog__link__content">
+							<div>
+								<h3 class="blog__link__title">{{ .Title }}</h3>
+								<p class="blog__link__date">{{ .PublishDate.Format "Monday 2 January 2006" }}</p>
+							</div>
+							<i class="blog__link__arrow icon icon-arrow"></i>
+						</div>
+					</a>
+				</li>
 			{{ end }}
 		</ul>
 	</section>

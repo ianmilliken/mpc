@@ -20,6 +20,8 @@
 @import "imports/home";
 @import "imports/work";
 @import "imports/services";
+@import "imports/blog";
+@import "imports/about";
 
 @import "imports/helpers";
 @import "imports/visibility";

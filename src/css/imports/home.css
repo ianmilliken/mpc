@@ -69,6 +69,22 @@
 		}
 	}
 }
+.siema {
+	margin-top: 1rem;
+	&__controls {
+		display: flex;
+		justify-content: center;
+	}
+	&__button {
+		padding: 1rem 2rem;
+		border-radius: 2rem;
+		background-color: var(--absoluteWhite);
+		border: 0.1rem solid color(var(--offWhite) blackness(+ 10%));
+	}
+	&__button ~ &__button {
+		margin-left: 2rem;
+	}
+}
 
 .hom {
 	&__picker {}
@@ -76,7 +92,5 @@
 		max-width: 68rem;
 		margin: auto;
 		text-align: center;
-		margin-top: var(--gutterBig);
-		margin-bottom: var(--gutter);
 	}
 }

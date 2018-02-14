@@ -1,31 +1,37 @@
 {{ define "main" }}
 
 <article>
-  <header class="abo__mission content">
-		<h2 class="content__subtitle"><span>{{ .Params.mission.title }}</span></h2>
-		<div class="abo__mission__body">
-      {{ .Params.mission.body | markdownify }}
+  <header class="abo__mission container padder">
+		<div class="content">
+      <h2 class="content__subtitle"><span>{{ .Params.mission.title }}</span></h2>
+      <div class="abo__mission__body">
+        {{ .Params.mission.body | markdownify }}
+      </div>
     </div>
   </header>
-  <section class="abo__story bg--4">
+  <section class="abo__story bg--4 padder">
     <div class="abo__story__grid content">
       <h2 class="abo__story__title content__subtitle"><span>{{ .Params.story.title }}</span></h2>
-      <div class="abo__story__highlight">{{ .Params.story.highlight | markdownify }}</div>
-      <div class="abo__story__body">
-        {{ .Params.story.body | markdownify }}
+      <div class="abo__story__inner">
+        <div class="abo__story__highlight">{{ .Params.story.highlight | markdownify }}</div>
+        <div class="abo__story__body">
+          {{ .Params.story.body | markdownify }}
+        </div>
       </div>
     </div>
   </section>
-  <section class="abo__team container padder">
-  <h2 class="abo__team__title content__subtitle"><span>{{ .Params.team.title }}</span></h2>
-    <ul class="abo__team__ul flex">
-      {{ range .Params.team.members }}
-        <li class="abo__team__li">
-          <div class="abo__team__position">{{ .position }}</div>
-          <div class="abo__team__member">{{ .name }}</div>
-        </li>
-      {{ end }}
-    </ul>
+  <section class="abo__team padder bg--2">
+    <div class="container">
+      <h2 class="abo__team__title content__subtitle"><span>{{ .Params.team.title }}</span></h2>
+      <ul class="abo__team__ul">
+        {{ range .Params.team.members }}
+          <li class="abo__team__li">
+            <div class="abo__team__position">{{ .position }}</div>
+            <div class="abo__team__member">{{ .name }}</div>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
   </section>
 </article>
 

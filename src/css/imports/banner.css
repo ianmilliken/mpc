@@ -27,6 +27,10 @@
 		margin-bottom: var(--gutter);
 		color: var(--absoluteWhite);
 	}
+	&__title--solo {
+		margin-left: auto;
+		margin-right: auto;
+	}
 	&__subtitle {}
 	&__services {
 		display: flex;
