@@ -88,8 +88,8 @@ results:
   key_results:
     - big_text: 1.3M
       supportive_text: Views of TV ad in SEQ
-    - big_text: Stat
-      supportive_text: About spike in traffic
+    - big_text: 580.5%
+      supportive_text: Organic traffic increase after 6 months
     - big_text: '5,400+'
       supportive_text: Social media plays
 ---
