@@ -3,11 +3,30 @@
 	top: 0;
 	right: -100vw;
 	z-index: 2;
+	display: flex;
+	flex-direction: column;
 	width: 100vw;
 	height: 100vh;
-	background-color: color(var(--black) alpha(75%));
+	padding: 4rem;
+	background-color: color(var(--black) alpha(95%));
 	color: var(--absoluteWhite);
 	&.is-active {
 		right: 0;
+	}
+
+	&__close {
+		position: absolute;
+		top: 6rem;
+		right: 3rem;
+		padding: 1rem;
+	}
+
+	&__link {
+		font-size: var(--biggerFont);
+		font-weight: 500;
+		color: var(--absoluteWhite);
+	}
+	&__link:nth-child(6n-4) {
+		margin-top: 8rem;
 	}
 }

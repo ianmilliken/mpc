@@ -1,4 +1,5 @@
 <nav class="drawer">
+	<a class="drawer__close" href="#">{{ partial "cross.svg" . }}</a>
 	{{ if .Site.Menus.main }}
 		{{ $currentNode := . }}
     {{ range .Site.Menus.main }}

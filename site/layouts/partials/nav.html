@@ -43,7 +43,7 @@
 				<a class="button button--navbar grid--align-right show-at-tablet-landscape {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">{{ if isset $.context.Site.Data.menu .Identifier }}{{ index $.context.Site.Data.menu .Identifier }}{{ else }}{{ .Name }}{{ end }}</a>
 			{{ end }}
 		{{ end }}
-		<a class="burger hide-at-tablet-landscape" href="#">{{ partial "burger" . }}</a>
+		<a class="burger hide-at-tablet-landscape" href="#">{{ partial "burger.svg" . }}</a>
 
 	{{ end }}
 </nav>

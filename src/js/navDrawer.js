@@ -7,8 +7,7 @@ export default function NavDrawer() {
 
   const burger = document.querySelector('.burger');
   const drawer = document.querySelector('.drawer');
-  console.log('1')
-  console.log(drawer)
+	const close = document.querySelector('.drawer__close');
 
   const addClasses = (target) => {
     drawer.classList.add('is-active');
@@ -20,9 +19,12 @@ export default function NavDrawer() {
 
   burger.addEventListener('click', (e) => {
     e.preventDefault();
-    console.log('2')
-    console.log(drawer)
     addClasses();
   })
+
+	close.addEventListener('click', (e) => {
+		e.preventDefault();
+		removeClasses();
+	})
 
 }
