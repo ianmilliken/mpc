@@ -80,6 +80,10 @@
 		border-radius: 2rem;
 		background-color: var(--absoluteWhite);
 		border: 0.1rem solid color(var(--offWhite) blackness(+ 10%));
+		transition: var(--animateTransform);
+		&:hover {
+			transform: translate3d(0, -0.4rem, 0);
+		}
 	}
 	&__button ~ &__button {
 		margin-left: 2rem;
