@@ -45,6 +45,9 @@
 .slide-left {
 	max-width: 60rem;
 	padding-right: var(--gutterBig);
+	& > p {
+		line-height: 1.74;
+	}
 }
 
 .slide-right {
@@ -77,6 +80,7 @@
 	&__controls {
 		display: flex;
 		justify-content: center;
+		margin-top: 4rem;
 	}
 	&__button {
 		padding: 1rem 2rem;
