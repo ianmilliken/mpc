@@ -20,26 +20,32 @@ logo_wall:
 featured_work: Jeff 'The Hornet' Horn Campaign
 featured_video: F8I58Ga_K8w
 service_picker:
-  title: Know you need marketing help, but don’t know where to start?
   picker_slide:
-    - title: Terry the dinosaur?
-      info: >-
+    - info: >-
         The ways we market our businesses are forever growing and changing -
         it’s no wonder you may feel as though your goals are just out of reach
         and you’re unsure of how to achieve your next success.
+
+
+        At Marketplace Strategy Solutions we look at the bigger picture and
+        structure proven, flexible approaches to business growth that will help
+        you adapt and thrive with your market.
+      title: Terry the dinosaur?
       image: /img/terry.svg
       service_list:
         - service: Half-day Strategy Workshop
         - service: Digital Marketing
         - service: Advertising
-    - title: Invisibill the ghost?
-      info: >-
-        Jelly beans I love jujubes chocolate bar jelly I love cupcake fruitcake.
-        Muffin dessert fruitcake fruitcake powder. Macaroon I love bear claw
-        dessert macaroon. Carrot cake icing cheesecake dessert tart muffin
-        lollipop.
+    - info: >
+        There are so many other ‘Bills’ floating around that it can be difficult
+        to get noticed by the people you want to reach, especially online. But
+        with the right strategy, you can put your business in the spotlight and
+        gain a stronger market presence.
+      title: Invisibill the ghost?
       image: /img/invisibill.svg
       service_list:
         - service: Half-day Strategy Workshop
         - service: Digital Marketing
+  title: 'Know you need marketing help, but don’t know where to start?'
 ---
+
