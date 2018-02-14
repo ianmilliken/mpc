@@ -30,12 +30,12 @@ export default function contactForm() {
 		window._agile.create_contact(contact, {
 			success: function (data) {
 				alert("Thanks, we'll be in touch!");
-				console.log(data);
+				//console.log(data);
 				createAgileTask();
 			},
 			error: function (data) {
 				alert("Sorry, we could not complete your request!");
-				console.log(data);
+				//console.log(data);
 			}
 		});
 
@@ -49,13 +49,13 @@ export default function contactForm() {
 
 			window._agile.add_task(task, {
 				success: function (data) {
-					console.log("success");
-					console.log(data);
+					//console.log("Success creating task");
+					//console.log(data);
 					createAgileNote();
 				},
 				error: function (data) {
-					console.log("error");
-					console.log(data);
+					console.log("Error creating task");
+					//console.log(data);
 				}
 			});
 		}
@@ -67,12 +67,12 @@ export default function contactForm() {
 
 			_agile.add_note(note, {
 				success: function (data) {
-					console.log("success");
-					console.log(data);
+					console.log("Success creating note");
+					//console.log(data);
 				},
 				error: function (data) {
-					console.log("error");
-					console.log(data);
+					console.log("Error creating note");
+					//console.log(data);
 				}
 			});
 		}

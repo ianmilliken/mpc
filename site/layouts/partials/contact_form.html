@@ -4,11 +4,11 @@
 		<form id="contactForm" name="contactform" action="/">
 			<div class="form-group">
 				<label for="contactFullName">{{ if .Site.Data.language.fullname_label }}{{ .Site.Data.language.fullname_label }}{{ else }}Full Name{{ end }}</label>
-				<input id="contactFullName" type="text" name="fullname" placeholder="{{ if .Site.Data.language.fullname_placeholder }}{{ .Site.Data.language.fullname_placeholder }}{{ else }}e.g. Bert Macklin{{ end }}" />
+				<input id="contactFullName" type="text" name="fullname" required placeholder="{{ if .Site.Data.language.fullname_placeholder }}{{ .Site.Data.language.fullname_placeholder }}{{ else }}e.g. Bert Macklin{{ end }}" />
 			</div>
 			<div class="form-group">
 				<label for="contactEmail">Email address</label>
-				<input id="contactEmail" type="email" name="email" placeholder="e.g. bertmacklin@fbi.com" />
+				<input id="contactEmail" type="email" name="email" required placeholder="e.g. bertmacklin@fbi.com" />
 			</div>
 			<div class="form-group">
 				<label for="contactNumber">Contact number</label>
@@ -16,7 +16,7 @@
 			</div>
 			<div class="form-group">
 				<label for="contactMessage">Enquiry</label>
-				<textarea id="contactMessage" type="textbox" name="message" rows="7" placeholder="Write your message for us here, and we'll get back to you as soon as possible!"></textarea>
+				<textarea id="contactMessage" type="textbox" name="message" rows="7" required placeholder="Write your message for us here, and we'll get back to you as soon as possible!"></textarea>
 			</div>
 			<div class="center" style="margin-top: 3rem;">
 				<button class="button button--primary" type="submit" id="contactSubmit">Send it</button>
