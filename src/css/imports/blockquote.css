@@ -1,0 +1,38 @@
+/* - - - - - - - - - - - - - - */
+/* - Blockquote - */
+/* - - - - - - - - - - - - - - */
+
+.blockquote {
+	@apply --pushAuto;
+	max-width: 93.4rem;
+	text-align: center;
+	padding-top: var(--gutterBig);
+	&__body {
+		font-size: var(--mediumFont);
+		font-weight: 300;
+		line-height: 1.74;
+	}
+	&__footer {
+		position: relative;
+		margin-top: var(--gutterBig);
+		font-size: var(--mediumFont);
+		&::before {
+			@apply --psuedoCenter;
+			top: -var(--gutter);
+			width: 17rem;
+			height: 0.2rem;
+			background-color: var(--brandColor);
+		}
+	}
+	&__client {
+		font-weight: 600;
+	}
+}
+
+@media (--for-tablet-landscape-up) {
+	.blockquote {
+		&__body {
+			font-size: var(--bigFont);
+		}
+	}
+}

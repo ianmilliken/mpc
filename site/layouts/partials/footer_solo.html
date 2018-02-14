@@ -1,9 +1,9 @@
 <footer class="footer container">
-	<div>
+	<div class="footer__block">
 		<div><i class="icon icon-logo" title="{{ .Site.Data.brand.company_name }}"></i></div>
 		<p style="margin-top: 2rem;">{{ .Site.Data.brand.company_tagline }}</p>
 	</div>
-	<div>
+	<div class="footer__block">
 		<h4 class="footer__heading">Brisbane</h4>
 		<address>
 			{{ .Site.Data.contact.address.line_1 }}<br />
@@ -13,7 +13,7 @@
 			{{ .Site.Data.contact.address.postcode }}
 		</address>
 	</div>
-	<div>
+	<div class="footer__block">
 		<h4 class="footer__heading">Newsletter</h4>
 		<p>Sign up to our newsletter and stay up to date.</p>
 		<form class="newsletter form form--inline">
@@ -23,7 +23,7 @@
 			</div>
 		</form>
 	</div>
-	<div class="grid--align-right">
+	<div class="footer__block">
 		<h4 class="footer__heading">Social</h4>
 		{{ range .Site.Data.brand.social }}
 			<a class="el--block" href="{{ .URL }}">{{ .Name }}</a>

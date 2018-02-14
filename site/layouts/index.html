@@ -50,35 +50,48 @@
 	--
 	-- */}}
 
-<section class="feature-case-study bg--3">
-	<div class="container grid-50">
+<section class="home__featured bg--3">
+	<div class="home__featured__inner container">
 		{{ $featuredWork := .Params.featured_work }}
 		{{ with .Site.GetPage "section" "work" }}
 			{{ range where .Data.Pages "Section" "work" }}
 				{{ if eq .Title $featuredWork }}
-				<div>
+				<div class="home__featured__info">
 					<h4>Featured Case Study</h4>
 					<h2>{{ .Title }}</h2>
-					<div class="flex">
+					<div class="home__featured__info__inner">
 						{{ range first 2 .Params.results.key_results}}
-							<div class="key-result">
+							<div class="home__featured__result key-result">
 								<div class="key-result__primary">{{ .big_text }}</div>
 								<div class="key-result__supportive">{{ .supportive_text }}</div>
 								<div class="key-result__icon">{{ partial "key_result_icon.svg" . }}</div>
 							</div>
 						{{ end }}
 					</div>
+					<div class="hide-at-tablet-landscape">
+						{{ if $Me.Params.featured_video }}
+							<div class="home__featured__video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ string $Me.Params.featured_video }}?showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+							</div>
+						{{ else }}
+							<div class="home__featured__image">
+								<img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" title={{ .Title }}>
+							</div>
+						{{ end }}
+					</div>
 					<a class="button button--outline button--reverse" href="{{ .URL }}">Find out more <i class="icon icon-arrow"></i></a>
 				</div>
-				{{ if $Me.Params.featured_video }}
-					<div class="featured-video">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ string $Me.Params.featured_video }}?showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-					</div>
-				{{ else }}
-					<div class="featured-image">
-						<img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" title={{ .Title }}>
-					</div>
-				{{ end }}
+				<div class="show-at-tablet-landscape">
+					{{ if $Me.Params.featured_video }}
+						<div class="home__featured__video">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ string $Me.Params.featured_video }}?showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						</div>
+					{{ else }}
+						<div class="home__featured__image">
+							<img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" title={{ .Title }}>
+						</div>
+					{{ end }}
+				</div>
 				{{ end }}
 			{{ end }}
 		{{ end }}

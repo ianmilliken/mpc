@@ -6,8 +6,8 @@
 	max-width: 120rem;
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 6rem;
-	padding-right: 6rem;
+	padding-left: var(--gutter);
+	padding-right: var(--gutter);
 	&--x-small {
 		max-width: 68rem;
 	}
@@ -17,4 +17,16 @@
 	&--normal {}
 	&--large {}
 	&--x-large {}
+}
+
+.padder {
+	padding-top: var(--gutter);
+	padding-bottom: var(--gutter);
+}
+
+@media (--for-tablet-landscape-up) {
+	.padder {
+		padding-top: var(--gutterBig);
+		padding-bottom: var(--gutterBig);
+	}
 }

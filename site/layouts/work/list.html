@@ -3,18 +3,20 @@
 {{ define "main" }}
 
 <header class="banner center">
-	<h1 class="banner__title banner__title--solo">{{ .Title }}</h1>
+	<div class="banner__inner">
+		<h1 class="banner__title banner__title--solo">{{ .Title }}</h1>
+	</div>
 </header>
 
 <article>
 
-	<section class="bg--2">
-		<ul class="list list--work container padder">
+	<section class="padder bg--2">
+		<ul class="list list--work container">
 			{{ range .Pages.ByPublishDate }}
 				<li class="block">
 					<a href="{{ .URL }}">
 						<img class="block__image" src="{{ .Params.thumbnail }}" alt="{{ .Title }}"/>
-						<div class="flex">
+						<div class="block__flex">
 							<div>
 								<div class="block__pre">{{ .Params.client }}</div>
 								<h4 class="block__title">{{ .Title }}</h4>

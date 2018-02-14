@@ -1,0 +1,31 @@
+/* - - - - - - - - - - - - - - */
+/* - Logo Wall - */
+/* - - - - - - - - - - - - - - */
+.logo-wall {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: var(--gutter);
+	padding-bottom: var(--gutter);
+	& > * {
+		width: calc(50% - 2rem);
+		max-width: 18rem;
+	}
+	& > *:nth-child(n+3) {
+		margin-top: 2rem;
+	}
+}
+
+@media (--for-tablet-portrait-up) {
+	.logo-wall {
+		justify-content: space-around;
+		padding-top: var(--gutterBig);
+		padding-bottom: var(--gutterBig);
+		& > * {
+			width: auto;
+		}
+		& > *:not(:first-child) {
+			margin-left: var(--gutter);
+		}
+	}
+}

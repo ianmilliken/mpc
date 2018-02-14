@@ -1,0 +1,39 @@
+.hide-at-tablet-portrait,
+.hide-at-tablet-landscape {
+	display: unset;
+}
+
+.show-at-phone,
+.show-at-tablet-portrait,
+.show-at-tablet-landscape {
+	display: none;
+}
+
+@media (--for-phone-only) {
+
+	.show-at-phone {
+		display: unset;
+	}
+}
+
+@media (--for-tablet-portrait-up) {
+
+	.hide-at-tablet-portrait {
+		display: none;
+	}
+
+	.show-at-tablet-portrait {
+		display: unset;
+	}
+}
+
+@media (--for-tablet-landscape-up) {
+
+	.hide-at-tablet-landscape {
+		display: none;
+	}
+
+	.show-at-tablet-landscape {
+		display: unset;
+	}
+}
