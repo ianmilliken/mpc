@@ -24,9 +24,17 @@
 	padding-bottom: var(--gutter);
 }
 
+.padder--top {
+	padding-bottom: 0;
+}
+
 @media (--for-tablet-landscape-up) {
 	.padder {
 		padding-top: var(--gutterBig);
 		padding-bottom: var(--gutterBig);
+	}
+
+	.padder--top {
+		padding-bottom: 0;
 	}
 }
