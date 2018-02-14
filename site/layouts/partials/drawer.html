@@ -1,0 +1,17 @@
+<nav class="drawer">
+	{{ if .Site.Menus.main }}
+		{{ $currentNode := . }}
+    {{ range .Site.Menus.main }}
+			{{/*
+				For each menu link check whether there is a matching entry in the site
+				data with a custom name set via the CMS
+			*/}}
+			{{ if and (ne .Identifier "home") }}
+				<a class="drawer__link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" data-strike href="{{ .URL }}">
+					<span class="drawer__link__text">{{ if isset $.Site.Data.menu .Identifier }}{{ index $.Site.Data.menu .Identifier }}{{ else }}{{ .Name }}{{ end }}</span>
+					<span class="drawer__link__effect"></span>
+				</a>
+			{{ end }}
+		{{ end }}
+		{{ end }}
+</nav>

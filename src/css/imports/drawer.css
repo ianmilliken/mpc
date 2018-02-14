@@ -1,0 +1,13 @@
+.drawer {
+	position: absolute;
+	top: 0;
+	right: -100vw;
+	z-index: 2;
+	width: 100vw;
+	height: 100vh;
+	background-color: color(var(--black) alpha(75%));
+	color: var(--absoluteWhite);
+	&.is-active {
+		right: 0;
+	}
+}
