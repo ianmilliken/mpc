@@ -42,6 +42,10 @@ h6 { font-size: var(--smallFont) }
 		margin-bottom: 1.8rem;
 	}
 
+	& ul {
+		margin-bottom: 2rem;	
+	}
+
 	& li {
 		position: relative;
 		margin-bottom: 0.6rem;

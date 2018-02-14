@@ -4,7 +4,7 @@
 
 <article>
 
-	<header class="article__header center">
+	<header class="container center">
 		<h1 class="article__title">{{ .Title }}</h1>
 		<p class="intro">{{ .Params.intro }}</p>
 		{{ if .Params.thumbnail }}
@@ -12,8 +12,8 @@
 		{{ end }}
 	</header>
 
-	<section class="bg--2">
-		<div class="content">
+	<section class="bg--2 padder">
+		<div class="container content">
 			{{ .Content }}
 		</div>
 	</section>

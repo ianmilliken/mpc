@@ -17,8 +17,8 @@ export default class WorkPreview extends Component {
 
 		return (
 			<article>
-				<header className="article__header center">
-					<div className="container">
+				<header className="container center">
+					<div>
 						<h1 className="article__title">{ entry.getIn(["data", "title"])}</h1>
             <div className="case">
       				<div className="casemeta">

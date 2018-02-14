@@ -6,8 +6,8 @@
 
 <article>
 
-	<header class="article__header center">
-		<div class="container">
+	<header class="container center">
+		<div>
 			<h1 class="article__title">{{ .Title }}</h1>
 			<div class="case">
 				<div class="casemeta">
@@ -38,14 +38,14 @@
 		<div class="article__hero"><img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" /></div>
 	</header>
 
-	<section class="brief bg--2">
-		<div class="content">
+	<section class="brief bg--2 padder">
+		<div class="container content">
 			<h2 class="content__subtitle"><span>The brief</span></h2>
 			{{ .Params.brief.body | markdownify }}
 		</div>
 	</section>
 
-	<section class="area services bg--3">
+	<section class="services bg--3 padder">
 		<div class="container">
 			<h2 class="content__subtitle reverse"><span>Services we provided</span></h2>
 
@@ -69,9 +69,9 @@
 						{{ range where .Data.Pages "Section" "services" }}
 							{{ if eq .Title $currentService }}
 								<li class="service">
-									<a class="service__link" href="{{ .URL }}">
-										<img src="{{ if .Params.icon }}{{ .Params.icon }}{{ else }}/img/service-icon-default.svg{{ end }}" alt="{{ .Title }}" />
-										{{ .Title }}
+									<a class="service__link {{ if eq .Params.serviceType "Secondary" }} unlink{{ end }}" href="{{ if eq .Params.serviceType "Primary" }}{{ .URL }}{{ else }}#{{ end }}">
+										<img src="{{ if .Params.icon_reverse }}{{ .Params.icon_reverse }}{{ else }}/img/service-icon-default-reverse.svg{{ end }}" alt="{{ .Title }}" />
+										<span>{{ .Title }}</span>
 									</a>
 								</li>
 							{{ end }}
@@ -83,15 +83,15 @@
 		</div>
 	</section>
 
-	<section class="solution bg--2">
-		<div class="content">
+	<section class="solution bg--2 padder">
+		<div class="container content">
 			<h2 class="content__subtitle"><span>Our solution</span></h2>
 			{{ .Params.solution.body | markdownify }}
 		</div>
 	</section>
 
-	<section class="results">
-		<div class="content">
+	<section class="results padder">
+		<div class="container content">
 			<h2 class="content__subtitle"><span>The results</span></h2>
 			<div class="case__results flex">
 				{{ range .Params.results.key_results}}
@@ -106,8 +106,8 @@
 		</div>
 	</section>
 
-	<section class="next-case bg--2">
-		<div class="center">
+	<section class="next-case bg--2 padder">
+		<div class="container center">
 			<h4>Next case</h4>
 			{{ if .NextInSection }}
 				{{ with .NextInSection }}
