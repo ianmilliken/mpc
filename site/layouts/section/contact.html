@@ -2,24 +2,24 @@
 
 {{ define "main" }}
 
-<header class="banner" role="banner">
-  <div class="container">
-    <h1 class="banner__title"><span>{{ .Title }}</span></h1>
+<header class="banner center" role="banner">
+  <div class="banner__inner container">
+    <h1 class="banner__title--solo"><span>{{ .Title }}</span></h1>
   </div>
 </header>
 
 <article>
-  <section class="bg--2">
-    <div class="container padder flex flex--justify-between">
-      <div>
+  <section class="padder bg--2">
+    <ul class="container contact__ul">
+      <li class="contact__li">
         <h2 class="content__subtitle"><span>Call Us</span></h2>
         <p>{{ .Site.Data.contact.number }}</p>
-      </div>
-      <div>
+      </li>
+      <li class="contact__li">
         <h2 class="content__subtitle"><span>Email Us</span></h2>
         <p>{{ .Site.Data.contact.email }}</p>
-      </div>
-      <div>
+      </li>
+      <li class="contact__li">
         <h2 class="content__subtitle"><span>Visit Us</span></h2>
         <address>
 					{{ .Site.Data.contact.address.line_1 }}<br />
@@ -28,14 +28,14 @@
 					{{ .Site.Data.contact.address.state }}<br />
 					{{ .Site.Data.contact.address.postcode }}
         </address>
-      </div>
-      <div>
+      </li>
+      <li class="contact__li">
         <h2 class="content__subtitle"><span>Business Hours</span></h2>
         {{ range .Site.Data.contact.open_hours }}
           <p><b>{{ .days }}: </b>{{ .hours }}</p>
         {{ end }}
-      </div>
-    </div>
+      </li>
+    </ul>
   </section>
 
   <section>{{ partial "contact_form" . }}</section>

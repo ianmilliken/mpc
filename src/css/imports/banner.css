@@ -30,11 +30,16 @@
 	&__title--solo {
 		margin-left: auto;
 		margin-right: auto;
+		margin-bottom: 0;
 	}
 	&__subtitle {}
+	&__intro {
+		margin-top: 4rem;
+	}
 	&__services {
 		display: flex;
 		flex-wrap: wrap;
+		margin-top: 4rem;
 	}
 }
 

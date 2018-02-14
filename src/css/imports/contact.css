@@ -1,0 +1,37 @@
+.contact {
+	&__ul {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	&__li {
+		width: 100%;
+		text-align: center;
+		font-weight: 400;
+		&:not(:last-of-type) {
+			margin-bottom: 4em;
+		}
+	}
+}
+
+@media (--for-tablet-portrait-up) {
+	.contact {
+		&__li {
+			width: 50%;
+		}
+	}
+}
+
+@media (--for-tablet-landscape-up) {
+	.contact {
+		&__ul {
+			flex-wrap: nowrap;
+		}
+		&__li {
+			width: auto;
+		}
+		&__li:not(:last-of-type) {
+			margin-bottom: 0;
+		}
+	}
+}

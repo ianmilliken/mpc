@@ -71,6 +71,7 @@ body {
 	letter-spacing: 0.01em;
 	line-height: 1.4;
 	color: var(--black);
+	overflow-x: hidden;
 	/*&::before {
 		content: '\e900';
 		position: absolute;
@@ -103,6 +104,11 @@ a {
 	font-weight: 400;
 	margin-top: 1rem;
 	transition: var(--animateTransform);
+}
+
+.bg--1 {
+	position: relative;
+	background-color: var(--absoluteWhite);
 }
 
 .bg--2 {

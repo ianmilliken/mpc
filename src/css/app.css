@@ -23,6 +23,7 @@
 @import "imports/services";
 @import "imports/blog";
 @import "imports/about";
+@import "imports/contact";
 
 @import "imports/helpers";
 @import "imports/visibility";
