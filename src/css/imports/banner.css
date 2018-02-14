@@ -46,6 +46,8 @@
 .service {
 	text-align: center;
 	width: 50%;
+	padding-left: 1rem;
+	padding-right: 1rem;
 	&__link {
 		display: flex;
 		flex-wrap: wrap;
@@ -62,13 +64,18 @@
 
 @media (--for-phone-only) {
 	.service {
-
+		&:nth-child(n+3) {
+			margin-top: 4rem;
+		}
 	}
 }
 
 @media (--for-tablet-portrait-up) {
 	.service {
 		width: 25%;
+		&:nth-child(n+5) {
+			margin-top: 4rem;
+		}
 	}
 }
 
@@ -86,5 +93,8 @@
 	}
 	.service {
 		width: auto;
+		&:nth-child(n+5) {
+			margin-top: 0;
+		}
 	}
 }
