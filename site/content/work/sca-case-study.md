@@ -11,21 +11,15 @@ brief:
     industry.
 
 
-
-
     Strata Community Association is the peak professional body for Australia’s
     $1.2 trillion strata title sector, with 3,300 members managing the
     properties of 7 million Australians. 
-
-
 
 
     If you live in an apartment or townhouse, there’s an 85% chance your body
     corporate manager is a member of SCA, and their task to us was to ensure
     that on issues concerning their industry, national, state and local media
     would contact them FIRST, before competing organisations.
-
-
 
 
     Issues like flammable cladding, the rise of Airbnb, whether pets should be
