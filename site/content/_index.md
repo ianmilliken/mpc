@@ -37,9 +37,7 @@ service_picker:
         - service: Digital Marketing
         - service: Advertising
     - info: >
-        There are so many other ‘Bills’ floating around that it can be difficult
-        to get noticed by the people you want to reach, especially online. But
-        with the right strategy, you can put your business in the spotlight and
+        With the right strategy, you can put your business in the spotlight and
         gain a stronger market presence.
       title: Invisibill the ghost?
       image: /img/invisibill.svg
