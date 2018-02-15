@@ -17,14 +17,16 @@ export default function NavDrawer() {
     drawer.classList.remove('is-active');
   }
 
-  burger.addEventListener('click', (e) => {
-    e.preventDefault();
-    addClasses();
-  })
+  if (burger !== null) {
+		burger.addEventListener('click', (e) => {
+	    e.preventDefault();
+	    addClasses();
+	  })
 
-	close.addEventListener('click', (e) => {
-		e.preventDefault();
-		removeClasses();
-	})
+		close.addEventListener('click', (e) => {
+			e.preventDefault();
+			removeClasses();
+		})
+	}
 
 }
