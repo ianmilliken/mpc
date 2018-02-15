@@ -21,11 +21,14 @@ export default function contactForm() {
 			// Get the email of the visitor
 			window._agile.set_email(email.value);
 
+			// Set last name
+			var last_name = fullname.value.split(' ')[1];
+
 			// Create and send the contact
 			var contact = {};
 			contact.email = email.value;
 			contact.first_name = fullname.value.split(' ')[0];
-			contact.last_name = fullname.value.split(' ')[1];
+			contact.last_name = last_name !== undefined ? last_name : '';
 			contact.phone = phone.value;
 			contact.tags = "website contact form";
 
