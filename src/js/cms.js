@@ -22,7 +22,7 @@ CMS.registerEditorComponent({
   // Fields the user need to fill out when adding an instance of the component
   fields: [{name: 'id', label: 'Youtube Video ID', widget: 'string'}],
   // Pattern to identify a block as being an instance of this component
-  pattern: /^{{<\s?youtube (\S+)\s?>}}$/,
+  pattern: /^{{<\s?youtube "(\S+)"\s?>}}$/,
   // Function to extract data elements from the regexp match
   fromBlock: function(match) {
     return {
@@ -54,7 +54,7 @@ CMS.registerEditorComponent({
     { name: 'scheme', label: 'Color Scheme', widget: 'select', options: [{label: 'Primary', value: 'button--primary'}, {label: 'Success', value: 'button--success'}, {label: 'Neutral', value: 'button--neutral'}]}
   ],
   // Pattern to identify a block as being an instance of this component
-  pattern: /^{{<\s?cta (\S+) ? (\S+) ? (.+)>}}$/,
+  pattern: /^{{<\s?cta "(\S+)" ? "(\S+)" ? "(.+)"\s?>}}$/,
   // Function to extract data elements from the regexp match
   fromBlock: function(match) {
     return {
@@ -66,7 +66,7 @@ CMS.registerEditorComponent({
   // Function to create a text block from an instance of this component
   toBlock: function(obj) {
     return (
-      '{{< cta "' + obj.scheme + '" "' + obj.URL + '" "' + obj.text + '" >}}'
+      '{{< cta "' + obj.scheme + '" "' + obj.URL + '" "' + obj.text + '">}}'
     );
   },
   // Preview output for this component. Can either be a string or a React component
