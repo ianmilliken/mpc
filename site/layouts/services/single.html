@@ -5,10 +5,12 @@
 <article>
 
 	<header class="container center">
-		<h1 class="article__title">{{ .Title }}</h1>
-		<p class="intro">{{ .Params.intro }}</p>
+		<div class="padder">
+			<h1 class="article__title">{{ .Title }}</h1>
+			<p class="content intro">{{ .Params.intro }}</p>
+		</div>
 		{{ if .Params.image }}
-			<div class="article__hero"><img src="{{ .Params.image }}" alt="{{ .Title }}" /></div>
+			<div class="article__hero gutter-top--none"><img src="{{ .Params.image }}" alt="{{ .Title }}" /></div>
 		{{ end }}
 	</header>
 

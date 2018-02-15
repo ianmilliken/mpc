@@ -3,21 +3,25 @@
 {{ $author := .Params.author }}
 
 <article>
-	<header class="article-header center">
-		<h1 class="article__title">{{ .Title }}</h1>
-		<p>
-			Published on {{ .PublishDate.Format "January 2, 2006" }} by
-			{{ with .Site.GetPage "section" "authors" }}
-				{{ range where .Data.Pages "Section" "authors" }}
-					{{ if eq .Params.first_name $author }}
-						<span>{{ .Params.first_name }} {{ .Params.surname }}</span>
+	<header class="article-header padder center">
+		<div class="container">
+			<h1 class="article__title">{{ .Title }}</h1>
+			<p>
+				Published on {{ .PublishDate.Format "January 2, 2006" }} by
+				{{ with .Site.GetPage "section" "authors" }}
+					{{ range where .Data.Pages "Section" "authors" }}
+						{{ if eq .Params.first_name $author }}
+							<span>{{ .Params.first_name }} {{ .Params.surname }}</span>
+						{{ end }}
 					{{ end }}
 				{{ end }}
-			{{ end }}
-		</p>
+			</p>
+		</div>
 	</header>
-	<section class="content">
-		{{ .Content }}
+	<section class="container">
+		<div class="content">
+			{{ .Content }}
+		</div>
 	</section>
 </article>
 
