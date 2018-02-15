@@ -31,7 +31,7 @@ CMS.registerEditorComponent({
   },
   // Function to create a text block from an instance of this component
   toBlock: function(obj) {
-    return '{{< youtube ' + obj.id + ' >}}';
+    return '{{< youtube "' + obj.id + '" >}}';
   },
   // Preview output for this component. Can either be a string or a React component
   // (component gives better render performance)
@@ -66,7 +66,7 @@ CMS.registerEditorComponent({
   // Function to create a text block from an instance of this component
   toBlock: function(obj) {
     return (
-      '{{< cta ' + obj.scheme + ' ' + obj.URL + ' ' + obj.text + '>}}'
+      '{{< cta "' + obj.scheme + '" "' + obj.URL + '" "' + obj.text + '" >}}'
     );
   },
   // Preview output for this component. Can either be a string or a React component

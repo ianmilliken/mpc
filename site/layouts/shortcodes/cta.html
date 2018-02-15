@@ -1,1 +1,1 @@
-<a class="button" href="{{ index .Params 0 }}">{{ index .Params 1 }}</a>
+<a class="button {{ index .Params 0 }}" href="{{ index .Params 1 }}">{{ index .Params 2 | plainify }}</a>
