@@ -1,8 +1,9 @@
 ---
 title: Design
-intro: Ads, flyers, brochures - anything you need to make a great first impression
+intro: 'Ads, flyers, brochures - anything you need to make a great first impression'
 icon: /img/design.svg
 icon_reverse: /img/design-reverse.svg
+image: /img/services6.png
 serviceType: Primary
 ---
 

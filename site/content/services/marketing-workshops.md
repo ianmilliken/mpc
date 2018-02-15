@@ -1,6 +1,9 @@
 ---
 title: Workshops & Training
-intro: Get access to professional marketing advice that works towards your business goals
+intro: >-
+  Get access to professional marketing advice that works towards your business
+  goals
+image: /img/services8.png
 serviceType: Primary
 ---
 

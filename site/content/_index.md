@@ -22,14 +22,8 @@ featured_video: F8I58Ga_K8w
 service_picker:
   picker_slide:
     - info: >-
-        The ways we market our businesses are forever growing and changing -
-        it’s no wonder you may feel as though your goals are just out of reach
-        and you’re unsure of how to achieve your next success.
-
-
-        At Marketplace Strategy Solutions we look at the bigger picture and
-        structure proven, flexible approaches to business growth that will help
-        you adapt and thrive with your market.
+        We look at the bigger picture and structure proven, flexible approaches
+        to business growth that will help you adapt and thrive with your market.
       title: Terry the dinosaur?
       image: /img/terry.svg
       service_list:
@@ -37,9 +31,7 @@ service_picker:
         - service: Digital Marketing
         - service: Advertising
     - info: >
-        There are so many other ‘Bills’ floating around that it can be difficult
-        to get noticed by the people you want to reach, especially online. But
-        with the right strategy, you can put your business in the spotlight and
+        With the right strategy, you can put your business in the spotlight and
         gain a stronger market presence.
       title: Invisibill the ghost?
       image: /img/invisibill.svg
