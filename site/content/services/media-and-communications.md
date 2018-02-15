@@ -2,6 +2,7 @@
 title: Media & Communications
 intro: 'Media-driven, promotional communications that get you noticed'
 icon: /img/media-and-communications.svg
+icon_reverse: /img/services3.png
 serviceType: Primary
 ---
 Communicating effectively with your audience and your potential clients is 
