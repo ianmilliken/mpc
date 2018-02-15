@@ -1,6 +1,6 @@
 ---
 title: New website
-publishDate: 2018-02-12T07:44:56+10:00
+publishDate: 2018-02-19T07:44:56+10:00
 author: Clare
 ---
 Marketplace Strategy Solutions (formerly Marketplace Communications) has gone through a lot of change since MD Patrick first brought his vision of an integrated marketing and communications agency to life over 30 years ago.
