@@ -26,7 +26,7 @@ service_list:
   - service: Business Development
 solution:
   body: >-
-    youtube F8I58Ga_K8w
+    {{< youtube F8I58Ga_K8w >}}
 
 
     Following two strategy meetings run by MPC, Oxmar Properties were eager to
