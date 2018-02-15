@@ -51,10 +51,10 @@ CMS.registerEditorComponent({
   fields: [
     { name: 'text', label: 'Text', widget: 'string' },
     { name: 'URL', label: 'Link', widget: 'string' },
-    { name: 'scheme', label: 'Color Scheme', widget: 'select', options: ['Primary', 'Success', 'Neutral']}
+    { name: 'scheme', label: 'Color Scheme', widget: 'select', options: [{label: 'Primary', value: 'button--primary'}, {label: 'Success', value: 'button--success'}, {label: 'Neutral', value: 'button--neutral'}]}
   ],
   // Pattern to identify a block as being an instance of this component
-  pattern: /^cta (\S+)$/,
+  pattern: /^{{<\s?cta (\S+) ? (\S+) ? (.+)>}}$/,
   // Function to extract data elements from the regexp match
   fromBlock: function(match) {
     return {
@@ -66,14 +66,14 @@ CMS.registerEditorComponent({
   // Function to create a text block from an instance of this component
   toBlock: function(obj) {
     return (
-      <a className={"button" + (obj.scheme ? ' ' + obj.scheme : '')} href={obj.URL}>{obj.text}</a>
+      '{{< cta ' + obj.scheme + ' ' + obj.URL + ' ' + obj.text + '>}}'
     );
   },
   // Preview output for this component. Can either be a string or a React component
   // (component gives better render performance)
   toPreview: function(obj) {
     return (
-      <a className="button" href={obj.URL}>{obj.text}</a>
+      '<a class="button ' + obj.scheme + '" href="' + obj.URL + '">' + obj.text + '</a>'
     );
   }
 });
