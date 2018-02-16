@@ -3,7 +3,7 @@ title: Design
 intro: 'Ads, flyers, brochures - anything you need to make a great first impression'
 icon: /img/design.svg
 icon_reverse: /img/design-reverse.svg
-image: /img/services6.png
+image: /img/services6-min.png
 serviceType: Primary
 ---
 
