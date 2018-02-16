@@ -2,7 +2,7 @@
 title: Sundale Case Study
 description: Sundale Case Study
 keywords: Sundale
-thumbnail: /img/sundale.png
+thumbnail: /img/sd1367-min.jpg
 client: Sundale
 brief:
   body: >-
