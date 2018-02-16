@@ -1,5 +1,5 @@
 ---
-title: 'Media and digital campaign Body Corporate franchise '
+title: 'Media and digital campaign for Body Corporate franchise '
 description: Ace body corporate management case study
 keywords: >-
   Ace body corporate management, digtial marketing, marketing case study, PPC,
