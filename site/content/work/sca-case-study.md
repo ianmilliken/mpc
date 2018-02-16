@@ -2,7 +2,7 @@
 title: SCA Case Study
 description: SCA Case Study
 keywords: SCA
-thumbnail: /img/strata.jpg
+thumbnail: /img/sca-min.jpg
 client: Strata Community Association
 brief:
   body: >-
