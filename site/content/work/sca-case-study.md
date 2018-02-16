@@ -1,5 +1,5 @@
 ---
-title: SCA Case Study
+title: Media relations for SCA
 description: SCA Case Study
 keywords: SCA
 thumbnail: /img/sca-min.jpg
