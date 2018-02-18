@@ -218,7 +218,7 @@ a {
 .main {
 	position: relative;
 	box-shadow: 0 0.2rem var(--brandColor) inset;
-	&::before,
+	/*&::before,
 	&::after {
 		content: '';
 		position: absolute;
@@ -233,7 +233,7 @@ a {
 	}
 	&::after {
 		right: 33.333%;
-	}
+	}*/
 	/* Offset the first child of main by the navbar height */
 	& > *:first-child {
 		padding-top: 11rem;
