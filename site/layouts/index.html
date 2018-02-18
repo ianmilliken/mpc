@@ -113,7 +113,8 @@
 			{{ range .Params.service_picker.picker_slide }}
 				<div class="flex flex--justify-between">
 					<div class="slide-left">
-						<h4>{{ .title }}</h4>
+						<h3>{{ .title }}</h3>
+						{{ if .subtitle }}<h4>{{ .subtitle }}</h4>{{ end }}
 						<p>{{ .info }}</p>
 						{{ if .service_list }} {{/* Start IF .service_list */}}
 							<div class="slide__services">

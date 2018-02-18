@@ -45,7 +45,8 @@ collections: # A list of collections the CMS should be able to edit
                 widget: list
                 fields:
                   - { label: Title, name: title, widget: string }
-                  - { label: Intro, name: info, widget: text }
+                  - { label: Subtitle, name: subtitle, widget: string, required: false }
+                  - { label: Intro, name: info, widget: text, required: false }
                   - { label: Image, name: image, widget: image }
                   - label: Services
                     name: service_list
