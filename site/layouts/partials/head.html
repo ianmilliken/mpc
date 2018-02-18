@@ -8,10 +8,16 @@
 	<base href="{{ $.Site.BaseURL }}">
 	<title>{{ $.Site.Title }} • {{ .Title }}</title>
 	<link rel="stylesheet" href="css/app.css" />
-	<script id="_agile_min_js" async type="text/javascript" src="https://syrup.agilecrm.com/stats/min/agile-min.js"> </script>
+
+	{{/* Agile CRM Script */}}
+	<script id="_agile_min_js" async type="text/javascript" src="https://{{ getenv "CRM_ACCOUNT_NAME" }}.agilecrm.com/stats/min/agile-min.js"> </script>
 	<script type="text/javascript" >
-	var Agile_API = Agile_API || {}; Agile_API.on_after_load = function(){_agile.set_account('dj1gtpv4aa8urm3m7og4ek113l', 'syrup');
-	_agile.track_page_view();};
+	var Agile_API = Agile_API || {}; Agile_API.on_after_load = function(){
+	_agile.set_account({{ getenv "CRM_API_KEY" }}, {{ getenv "CRM_ACCOUNT_NAME" }});
+	_agile.track_page_view();
+	_agile_execute_web_rules();};
 	</script>
+
+	{{/* Netlify Identity */}}
 	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
