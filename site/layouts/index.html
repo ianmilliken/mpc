@@ -115,6 +115,11 @@
 					<div class="slide-left">
 						<h3>{{ .title }}</h3>
 						{{ if .subtitle }}<h4>{{ .subtitle }}</h4>{{ end }}
+						<div class="hide-at-tablet-landscape">
+							<div class="slide-image-holder">
+								<img src="{{ .image }}" alt="{{ .title }}" />
+							</div>
+						</div>
 						<p>{{ .info }}</p>
 						{{ if .service_list }} {{/* Start IF .service_list */}}
 							<div class="slide__services">
@@ -135,7 +140,7 @@
 							</div>
 						{{ end }} {{/* End IF .service_list */}}
 					</div>
-					<div class="slide-right">
+					<div class="slide-right show-at-tablet-landscape">
 						<img src="{{ .image }}" alt="{{ .title }}" />
 					</div>
 				</div>
