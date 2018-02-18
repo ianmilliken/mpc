@@ -15,8 +15,8 @@
 	justify-content: space-between;
 	align-items: center;
 
-	& .burger > svg {
-		fill: var(--absoluteWhite);
+	& .burger > svg .fill {
+		fill: var(--brandColor);
 	}
 
 	&__link {
@@ -50,6 +50,10 @@
 .navbar--reverse {
 	& .navbar__link {
 		color: var(--absoluteWhite);
+	}
+
+	& .burger > svg .fill {
+		fill: var(--absoluteWhite);
 	}
 }
 
