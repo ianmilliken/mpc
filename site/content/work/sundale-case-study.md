@@ -1,8 +1,8 @@
 ---
-title: Sundale Case Study
+title: Retirement Community gets a marketing overhaul
 description: Sundale Case Study
 keywords: Sundale
-thumbnail: /img/sundale.png
+thumbnail: /img/sd1367-min.jpg
 client: Sundale
 brief:
   body: >-

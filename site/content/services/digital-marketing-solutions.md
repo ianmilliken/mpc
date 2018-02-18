@@ -3,7 +3,7 @@ title: Digital Marketing
 intro: Digital solutions that increase your online presence and competitive edge
 icon: /img/digital-marketing.svg
 icon_reverse: /img/digital-marketing-reverse.svg
-image: /img/services7.png
+image: /img/digital marketing 2-min.jpg
 serviceType: Primary
 ---
 Digital marketing processes and technologies are becoming increasingly complex and it can be hard to keep up, let alone get ahead of the online competition. 
