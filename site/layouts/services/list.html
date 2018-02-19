@@ -6,7 +6,7 @@
 	<div class="container">
 		<div class="banner__inner">
 			<h1 class="banner__title">{{ .Title }}</h1>
-			{{ partial "banner_services" (dict "context" . "linkType" "anchor") }}
+			{{ partial "banner_services" . }}
 		</div>
 	</div>
 </header>

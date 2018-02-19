@@ -6,14 +6,20 @@
 */}}
 
 <ul class="banner__services">
-	{{ range where .context.Data.Pages "Section" "services" }}
-		{{ if eq .Params.serviceType "Primary" }}
-			<li class="service">
-				<a class="service__link" href="{{ if and ($.linkType) (eq $.linkType "anchor") }}{{ with $.context.Site.GetPage "section" "services" }}{{ .URL }}{{ end }}#{{ .Title | urlize }}{{ else }}{{ .URL }}{{ end }}">
-					<img src="{{ if .Params.icon_reverse }}{{ .Params.icon_reverse }}{{ else }}/img/service-icon-default-reverse.svg{{ end }}" alt="{{ .Title }}" />
-					<span>{{ .Title }}</span>
-				</a>
-			</li>
-		{{ end }}
-	{{ end }}
+	{{ range .Params.banner }} {{/* Start RANGE .service_list */}}
+		{{ $service := .service }}
+		{{ with $.Site.GetPage "section" "services" }} {{/* Start WITH section */}}
+			{{ range where .Data.Pages "Section" "services" }} {{/* Start RANGE section */}}
+			{{/* For matching clients, enter it's scope and render some data */}}
+				{{ if eq .Title $service }}
+					<li class="service">
+						<a class="service__link" href="{{ .URL }}">
+							<img src="{{ if .Params.icon_reverse }}{{ .Params.icon_reverse }}{{ else }}/img/service-icon-default-reverse.svg{{ end }}" alt="{{ .Title }}" />
+							<span>{{ .Title }}</span>
+						</a>
+					</li>
+				{{ end }}
+			{{ end }} {{/* End RANGE section */}}
+		{{ end }} {{/* End WITH section */}}
+	{{ end }} {{/* End RANGE .service_list */}}
 </ul>
