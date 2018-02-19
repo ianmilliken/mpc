@@ -351,3 +351,49 @@ a {
 .unlink {
 	pointer-events: none;
 }
+
+.banner-m {
+	position: absolute;
+	top: -70vh;
+	left: 50%;
+	margin: auto;
+	z-index: -1;
+	width: 100%;
+	mix-blend-mode: multiply;
+	&::before {
+		content: "\e900";
+		display: block;
+		margin-left: -100%;
+		font-family: 'marketplace' !important;
+		font-size: 80rem;
+		text-align: center;
+		color: color(var(--offWhite) blackness(+ 1%));
+	}
+}
+
+@media (--for-tablet-portrait-up) {
+	.banner-m {
+		top: -100vh;
+		&::before {
+			font-size: 100rem;
+		}
+	}
+}
+
+@media (--for-tablet-landscape-up) {
+	.banner-m {
+		top: -80rem;
+		&::before {
+			font-size: 116rem;
+		}
+	}
+}
+
+@media (--for-desktop-up) {
+	.banner-m {
+		top: -90rem;
+		&::before {
+			font-size: 130rem;
+		}
+	}
+}
