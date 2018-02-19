@@ -20,7 +20,7 @@
       </div>
     </div>
   </section>
-  <section class="abo__team padder bg--2">
+	<section class="abo__team padder">
     <div class="container">
       <h2 class="abo__team__title content__subtitle"><span>{{ .Params.team.title }}</span></h2>
       <ul class="abo__team__ul">
@@ -31,6 +31,11 @@
           </li>
         {{ end }}
       </ul>
+    </div>
+  </section>
+	<section class="abo__logos padder bg--2">
+    <div class="container">
+      {{ partial "logo_wall" . }}
     </div>
   </section>
 </article>

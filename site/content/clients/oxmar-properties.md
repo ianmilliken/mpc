@@ -1,5 +1,4 @@
 ---
 title: Oxmar Properties
-location: 'Brisbane QLD, Australia'
+location: Brisbane QLD
 ---
-

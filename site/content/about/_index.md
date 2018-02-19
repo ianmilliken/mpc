@@ -48,4 +48,9 @@ team:
       position: Branding Consultant
     - name: Sherlyn Yang
       position: Financial Controller
+logo_wall:
+  - client: Watpac
+  - client: Childcare Queensland
+  - client: Jones Lang Lasalle
+  - client: Stockland
 ---

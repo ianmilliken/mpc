@@ -5,8 +5,6 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	padding-top: var(--gutter);
-	padding-bottom: var(--gutter);
 	& > * {
 		width: calc(50% - 2rem);
 		max-width: 18rem;
@@ -19,13 +17,15 @@
 @media (--for-tablet-portrait-up) {
 	.logo-wall {
 		justify-content: space-around;
-		padding-top: var(--gutterBig);
-		padding-bottom: var(--gutterBig);
 		& > * {
-			width: auto;
+			width: 20%;
+			max-width: none;
 		}
-		& > *:not(:first-child) {
+		& > *:not(:first-child, :nth-child(5n)) {
 			margin-left: var(--gutter);
+		}
+		& > *:nth-child(n+5) {
+			margin-top: var(--gutter);
 		}
 	}
 }
