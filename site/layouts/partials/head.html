@@ -9,9 +9,18 @@
 	<title>{{ $.Site.Title }} • {{ .Title }}</title>
 	<link rel="stylesheet" href="css/app.css" />
 
+	{{/* Google Analytics */}}
+	<script async src="https://www.googletagmanager.com/gtag/js?id={{ getenv "GA_ID" }}"></script>
+	<script type="text/javascript">
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', {{ getenv "GA_ID" }});
+	</script>
+
 	{{/* Agile CRM Script */}}
 	<script id="_agile_min_js" async type="text/javascript" src="https://{{ getenv "CRM_ACCOUNT_NAME" }}.agilecrm.com/stats/min/agile-min.js"> </script>
-	<script type="text/javascript" >
+	<script type="text/javascript">
 	var Agile_API = Agile_API || {}; Agile_API.on_after_load = function(){
 	_agile.set_account({{ getenv "CRM_API_KEY" }}, {{ getenv "CRM_ACCOUNT_NAME" }});
 	_agile.track_page_view();
