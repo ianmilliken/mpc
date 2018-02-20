@@ -36,7 +36,7 @@
     "gulp-watch": "^4.3.11",
     "hugo-bin": "^0.13.0",
     "imports-loader": "^0.7.1",
-    "netlify-cms": "^1.0.3",
+    "netlify-cms": "^1.2.0",
     "postcss-cssnext": "^2.11.0",
     "postcss-import": "^10.0.0",
     "siema": "^1.5.1",
