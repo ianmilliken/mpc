@@ -109,17 +109,21 @@
 	<section class="next-case bg--2 padder">
 		<div class="container center">
 			<h4>Next case</h4>
-			{{ if .NextInSection }}
-				{{ with .NextInSection }}
+			{{/* Get the previous (by date) entry in the collection */}}
+			{{ if .PrevInSection }}
+				{{ with .PrevInSection }}
 					<a href="{{ .URL }}">
 						<div>{{ .Title }}</div>
 						</a>
 				{{ end }}
 			{{ else }}
-				{{ with .PrevInSection }}
-					<a href="{{ .URL }}">
-						<div>{{ .Title }}</div>
+			{{/* We are at the end of the collection, so get the first entry */}}
+				{{ with .Site.GetPage "section" "work" }}
+					{{ range first 1 (where .Data.Pages "Section" "work") }}
+						<a href="{{ .URL }}">
+							<div>{{ .Title }}</div>
 						</a>
+					{{ end }}
 				{{ end }}
 			{{ end }}
 		</div>
