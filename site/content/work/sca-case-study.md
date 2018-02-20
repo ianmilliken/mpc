@@ -1,6 +1,6 @@
 ---
-title: Media relations for SCA
-description: SCA Case Study
+title: Over $1 million in media coverage generated for peak industry body
+description: Strata Community Association Case Study
 keywords: SCA
 thumbnail: /img/sca-min.jpg
 client: Strata Community Association
