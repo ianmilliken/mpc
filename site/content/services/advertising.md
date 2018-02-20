@@ -1,11 +1,8 @@
 ---
 title: Advertising
 intro: Traditional and digital advertising that communicates the right messages
-icon: /img/advertising.svg
-icon_reverse: /img/advertising-reverse.svg
 serviceType: Primary
 ---
-
 Our 30 years of experience has led us to create some of the most successful
 advertising campaigns in the country. We provide advertising services that are
 professional, cost-effective and that are aimed at increasing and sustaining
