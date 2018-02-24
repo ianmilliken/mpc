@@ -66,6 +66,7 @@ html {
 }
 
 body {
+	position: relative;
 	font-family: var(--primaryFont);
 	font-size: var(--baseBodySize);
 	font-weight: 300;
@@ -358,7 +359,6 @@ a {
 	left: 50%;
 	margin: auto;
 	z-index: -1;
-	width: 100%;
 	mix-blend-mode: multiply;
 	&::before {
 		content: "\e900";
