@@ -24,6 +24,7 @@
 @import "imports/blog";
 @import "imports/about";
 @import "imports/contact";
+@import "imports/landing";
 
 @import "imports/helpers";
 @import "imports/visibility";

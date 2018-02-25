@@ -24,7 +24,8 @@
 	--animateColor: color 0.2s ease-in-out;
 	/* Margins */
 	--gutter:	4rem;
-	--gutterBig: 8rem;
+	--gutterSmall:	calc(var(--gutter) / 2);
+	--gutterBig: calc(var(--gutter) * 2);
 	--pushAuto: {
 		margin-left: auto;
 		margin-right: auto;

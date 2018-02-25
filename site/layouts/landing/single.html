@@ -8,8 +8,68 @@
 	<header class="article-header padder center">
 		<div class="container">
 			<h1 class="article__title">{{ .Title }}</h1>
+			<p class="content intro">{{ .Params.intro }}</p>
 		</div>
 	</header>
+
+	<section>
+		<div class="container" data-choice-step="1">
+			<ul class="choice__ul">
+			{{ range .Params.choice }}
+				<li class="choice__li">
+					<a class="choice__link" href="#" data-choice="{{ .title | urlize }}">
+						<h2 class="content__subtitle"><span>{{ .title }}</span></h2>
+						<div class="choice__image">
+							<img src="{{ .image }}" alt="{{ .title }}" title="{{ .title }}"/>
+						</div>
+						<p class="choice__summary">{{ .summary }}</p>
+					</a>
+				</li>
+			{{ end }}
+			</ul>
+		</div>
+		<div class="is-hidden" data-choice-step="2">
+			<div class="result container">
+				{{ range .Params.choice }}
+					<div class="is-hidden" data-result="{{ .title | urlize }}">
+						<div class="result__image">
+							<img src="{{ .calendarImage }}" alt="{{ .cta }}" title="{{ .cta }}" />
+						</div>
+					</div>
+				{{ end }}
+				<div class="result__form">
+					<form id="landingForm" name="landingForm" action="/">
+						<div class="form-group">
+							<label for="landingFullName">{{ if .Site.Data.language.fullname_label }}{{ .Site.Data.language.fullname_label }}{{ else }}Full Name{{ end }}</label>
+							<input id="landingFullName" type="text" name="fullname" required placeholder="{{ if .Site.Data.language.fullname_placeholder }}{{ .Site.Data.language.fullname_placeholder }}{{ else }}Your full name{{ end }}" />
+						</div>
+						<div class="form-group">
+							<label for="landingEmail">Email address</label>
+							<input id="landingEmail" type="email" name="email" required placeholder="Your email address" />
+						</div>
+						<div class="form-group">
+							<label for="landingCompany">Company</label>
+							<input id="landingCompany" type="text" name="company" required placeholder="Your company name" />
+						</div>
+						<div>
+							<button class="button button--primary dl-button" type="submit" id="landingSubmit">
+								{{ range .Params.choice }}
+									<span class="is-hidden" data-result="{{ .title | urlize }}">
+										{{ .cta }}
+									</span>
+								{{ end }}
+							</button>
+						</div>
+					</form>
+					{{ range .Params.choice }}
+						<a class="is-hidden" href="{{ .download }}" download data-download="{{ .title | urlize }}"></a>
+					{{ end }}
+					<a class="result__back" id="choiceBack" href="#"><i class="icon icon-arrow-left"></i> Back to calendar options</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<section class="container">
 		<div class="content">
 			{{ .Content }}

@@ -32,6 +32,7 @@ textarea {
 	line-height: 1.4;
 	appearance: none;
 	border: 0;
+	background-color: transparent;
 	color: var(--black);
 	&:focus {
 		outline: none;

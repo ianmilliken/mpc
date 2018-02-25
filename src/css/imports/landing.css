@@ -1,0 +1,46 @@
+.choice {
+	&__ul {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__li {
+		flex-basis: 25rem;
+	}
+	&__image {
+		width: 25rem;
+		height: 25rem;
+		border-radius: 0.4rem;
+		background-color: color(var(--brandColor) alpha(10%));
+	}
+	&__image > img {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+	}
+	&__summary {
+		margin-top: 2rem;
+		text-align: center;
+		color: var(--black);
+	}
+}
+
+.result {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	&__image {
+		width: 50%;
+	}
+	&__form {
+		width: 50%;
+	}
+	&__back {
+		display: block;
+		margin-top: var(--gutterSmall);
+		font-size: var(--smallFont);
+	}
+}
+
+.dl-button {
+	margin-top: var(--gutter);
+}

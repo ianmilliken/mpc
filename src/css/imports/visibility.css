@@ -9,6 +9,10 @@
 	display: none;
 }
 
+.is-hidden {
+	display: none;
+}
+
 @media (--for-phone-only) {
 
 	.show-at-phone {
