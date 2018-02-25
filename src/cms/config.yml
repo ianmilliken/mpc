@@ -1,14 +1,11 @@
 backend:
-  name: git-gateway # github for local, git-gateway for production
-  repo: <% GITHUB_REPOSITORY %> # Gulp will replace this with your GitHub repository
-  branch: master # Branch to update (master by default)
+  name: git-gateway
 
 publish_mode: editorial_workflow
-
-media_folder: site/static/img # Folder where user uploaded files should go
+media_folder: site/static/img
 public_folder: img
 
-collections: # A list of collections the CMS should be able to edit
+collections:
 
   - label: Pages
     name: pages
@@ -124,6 +121,16 @@ collections: # A list of collections the CMS should be able to edit
         name: contact
         fields:
           - { label: Title, name: title, widget: string }
+
+  - label: Landing Pages
+    name: landing_pages
+    folder: site/content/landing
+    create: true
+    url: {{ title }}
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Publish Date, name: publishDate, widget: datetime }
+      - { label: }
 
 
   - label: Blog

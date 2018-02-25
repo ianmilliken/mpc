@@ -1,0 +1,26 @@
+<nav class="navbar {{ if .scheme }}navbar--{{ .scheme }}{{ end }} container">
+	{{ if .context.Site.Menus.main }}
+		{{ $currentNode := .context }}
+		{{ range .context.Site.Menus.main }}
+			{{/*
+				If a logo has been uploaded via the CMS then grab it from the sites
+				data, otherwise use the fallback
+			*/}}
+			{{ if eq .Identifier "home" }}
+				<a class="navbar__link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}" title="{{ $.Site.Data.brand.company_name }}">
+					<!--<a class="navbar__link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">
+          {{ if isset $.Site.Data.logo "logo" }}
+            <img src="{{ index $.Site.Data.logo "logo" }}" alt="{{ .Name }}"/>
+          {{ else }}
+            {{ .Name }}
+          {{ end }}
+        	</a>-->
+					<i class="icon icon-logo"></i>
+				</a>
+			{{ end }}
+		{{ end }}
+
+		<a class="burger" href="#">{{ partial "burger.svg" . }}</a>
+
+	{{ end }}
+</nav>

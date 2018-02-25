@@ -1,0 +1,14 @@
+<footer class="footer container">
+	<div class="footer__block">
+		<div><i class="icon icon-logo" title="{{ .Site.Data.brand.company_name }}"></i></div>
+	</div>
+	<div class="footer__block center">
+		<p>{{ .Site.Data.brand.company_tagline }}</p>
+		<p class="text--small">© 1987 - {{ now.Format "2006"}} Marketplace Communications. All rights reserved. Made by Volkano</p>
+	</div>
+	<div class="footer__block">
+		{{ range .Site.Data.brand.social }}
+			<a class="el--block" href="{{ .URL }}">{{ .Name }}</a>
+		{{ end }}
+	</div>
+</footer>

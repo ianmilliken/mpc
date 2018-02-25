@@ -1,0 +1,22 @@
+{{ define "header" }}{{ partial "nav_landing" (dict "context" .)}}{{ end }}
+
+{{ define "main" }}
+
+{{ $author := .Params.author }}
+
+<article>
+	<header class="article-header padder center">
+		<div class="container">
+			<h1 class="article__title">{{ .Title }}</h1>
+		</div>
+	</header>
+	<section class="container">
+		<div class="content">
+			{{ .Content }}
+		</div>
+	</section>
+</article>
+
+{{ end }}
+
+{{ define "footer" }}{{ partial "footer_landing" . }}{{ end }}
