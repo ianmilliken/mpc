@@ -285,10 +285,13 @@ collections:
 
       - label: Logo
         name: logo
-        file: "site/data/logo.json"
+        file: site/data/logos.yml
         description: "Upload a logo for your brand. SVG | PNG | JPG"
         fields:
-          - { label: "Your Logo", name: "logo", widget: "image" }
+          - { label: Logo, name: logo, widget: image }
+          - { label: Reverse Logo, name: logo_reverse, widget: image }
+          - { label: Alt Logo, name: logo_alt, widget: image }
+          - { label: Alt Reverse Logo, name: logo_alt_reverse, widget: image }
 
       - label: Site Navigation
         name: site_navigation
