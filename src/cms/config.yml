@@ -272,16 +272,24 @@ collections:
 
       - label: Language
         name: language
-        file: "site/data/language.json"
-        description: "Language for site forms"
+        file: site/data/language.yml
+        description: Language for site forms
         fields:
-          - { label: "Full Name Label", name: "fullname_label", widget: "string" }
-          - { label: "Full Name Placeholder", name: "fullname_placeholder", widget: "string" }
+          - { label: Full Name Label, name: fullname_label, widget: string }
+          - { label: Full Name Placeholder, name: fullname_placeholder, widget: string }
+          - { label: Email Label, name: email_label, widget: string }
+          - { label: Email Placeholder, name: contact_placeholder, widget: string }
+          - { label: Phone Number Label, name: contact_number_label, widget: string }
+          - { label: Phone Number Placeholder, name: phone_number_placeholder, widget: string }
+          - { label: Company Label, name: company_label, widget: string }
+          - { label: Company Placeholder, name: company_placeholder, widget: string }
+          - { label: Enquiry Label, name: enquiry_label, widget: string }
+          - { label: Enquiry Placeholder, name: enquiry_placeholder, widget: string }
 
       - label: Logo
         name: logo
         file: site/data/logos.yml
-        description: "Upload a logo for your brand. SVG | PNG | JPG"
+        description: Upload a logo for your brand. SVG | PNG | JPG
         fields:
           - { label: Logo, name: logo, widget: image }
           - { label: Reverse Logo, name: logo_reverse, widget: image }
@@ -290,11 +298,11 @@ collections:
 
       - label: Site Navigation
         name: site_navigation
-        file: "site/data/menu.json"
-        description: "Set custom titles for the nav items"
+        file: site/data/menu.yml
+        description: Set custom titles for the nav items
         fields:
-          - { label: "Services Title", name: "services", widget: "string" }
-          - { label: "Work Title", name: "work", widget: "string" }
-          - { label: "About Title", name: "about", widget: "string" }
-          - { label: "Blog Title", name: "blog", widget: "string" }
-          - { label: "Contact Title", name: "contact", widget: "string" }
+          - { label: Services Title, name: services, widget: string }
+          - { label: Work Title, name: work, widget: string }
+          - { label: About Title, name: about, widget: string }
+          - { label: Blog Title, name: blog, widget: string }
+          - { label: Contact Title, name: contact, widget: string }

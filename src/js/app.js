@@ -2,6 +2,7 @@ import ContactForm from './contactForm';
 import Slider from './slider';
 import NavDrawer from './navDrawer';
 import Choices from './choices';
+import Newsletter from './newsletter';
 //import SVGImageReplacer from './svgImageReplacer';
 
 // Internal scripts
@@ -9,6 +10,7 @@ ContactForm();
 Slider();
 NavDrawer();
 Choices();
+Newsletter();
 //SVGImageReplacer();
 
 
