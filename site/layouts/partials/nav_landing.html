@@ -1,3 +1,6 @@
+
+{{ $Logos := .context.Site.Data.logos }}
+
 <nav class="navbar {{ if .scheme }}navbar--{{ .scheme }}{{ end }} container">
 	{{ if .context.Site.Menus.main }}
 		{{ $currentNode := .context }}
@@ -7,15 +10,12 @@
 				data, otherwise use the fallback
 			*/}}
 			{{ if eq .Identifier "home" }}
-				<a class="navbar__link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}" title="{{ $.Site.Data.brand.company_name }}">
-					<!--<a class="navbar__link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">
-          {{ if isset $.Site.Data.logo "logo" }}
-            <img src="{{ index $.Site.Data.logo "logo" }}" alt="{{ .Name }}"/>
+				<a class="navbar__link landing__logo {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}" title="{{ $.Site.Data.brand.company_name }}">
+          {{ if isset $Logos "logo_alt" }}
+            <img src="{{ index $Logos "logo_alt" }}" alt="{{ .Name }}"/>
           {{ else }}
             {{ .Name }}
           {{ end }}
-        	</a>-->
-					<i class="icon icon-logo"></i>
 				</a>
 			{{ end }}
 		{{ end }}

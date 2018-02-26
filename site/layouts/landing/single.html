@@ -2,8 +2,6 @@
 
 {{ define "main" }}
 
-{{ $author := .Params.author }}
-
 <article>
 	<header class="article-header padder center">
 		<div class="container">
@@ -13,30 +11,13 @@
 	</header>
 
 	<section>
-		<div class="container" data-choice-step="1">
-			<ul class="choice__ul">
-			{{ range .Params.choice }}
-				<li class="choice__li">
-					<a class="choice__link" href="#" data-choice="{{ .title | urlize }}">
-						<h2 class="content__subtitle"><span>{{ .title }}</span></h2>
-						<div class="choice__image">
-							<img src="{{ .image }}" alt="{{ .title }}" title="{{ .title }}"/>
-						</div>
-						<p class="choice__summary">{{ .summary }}</p>
-					</a>
-				</li>
-			{{ end }}
-			</ul>
-		</div>
-		<div class="is-hidden" data-choice-step="2">
+		<div>
 			<div class="result container">
-				{{ range .Params.choice }}
-					<div class="is-hidden" data-result="{{ .title | urlize }}">
-						<div class="result__image">
-							<img src="{{ .calendarImage }}" alt="{{ .cta }}" title="{{ .cta }}" />
-						</div>
+				<div>
+					<div class="result__image">
+						<img src="{{ .Params.image }}" alt="{{ .Params.cta }}" title="{{ .Params.cta }}" />
 					</div>
-				{{ end }}
+				</div>
 				<div class="result__form">
 					<form id="landingForm" name="landingForm" action="/">
 						<div class="form-group">
@@ -44,37 +25,30 @@
 							<input id="landingFullName" type="text" name="fullname" required placeholder="{{ if .Site.Data.language.fullname_placeholder }}{{ .Site.Data.language.fullname_placeholder }}{{ else }}Your full name{{ end }}" />
 						</div>
 						<div class="form-group">
-							<label for="landingEmail">Email address</label>
-							<input id="landingEmail" type="email" name="email" required placeholder="Your email address" />
+							<label for="landingEmail">{{ if .Site.Data.language.email_label }}{{ .Site.Data.language.email_label }}{{ else }}Email address{{ end }}</label>
+							<input id="landingEmail" type="email" name="email" required placeholder="{{ if .Site.Data.language.email_placeholder }}{{ .Site.Data.language.email_placeholder }}{{ else }}Your email address{{ end }}" />
 						</div>
 						<div class="form-group">
-							<label for="landingCompany">Company</label>
-							<input id="landingCompany" type="text" name="company" required placeholder="Your company name" />
+							<label for="landingCompany">{{ if .Site.Data.language.company_label }}{{ .Site.Data.language.company_label }}{{ else }}Company{{ end }}</label>
+							<input id="landingCompany" type="text" name="company" required placeholder="{{ if .Site.Data.language.company_placeholder }}{{ .Site.Data.language.company_placeholder }}{{ else }}Your company name{{ end }}" />
 						</div>
 						<div>
-							<button class="button button--primary dl-button" type="submit" id="landingSubmit">
-								{{ range .Params.choice }}
-									<span class="is-hidden" data-result="{{ .title | urlize }}">
-										{{ .cta }}
-									</span>
-								{{ end }}
-							</button>
+							<button class="button button--primary dl-button" type="submit" id="landingSubmit">{{ .Params.cta }}</button>
 						</div>
 					</form>
-					{{ range .Params.choice }}
-						<a class="is-hidden" href="{{ .download }}" download data-download="{{ .title | urlize }}"></a>
-					{{ end }}
-					<a class="result__back" id="choiceBack" href="#"><i class="icon icon-arrow-left"></i> Back to calendar options</a>
+					<a class="is-hidden" href="{{ .Params.download }}" download data-download></a>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="container">
-		<div class="content">
-			{{ .Content }}
-		</div>
-	</section>
+	{{ if .Content }}
+		<section class="container">
+			<div class="content">
+				{{ .Content }}
+			</div>
+		</section>
+	{{ end }}
 </article>
 
 {{ end }}

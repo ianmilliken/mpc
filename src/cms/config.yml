@@ -132,15 +132,10 @@ collections:
       - { label: Title, name: title, widget: string }
       - { label: Publish Date, name: publishDate, widget: datetime }
       - { label: Intro, name: intro, widget: text }
-      - label: Choice
-        name: choice
-        widget: list
-        fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Summary, name: summary, widget: text }
-          - { label: Image, name: image, widget: image }
-          - { label: CTA Text, name: cta, widget: string }
-          - { label: Download, name: download, widget: file }
+      - { label: Image, name: image, widget: image, required: false }
+      - { label: CTA Text, name: cta, widget: string }
+      - { label: Download, name: download, widget: file }
+      - { label: Additional content, name: body, widget: markdown, required: false }
 
 
   - label: Blog
