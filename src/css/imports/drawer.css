@@ -7,7 +7,7 @@
 	flex-direction: column;
 	width: 100vw;
 	height: 100vh;
-	padding: 4rem;
+	padding: var(--gutter);
 	background-color: color(var(--black) alpha(95%));
 	color: var(--absoluteWhite);
 	&.is-active {
@@ -22,12 +22,19 @@
 	}
 
 	&__link {
-		margin-top: 2rem;
+		margin-top: var(--gutterSmall);
 		font-size: var(--biggerFont);
 		font-weight: 500;
 		color: var(--absoluteWhite);
 	}
 	&__link:nth-child(6n-4) {
 		margin-top: 8rem;
+	}
+}
+
+@media (--for-tablet-landscape-up) {
+	.drawer {
+		justify-content: space-between;
+		padding: var(--gutterBig);
 	}
 }

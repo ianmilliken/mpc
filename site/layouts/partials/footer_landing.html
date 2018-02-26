@@ -1,10 +1,10 @@
-<footer class="footer padder padder--top container" style="padding-bottom: 4rem;">
+<footer class="footer footer--landing padder padder--top container" style="padding-bottom: 4rem;">
 	<div class="footer__block">
 		<div><i class="icon icon-logo" title="{{ .Site.Data.brand.company_name }}"></i></div>
 	</div>
-	<div class="footer__block center">
+	<div class="footer__block footer--landing__block">
 		<p>{{ .Site.Data.brand.company_tagline }}</p>
-		<p class="text--small">© 1987 - {{ now.Format "2006"}} Marketplace Communications. All rights reserved. Made by Volkano</p>
+		<p class="text--small show-at-tablet-portrait">© 1987 - {{ now.Format "2006"}} Marketplace Communications. All rights reserved. Made by Volkano</p>
 	</div>
 	<div class="footer__block">
 		{{ range .Site.Data.brand.social }}
@@ -12,3 +12,5 @@
 		{{ end }}
 	</div>
 </footer>
+
+<div class="show-at-phone"><p class="container copyright">© 1987 - {{ now.Format "2006"}} Marketplace Communications. All rights reserved. Made by Volkano</p></div>

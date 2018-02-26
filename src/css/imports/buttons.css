@@ -8,7 +8,7 @@ button, .button, input[type="submit"] {
 .button {
 	position: relative;
 	display: inline-block;
-	padding: 1.4rem 3rem;
+	padding: 0.9em 1.8em;
 	font-size: var(--mediumFont);
 	letter-spacing: 0.03em;
 	border-radius: 10rem;
@@ -22,6 +22,9 @@ button, .button, input[type="submit"] {
 		&:hover {
 			background-color: color(var(--brandColor) saturation(+ 100%))
 		}
+	}
+	&--large {
+		font-size: 1.9rem;
 	}
 	&--navbar {
 		padding: 1rem 2rem;

@@ -37,6 +37,12 @@
 		}
 	}
 
+	.footer--landing {
+		&__block {
+			width: auto;
+		}
+	}
+
 	.copyright {
 		margin-top: var(--gutterBig);
 		text-align: center;
@@ -46,5 +52,11 @@
 @media (--for-tablet-landscape-up) {
 	.footer__block {
 		width: auto;
+	}
+
+	.footer--landing {
+		&__block {
+			text-align: center;
+		}
 	}
 }
