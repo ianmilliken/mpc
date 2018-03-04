@@ -13,6 +13,7 @@ import webpackConfig from "./webpack.conf";
 import cp from "child_process";
 import replace from "gulp-replace";
 import del from "del";
+import colors from "colors";
 
 const browserSync = BrowserSync.create();
 
@@ -25,8 +26,8 @@ gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview));
 
 // Build/production tasks
-gulp.task("build", ["css", "js", "cms", "remove-directories"], (cb) => buildSite(cb, [], "production"));
-gulp.task("build-preview", ["css", "js", "remove-directories"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
+gulp.task("build", ["css", "js", "cms"], (cb) => buildSite(cb, [], "production"));
+gulp.task("build-preview", ["css", "js"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
 
 // Compile CMS
 gulp.task("cms", () => {
@@ -68,7 +69,7 @@ gulp.task("js", (cb) => {
 });
 
 // Development server with browsersync
-gulp.task("server", ["hugo", "css", "js", "cms", "remove-directories"], () => {
+gulp.task("server", ["hugo", "css", "js", "cms"], () => {
   browserSync.init({
     server: {
       baseDir: "./dist"
@@ -81,14 +82,15 @@ gulp.task("server", ["hugo", "css", "js", "cms", "remove-directories"], () => {
 });
 
 // Remove unwanted directories
-gulp.task("remove-directories", function () {
+function removeDirectories() {
+  console.log('Removing Directories'.inverse);
   return del([
     './dist/authors/',
     './dist/authors/**/*',
     './dist/clients/',
     './dist/clients/**/*'
   ]);
-});
+}
 
 /**
  * Run hugo and build the site
@@ -100,6 +102,7 @@ function buildSite(cb, options, environment = "development") {
 
   return spawn(hugoBin, args, {stdio: "inherit"}).on("close", (code) => {
     if (code === 0) {
+      removeDirectories();
       browserSync.reload();
       cb();
     } else {
