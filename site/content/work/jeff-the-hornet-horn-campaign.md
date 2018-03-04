@@ -8,7 +8,7 @@ brief:
   body: >-
     Oxmar Properties is a SME land developer based in North Brisbane. Despite
     their strong portfolio in SEQ, they struggled to gain increased brand
-    recognition in the local market and online. 
+    recognition in the local market and online.
 
 
     Oxmar Properties engaged with MPC from June 2017 to develop a comprehensive
@@ -25,13 +25,13 @@ service_list:
   - service: Branding
   - service: Business Development
 solution:
+  video: https://www.youtube.com/embed/A6TRSUbBegI
   body: >-
-    {{< youtube F8I58Ga_K8w >}}
 
 
     Following two strategy meetings run by MPC, Oxmar Properties were eager to
     participate in a half-day workshop to generate ideas for better digital
-    marketing practice. Their tailored workshop included the following steps: 
+    marketing practice. Their tailored workshop included the following steps:
 
 
     * Define Oxmar’s key messages, unique selling proposition (USP) and points
@@ -59,7 +59,7 @@ solution:
 
 
     From the workshop we focused on a television and press advertising campaign
-    featuring Jeff Horn ahead of the WBO Welterweight World Championships 2017. 
+    featuring Jeff Horn ahead of the WBO Welterweight World Championships 2017.
 
 
     Following the press brief MPC presented Oxmar Properties with a formalised
@@ -93,4 +93,3 @@ results:
     - big_text: '5,400+'
       supportive_text: Social media plays
 ---
-

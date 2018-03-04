@@ -86,6 +86,11 @@
 	<section class="solution bg--2 padder">
 		<div class="container content">
 			<h2 class="content__subtitle"><span>Our solution</span></h2>
+			{{ if .Params.solution.video }}
+				<div class="video-wrapper gutter--bottom">
+					<iframe width="560" height="315" src="{{ .Params.solution.video }}" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+				</div>
+			{{ end }}
 			{{ .Params.solution.body | markdownify }}
 		</div>
 	</section>

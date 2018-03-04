@@ -7,12 +7,12 @@
       <div class="abo__mission__body">
         {{ .Params.mission.body | markdownify }}
       </div>
+      {{ if .Params.mission.video }}
+        <div class="video-wrapper gutter--top">
+          <iframe width="560" height="315" src="{{ .Params.mission.video }}" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+        </div>
+      {{ end }}
     </div>
-    {{ if .Params.mission.video }}
-      <div class="video-wrapper gutter--top">
-        <iframe width="560" height="315" src="{{ .Params.mission.video }}" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
-      </div>
-    {{ end }}
   </header>
   <section class="abo__story bg--4 padder">
     <div class="abo__story__grid content">

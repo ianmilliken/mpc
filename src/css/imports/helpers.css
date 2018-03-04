@@ -9,8 +9,15 @@
 	margin-top: var(--gutter);
 }
 
+.gutter--bottom {
+	margin-bottom: var(--gutter);
+}
+
 @media (--for-tablet-landscape-up) {
 	.gutter--top {
+		margin-top: var(--gutterBig);
+	}
+	.gutter--bottom {
 		margin-top: var(--gutterBig);
 	}
 }
