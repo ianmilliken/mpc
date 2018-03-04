@@ -8,6 +8,7 @@ mission:
     understand who you’re marketing to. Our strength lies in understanding your
     market, and bringing ideas to the table which will help you become
     something bigger to them.
+  video: https://www.youtube.com/embed/eKI4fOgwuQA
 story:
   title: Our Story
   highlight: A full service marketing agency

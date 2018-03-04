@@ -85,6 +85,7 @@ collections:
             fields:
               - { label: Title, name: title, widget: string }
               - { label: Body, name: body, widget: markdown }
+              - { label: Youtube Video, name: video, widget: string, required: false }
           - label: Our Story
             name: story
             widget: object
