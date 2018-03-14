@@ -38,7 +38,7 @@ story:
   title: Our Story
 team:
   members: []
-  title: The Team
+  title: ''
 logo_wall:
   - client: Watpac
   - client: Childcare Queensland
