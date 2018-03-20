@@ -1,8 +1,6 @@
 ---
 title: Marketplace Strategy Solutions
-subtitle: >-
-  (Yes, we changed our
-  name!)                                                     30+ years providing
+subtitle: '(Yes, we changed our name!) 30+ years providing'
 image: /img/mpc-homepage.png
 banner:
   - service: Business Development
@@ -36,7 +34,7 @@ service_picker:
         If your goals feel out of reach, we'll look at the bigger picture and
         structure proven, flexible strategies for business growth that will help
         you adapt and thrive with your market.
-      title: Feeling like Terry the T-Rex?
+      title: feeling like Terry the T-Rex?
       image: /img/terry.svg
       service_list:
         - service: Half-day Strategy Workshop
@@ -45,7 +43,7 @@ service_picker:
     - info: >
         With the right strategy, we can help put your business in the spotlight
         and gain a stronger market presence where it counts.
-      title: 'Or is your business, a little Invisibill?'
+      title: a little Invisibill?
       image: /img/invisibill.svg
       service_list:
         - service: Half-day Strategy Workshop
