@@ -1,6 +1,8 @@
 ---
-title: Makers of marketing solutions for 30+ years
-subtitle: '(Yes, we changed our name) 30+ years providing'
+title: Marketplace Strategy Solutions
+subtitle: >-
+  (Yes, we changed our
+  name!)                                                     30+ years providing
 image: /img/mpc-homepage.png
 banner:
   - service: Business Development
