@@ -1,6 +1,6 @@
 ---
 title: Makers of marketing solutions for 30+ years
-subtitle: 30+ years providing
+subtitle: '(Yes, we changed our name) 30+ years providing'
 image: /img/mpc-homepage.png
 banner:
   - service: Business Development
@@ -49,3 +49,4 @@ service_picker:
         - service: Digital Marketing
   title: 'Know you need marketing help, but don’t know where to start?'
 ---
+
