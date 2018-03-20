@@ -31,18 +31,19 @@ featured_video: F8I58Ga_K8w
 service_picker:
   picker_slide:
     - info: >-
-        We look at the bigger picture and structure proven, flexible approaches
-        to business growth that will help you adapt and thrive with your market.
-      title: Terry the dinosaur?
+        If your goals feel out of reach, we'll look at the bigger picture and
+        structure proven, flexible strategies for business growth that will help
+        you adapt and thrive with your market.
+      title: Feeling like Terry the T-Rex?
       image: /img/terry.svg
       service_list:
         - service: Half-day Strategy Workshop
         - service: Digital Marketing
         - service: Advertising
     - info: >
-        With the right strategy, you can put your business in the spotlight and
-        gain a stronger market presence.
-      title: Invisibill the ghost?
+        With the right strategy, we can help put your business in the spotlight
+        and gain a stronger market presence where it counts.
+      title: 'Or is your business, a little Invisibill?'
       image: /img/invisibill.svg
       service_list:
         - service: Half-day Strategy Workshop
