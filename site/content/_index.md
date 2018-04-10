@@ -1,6 +1,6 @@
 ---
 title: Marketplace Strategy Solutions
-subtitle: '(Yes, we changed our name!) 30+ years providing'
+subtitle: 30+ years providing
 image: /img/mpc-homepage.png
 banner:
   - service: Business Development
@@ -26,7 +26,6 @@ logo_wall:
   - client: Childcare Queensland
   - client: Jones Lang Lasalle
   - client: Stockland
-  - client: MSS
 featured_work: Jeff 'The Hornet' Horn Campaign
 featured_video: F8I58Ga_K8w
 service_picker:
