@@ -1,6 +1,6 @@
 ---
 title: Stockland
-logo: /img/stockland.png
+logo: /img/stockland.svg
 location: Brisbane QLD
 ---
 
