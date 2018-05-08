@@ -2,14 +2,6 @@
 title: FREE Marketing Strategy Toolkit
 publishDate: 2018-02-25T09:16:39.321Z
 intro: >-
-  Not your average marketing strategy article! 
-
-
-
-  Crafting Your Business' Unique Strategy starts here.
-
-
-
   Downloading this toolkit will arm your business with 7 core lessons we have
   learned in marketing strategy as a full service marketing agency over the past
   30 years.
