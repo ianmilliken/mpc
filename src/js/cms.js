@@ -5,12 +5,14 @@ import DataSelectControl from "./DataSelect";
 import WorkPreview from "./cms-preview-templates/work";
 import ServicePreview from "./cms-preview-templates/service";
 import BlogPreview from "./cms-preview-templates/blog";
+import LandingPreview from "./cms-preview-templates/landing";
 
 
 CMS.registerPreviewStyle("/css/app.css");
 CMS.registerPreviewTemplate("case_study", WorkPreview);
 CMS.registerPreviewTemplate("services", ServicePreview);
 CMS.registerPreviewTemplate("blog", BlogPreview);
+CMS.registerPreviewTemplate("landing_pages", LandingPreview);
 
 CMS.registerWidget('dataSelect', DataSelectControl);
 
