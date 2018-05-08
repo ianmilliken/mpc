@@ -92,6 +92,17 @@ function removeDirectories() {
   ]);
 }
 
+// Landing Pages
+function setupLandingPages() {
+	console.log('Moving landing pages to root'.inverse);
+  // '!./dist/landing/index.html' -> do not copy the hugo generated landing
+  // list page, otherwise it overwites ./index.html
+  gulp.src(['./dist/landing/**/*', '!./dist/landing/index.html'])
+    .pipe(gulp.dest('./dist'));
+  // Delete leftover '/landing' directory
+  return del(['./dist/landing/']);
+}
+
 /**
  * Run hugo and build the site
  */
@@ -103,6 +114,7 @@ function buildSite(cb, options, environment = "development") {
   return spawn(hugoBin, args, {stdio: "inherit"}).on("close", (code) => {
     if (code === 0) {
       removeDirectories();
+			setupLandingPages();
       browserSync.reload();
       cb();
     } else {
