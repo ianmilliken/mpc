@@ -11,7 +11,7 @@ intro: >-
   Small business, big business, multinationals, not-for-profits - it doesn't
   matter - the 7 lessons within this toolkit have proven useful to all of our
   clients, and we're sure they will be for you too!
-image: /img/digital marketing 2.jpg
+image: /img/free marketing strategy toolkit_page_1.jpg
 cta: Download your FREE Toolkit today
 download: /img/free marketing strategy toolkit.pdf
 ---
