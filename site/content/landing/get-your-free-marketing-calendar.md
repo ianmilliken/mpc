@@ -15,8 +15,10 @@ image: /img/free marketing strategy toolkit_page_1.jpg
 cta: Download your FREE Toolkit today
 download: /img/free marketing strategy toolkit.pdf
 ---
+
+
+
+
 Marketing without a strategy is like going on a hike without a map; you might know where you want to get to but there’s no telling what troubles you might find along the way.
-
-
 
 If you’re feeling a little lost in the marketplace, our targeted strategies act as your guiding map to define your business and lead you on the path towards better brand awareness, business growth, and future success.
