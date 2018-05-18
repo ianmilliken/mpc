@@ -26,6 +26,10 @@ logo_wall:
   - client: Childcare Queensland
   - client: Jones Lang Lasalle
   - client: Stockland
+  - client: Quest
+  - client: Suncorp
+  - client: Links Hope Island
+  - client: Ray White
 featured_work: Jeff 'The Hornet' Horn Campaign
 featured_video: F8I58Ga_K8w
 service_picker:
