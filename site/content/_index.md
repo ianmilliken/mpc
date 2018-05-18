@@ -67,11 +67,13 @@ service_picker:
         business' marketing deserves the right attention, and we can step in to
         run a workshop on what components can be outsourced to experts like us.
       title: Too occupied to focus on marketing?
+      image: /img/olivia.svg
     - info: >-
         Your business doesn't have to be struggling to need marketing - it can
         just be that you want to gain a competitive advantage in your market. Be
         the king of the jungle, or the Queen Beeatrix of the hive!
-      title: Or do you just love the view from the top?
+      title: Or do you just want extra buzz for your business?
+      image: /img/beeatrix.svg
   title: 'Know you need marketing help, but don’t know where to start?'
 ---
 
