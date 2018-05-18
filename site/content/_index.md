@@ -30,6 +30,14 @@ logo_wall:
   - client: Suncorp
   - client: Links Hope Island
   - client: Ray White
+  - client: Brisbane Racing Club
+  - client: HSBC
+  - client: Bartercard
+  - client: Woolworths
+  - client: LJ Hooker
+  - client: Noosa Northrise
+  - client: Dish
+  - client: Remax
 featured_work: Jeff 'The Hornet' Horn Campaign
 featured_video: F8I58Ga_K8w
 service_picker:
