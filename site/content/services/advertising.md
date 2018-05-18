@@ -1,6 +1,7 @@
 ---
 title: Advertising
 intro: Traditional and digital advertising that communicates the right messages
+icon: /img/advertising.svg
 serviceType: Primary
 ---
 Our 30 years of experience has led us to create some of the most successful
