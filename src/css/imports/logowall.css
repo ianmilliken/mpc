@@ -8,9 +8,15 @@
 	& > * {
 		width: calc(50% - 2rem);
 		max-width: 18rem;
+		object-fit: scale-down;
 	}
-	& > *:nth-child(n+3) {
-		margin-top: 2rem;
+}
+
+@media (--for-phone-only) {
+	.logo-wall {
+		& > *:nth-child(n+3) {
+			margin-top: 4rem;
+		}
 	}
 }
 
@@ -21,11 +27,7 @@
 			width: 20%;
 			max-width: none;
 		}
-		& > *:not(:first-child, :nth-child(5n)) {
-			margin-left: var(--gutter);
-		}
-		& > *:nth-child(n+5) {
-			margin-top: var(--gutter);
-		}
+		& > *:not(:nth-child(4n+1)) { margin-left: var(--gutter) }
+		& > *:nth-child(n+5) { margin-top: var(--gutter) }
 	}
 }
