@@ -168,5 +168,6 @@
 
 	.slide-right {
 		max-width: 50rem;
+		flex-grow: 1;
 	}
 }
