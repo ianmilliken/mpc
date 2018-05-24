@@ -13,7 +13,7 @@ intro: >-
   clients, and we're sure they will be for you too!
 image: /img/free marketing strategy toolkit_page_1.jpg
 cta: Download your FREE Toolkit today
-download: /img/free marketing strategy toolkit.pdf
+download: /img/free marketing strategy toolkit (1).pdf
 ---
 <br>
 
