@@ -1,5 +1,5 @@
 ---
-title: Jeff 'The Hornet' Horn Campaign
+title: Mainstream meets Digital Advertising - Jeff 'The Hornet' Horn Campaign
 description: This is the jeff hornet campaign
 keywords: 'Jeff, Hornet, MPC, Marketing'
 thumbnail: /img/oxmar.jpg
@@ -11,11 +11,11 @@ brief:
     recognition in the local market and online.
 
 
-    Oxmar Properties engaged with MPC from June 2017 to develop a comprehensive
-    brand building exercise that would leverage Director Phil Murphy’s
-    sponsorship of WBO Welterweight World Champion Jeff Horn. We also created an
-    in-depth digital marketing strategy in line with a review of Oxmar’s
-    existing digital practices.
+    Oxmar Properties engaged with Marketplace from June 2017 to develop a
+    comprehensive brand building exercise that would leverage Director Phil
+    Murphy’s sponsorship of WBO Welterweight World Champion Jeff Horn. We also
+    created an in-depth digital marketing strategy in line with a review of
+    Oxmar’s existing digital practices.
 service_list:
   - service: Half-day Strategy Workshop
   - service: Digital Marketing Solutions
@@ -25,13 +25,11 @@ service_list:
   - service: Branding
   - service: Business Development
 solution:
-  video: https://www.youtube.com/embed/A6TRSUbBegI
   body: >-
-
-
-    Following two strategy meetings run by MPC, Oxmar Properties were eager to
-    participate in a half-day workshop to generate ideas for better digital
-    marketing practice. Their tailored workshop included the following steps:
+    Following two strategy meetings run by Marketplace, Oxmar Properties were
+    eager to participate in a half-day workshop to generate ideas for better
+    digital marketing practice. Their tailored workshop included the following
+    steps:
 
 
     * Define Oxmar’s key messages, unique selling proposition (USP) and points
@@ -62,29 +60,30 @@ solution:
     featuring Jeff Horn ahead of the WBO Welterweight World Championships 2017.
 
 
-    Following the press brief MPC presented Oxmar Properties with a formalised
-    digital marketing and branding strategy, which outlined all the key aspects
-    of their marketing and branding activities. Oxmar Properties took on our
-    strategy in-house and hired a dedicated marketer to implement the digital
-    activities.
+    Following the press brief Marketplace presented Oxmar Properties with a
+    formalised digital marketing and branding strategy, which outlined all the
+    key aspects of their marketing and branding activities. Oxmar Properties
+    took on our strategy in-house and hired a dedicated marketer to implement
+    the digital activities.
+  video: 'https://www.youtube.com/embed/A6TRSUbBegI'
 results:
   body: >-
     Since June 2017, Oxmar Properties has continued to grow and has been heavily
     featured in two WBO Welterweight World Championship bouts as a major
     sponsor. Their ‘celebrity endorsement’ using Jeff Horn in a television
-    commercial MPC produced and coordinated saw roughly 1.3 million views over
-    two weeks, within the designated target market 25-54 years old.
+    commercial Marketplace produced and coordinated saw roughly 1.3 million
+    views over two weeks, within the designated target market 25-54 years old.
 
 
-    A targeted press insert campaign MPC produced and coordinated also saw major
-    spikes in Google search results for ‘Oxmar Properties’ on the day it was
-    published within a Newscorp publication.
+    A targeted press insert campaign Marketplace produced and coordinated also
+    saw major spikes in Google search results for ‘Oxmar Properties’ on the day
+    it was published within a Newscorp publication.
 
 
-    MPC continues to oversee their marketing and press activities; ensuring that
-    their activities are on track and run smoothly. We are working with Oxmar to
-    provide media relations support; and offering new business opportunities and
-    assistance wherever possible.
+    Marketplace continues to oversee their marketing and press activities;
+    ensuring that their activities are on track and run smoothly. We are working
+    with Oxmar to provide media relations support; and offering new business
+    opportunities and assistance wherever possible.
   key_results:
     - big_text: 1.3M
       supportive_text: Views of TV ad in SEQ
@@ -93,3 +92,4 @@ results:
     - big_text: '5,400+'
       supportive_text: Social media plays
 ---
+
