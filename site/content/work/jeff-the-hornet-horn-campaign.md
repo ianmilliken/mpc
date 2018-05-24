@@ -1,5 +1,5 @@
 ---
-title: Jeff 'The Hornet' Horn Campaign
+title: Mainstream meets Digital Advertising - Jeff 'The Hornet' Horn Campaign
 description: This is the jeff hornet campaign
 keywords: 'Jeff, Hornet, MPC, Marketing'
 thumbnail: /img/oxmar.jpg
@@ -25,7 +25,6 @@ service_list:
   - service: Branding
   - service: Business Development
 solution:
-  video: https://www.youtube.com/embed/A6TRSUbBegI
   body: >-
 
 
@@ -67,6 +66,7 @@ solution:
     of their marketing and branding activities. Oxmar Properties took on our
     strategy in-house and hired a dedicated marketer to implement the digital
     activities.
+  video: 'https://www.youtube.com/embed/A6TRSUbBegI'
 results:
   body: >-
     Since June 2017, Oxmar Properties has continued to grow and has been heavily
@@ -93,3 +93,4 @@ results:
     - big_text: '5,400+'
       supportive_text: Social media plays
 ---
+
