@@ -2,7 +2,7 @@
 title: 350% more leads in 4 weeks
 description: Digital Marketing - Google AdWords
 keywords: AdWords Campaign
-thumbnail: /img/marketing strategy 2 (1)-min.jpg
+thumbnail: /img/think outside the square (3).jpg
 client: Ace Body Corporate Management
 brief:
   body: Blah.
