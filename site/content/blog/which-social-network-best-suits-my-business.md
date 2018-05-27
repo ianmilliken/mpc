@@ -1,5 +1,5 @@
 ---
-title: Which Social Network Best Suits My Business?
+title: Which social network best suits my business?
 publishDate: 2018-05-25T04:25:16.977Z
 author: Jordan
 ---
