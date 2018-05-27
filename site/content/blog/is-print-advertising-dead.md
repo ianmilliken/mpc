@@ -1,6 +1,6 @@
 ---
-title: Is Print Advertising Dead?
-publishDate: 2018-04-13T09:00:10+10:00
+title: Is print advertising dead?
+publishDate: 2018-04-12T23:00:10.000Z
 author: Jordan @ Team Marketplace
 ---
 
