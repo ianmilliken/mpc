@@ -1,5 +1,5 @@
 ---
-title: Which social network best suits my business?
+title: Pick the right social media
 publishDate: 2018-05-25T04:25:16.977Z
 author: Jordan
 ---
