@@ -1,5 +1,5 @@
 ---
-title: When Does Outsourcing to a Marketing Agency Make Sense?
+title: Why outsource to a marketing agency?
 publishDate: 2018-02-18T22:59:48.000Z
 author: Clare
 ---
