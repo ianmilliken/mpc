@@ -1,5 +1,5 @@
 ---
-title: Why outsource to a marketing agency?
+title: Why outsource marketing?
 publishDate: 2018-02-18T22:59:48.000Z
 author: Clare
 ---
