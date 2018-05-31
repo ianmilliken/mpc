@@ -3,7 +3,7 @@ title: Pick the right social media
 publishDate: 2018-05-25T04:25:16.977Z
 author: Jordan
 ---
-## What Social Media Best Suits My Business?
+## Which social network best suits my business' marketing?
 
 So, you’ve decided to take a chance and launch your business on Facebook – great decision! Before you get started, there’s a few things you should consider before jumping in and setting up your account/s. 
 
