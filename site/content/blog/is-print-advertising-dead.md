@@ -3,13 +3,9 @@ title: Is print advertising dead?
 publishDate: 2018-04-12T23:00:10.000Z
 author: Jordan @ Team Marketplace
 ---
-
-
-
-
 ## Does advertising in the paper still work?
 
-‘Print is dead’ – the words heard time and time again. But is it really time to turn the switch on print advertising? In an era where digital marketing is king, is it still worth your time to develop a print advertising campaign? 
+‘Print is dead’ – the words heard time and time again. But is it really time to turn the switch on print advertising? In an era where digital marketing is king, is it still worth your time to develop a print advertising campaign? 
 
 Let’s investigate. 
 
@@ -21,6 +17,8 @@ Print advertisements can establish and maintain credibility for your brand. Typi
 
 Another great aspect of print advertisement, is the ability to be as creative or as informative as you like (well, as long as it transpires with the publications T&C’s). Unlike digital advertising, where users will be scrolling through their feed at 50km an hour until something they see draws in their attention, readers of print advertisement prove to be more focused. That means, you have the ability to make your advertisements a little more wordy and informative. However, make sure you add a little creativity to make your advertisement stand out from the crowd. 
 
-Print advertising still has quite a few years left under its wing in our books. Like all advertising, the most important thing is to do your research first and find out what medium you could best reach your target audience. There are so many opportunities for great advertising campaigns both with print and digital mediums, utilise these opportunities to make the most out of your campaigns. 
+> Print advertising still has quite a few years left under its wing in our books. 
 
-**Need professional help? **Marketplace Strategy Solutions are leaders in delivering effective advertising campaigns, both print and digital. Why don’t you get in touch? Contact us.
+Like all advertising, the most important thing is to do your research first and find out what medium you could best reach your target audience. There are so many opportunities for great advertising campaigns both with print and digital mediums, utilise these opportunities to make the most out of your campaigns. 
+
+[Got questions that need answering about social media too? Read our blog...](https://marketplacestrategysolutions.com.au/blog/which-social-network-best-suits-my-business/)
