@@ -62,4 +62,6 @@ Now that you should have a solid understanding on which Social Network your busi
 
 Social Media is an exciting opportunity for your business and if used effectively will provide you with limitless opportunities. If the thought of running your own Social Media is still a little daunting, Marketplace Strategy Solutions can help you develop dynamic content and campaigns to promote your brand image in the most effective way. 
 
-\*Statistics from the 2017 Sensis Social Media Report
+
+
+[Ever wondered if print advertising is dead? Read our blog...](https://marketplacestrategysolutions.com.au/blog/is-print-advertising-dead/)
