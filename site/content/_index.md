@@ -38,7 +38,7 @@ logo_wall:
   - client: Noosa Northrise
   - client: Dish
   - client: Remax
-featured_work: Jeff 'The Hornet' Horn Campaign
+featured_work: Mainstream meets Digital Advertising - Jeff 'The Hornet' Horn Campaign
 featured_video: F8I58Ga_K8w
 service_picker:
   picker_slide:
