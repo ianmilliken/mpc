@@ -1,5 +1,5 @@
 ---
-title: 350% more leads in 4 weeks
+title: 350% more leads in 4 weeks with PPC advertising
 description: Digital Marketing - Google AdWords
 keywords: AdWords Campaign
 thumbnail: /img/shutterstock_565063075.jpg
