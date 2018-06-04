@@ -15,8 +15,13 @@ converts.
 We also know that advertising can be expensive, so we develop advertising
 campaigns that work hard for your money.
 
+* Market research and comprehensive analysis pre-campaign
 * Full media planning and buying for print, radio and television and digital
-* Market research and campaign measurement
+* Day to day management of digital platforms like Google AdWords and Facebook Ads Manager
 * Attention grabbing copywriting
-* Graphic design and print production
-* Alongside digital advertising such as Google AdWords and banner ads across social platforms
+* Graphic design and print production for traditional channels
+* Weekly reporting of results
+
+
+
+Want to see examples of how our ad campaigns have worked? [**Check out our case studies**](https://marketplacestrategysolutions.com.au/work/)
