@@ -10,7 +10,7 @@ serviceType: Primary
 ---
 In our experience, digital marketing is something businesses know they need to have but don't truly have the skill and understanding to go at alone.
 
-Whether it's Google, Facebook or another platform, the advertising and marketing opportunities available ever evolving and it can be hard to keep up, let alone get ahead of the competition. 
+Whether it's Google, Facebook or another platform, the advertising and marketing opportunities available are ever evolving and it can be hard to keep up, let alone get ahead of the competition. 
 
 That's where we come in. We can provide you with a strategy to help your team excel in digital marketing, or in fact become your digital marketing team.
 
@@ -27,7 +27,5 @@ Whatever digital solutions you’re looking for we’ll help you measure and max
 * Website optimisation for better search rankings (SEO)
 * Website development & re-development
 * Social media content creation & strategic planning
-
-
 
 Want to see an example of how we improve business' digital marketing? [**Click this to see a recent case study**](https://marketplacestrategysolutions.com.au/work/350-more-leads-in-4-weeks/)
