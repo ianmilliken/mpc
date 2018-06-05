@@ -1,5 +1,5 @@
 ---
-title: You pay per click - so get it right!
+title: The Why and Where of PPC
 publishDate: 2018-04-15T23:00:10.000Z
 author: Jordan
 ---
