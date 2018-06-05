@@ -9,38 +9,45 @@ Pay per click (PPC) advertising is a great way to 'jump the queue' when it comes
 
 Currently, you might not be the first thing that comes to mind when they think of your product/service category, but carefully placed ads can ensure that you're the first thing they see.
 
+[**Follow this link to see how we delivered 350% more leads in 4 weeks to one of our clients thanks to a PPC campaign.**](https://marketplacestrategysolutions.com.au/work/350-more-leads-in-4-weeks/)
+
 But where to advertise? Google and Facebook are the biggest PPC marketplaces and it's worth a look at whether they're both good options for your business, or in fact one fits you better than the other.
 
-## The advertising options
+## Are the advertising options different?
 
-You have to take a good look at what you're selling to determine whether Google or Facebook's advertising options are better for you. For example, Facebook offers a be
+Yes, absolutely. The two platforms offer wildly different 'ads' for you to create so you really should nail down on what you need to advertise your product effectively.
+
+Are you advertising a clothing line, that requires photos and images to get people interested?
+
+Or is the appeal of your offer captured best by words, like a new price for your product?
+
+Different types of ads, across the different platforms will suit you best.
 
 **Google**
 
-Google's advertising options have remained largely unchanged for many years, with the most popular choice being 'search ads' that appear in place of a regular search result. 
-
-* Search ads - lookalike Google search results, appearing at the top of searches
-* Banner/display ads - image heavy ads that appear on a range of websites
-* Ads that will appear across a range of apps of your choosing
+* Want an ad that puts you ahead of competitors on important searches? Google's search network ads can make that happen
+* Want an ad that gives you brand awareness on certain websites? Google's display network ads make that possible
+* Want an ad that promotes your products when people are shopping online? Google's shopping ads position your business perfectly
 
 **Facebook**
 
-When compared to Google, Facebook's advertising options are far more extensive, with sophisticated video/carousel ads used to showcase products/services visually.
+* Want to get more traffic on your website? Facebook's link click ads will do the job
+* Is getting more leads a priority? Facebook has lead generation ads that allow the user to fill out a form without leaving their feed
+* Got a new product to promote? Facebook's photo and video ads do a great job of advertising products visually
+* How about a whole line of products? Facebook's 'carousel' and 'collections' ads allow businesses to advertise as many as 5 products/offers at once
+* Or do you just want more people to follow your page and your posts? Facebook's page and post like ads help you funnel traffic to your page
 
-* Link click ads -
-* Photo ads -
-* Video ads - 
-* Carousel ads - showcasing multiple products
+## Is the intent to purchase different?
 
-## Push vs pull
+But the options are just one part of it - you should also be looking at whether the users on Facebook and Google are equally likely to click on your ads, or if one is has greater intent to act than the other.
 
 A fundamental aspect of marketing is whether you are having to 'push' your advertisements towards consumers, or whether they're in fact being 'pulled' towards them.
 
-Having PPC ads on Google often means that you're advertising in front of someone who is actively searching for a product/service you offer - making the sell that much easier. Thus, a pull campaign.
+Advertising on Google means that you're advertising in front of someone who is actively searching for a product/service you offer - making the sell that much easier. Thus, a pull campaign.
 
-Having PPC ads on Facebook means that you're advertising in front of someone who likes pages, and has purchase behaviour that matches your target market, but they're not necessarily looking for your product/service right now. Thus, a push campaign.
+Advertising on Facebook means that you're advertising in front of someone who likes pages, and has purchase behaviour that matches your target market, but they're not necessarily looking for your product/service right now. Thus, a push campaign.
 
-The difference between the two being that one user is highly motivated to click on your ad, whereas the other is more likely to be passive, unless the ad is so engaging that they're compelled to click through.
+The difference between the two being that one user is highly motivated to click on your ad, whereas the other is more likely to be passive, unless the ad is well targeted enough and engaging that they're compelled to click through.
 
 This distinction can be decisive in what kind of conversion rate your campaign receives, and how many clicks it gets overall.
 
@@ -48,4 +55,6 @@ With the right message and ad creative, any campaign can be successful, but cons
 
 It's not to say that push campaigns are less effective, it just means that you often need to 'widen the net' and allow for a bigger target market to draw end users in.
 
-##
+## Final call
+
+It's not black and white.
