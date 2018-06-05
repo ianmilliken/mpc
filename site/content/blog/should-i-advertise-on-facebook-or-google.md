@@ -39,7 +39,7 @@ Different types of ads, across the different platforms will suit you best.
 
 ## Is the intent to purchase different?
 
-But the options are just one part of it - you should also be looking at whether the users on Facebook and Google are equally likely to click on your ads, or if one is has greater intent to act than the other.
+The advertising options are just one part of it - you should also be looking at whether the users on Facebook and Google are equally likely to click on your ads, or if one is has greater intent to act than the other.
 
 A fundamental aspect of marketing is whether you are having to 'push' your advertisements towards consumers, or whether they're in fact being 'pulled' towards them.
 
@@ -55,6 +55,10 @@ With the right message and ad creative, any campaign can be successful, but cons
 
 It's not to say that push campaigns are less effective, it just means that you often need to 'widen the net' and allow for a bigger target market to draw end users in.
 
-## Final call
+## The golden rules
 
-It's not black and white.
+It's not black and white, but here are some golden rules to help you make a decision on picking the best platform for your PPC advertising;
+
+* .
+* .
+* .
