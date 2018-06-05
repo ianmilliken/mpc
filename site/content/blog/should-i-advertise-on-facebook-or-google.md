@@ -15,13 +15,13 @@ But where to advertise? Google and Facebook are the biggest PPC marketplaces and
 
 ## Are the advertising options different?
 
-Yes, absolutely. The two platforms offer wildly different 'ads' for you to create so you really should nail down on what you need to advertise your product effectively.
+Yes, absolutely. The two platforms offer wildly different ads for you to create so you really should nail down on what you need to advertise your product effectively.
 
 Are you advertising a clothing line, that requires photos and images to get people interested?
 
 Or is the appeal of your offer captured best by words, like a new price for your product?
 
-Different types of ads, across the different platforms will suit you best.
+Different types of ads across the different platforms will ultimately suit you better than others.
 
 **Google**
 
@@ -39,28 +39,30 @@ Different types of ads, across the different platforms will suit you best.
 
 ## Are the users' intentions different?
 
-The advertising options are just one part of it - you should also be looking at whether the users on Facebook and Google are equally likely to click on your ads, or if one is has greater intent to act than the other.
+Yes.  Facebook and Google users are not equally likely to click on your ads. 
+
+People go on Google to search for something, and if that search happens to be for a keyword your ad is targeting then you stand a good chance of being clicked on.
+
+On the other hand, Facebook users are often just there to socialise, so your carousel ad for your new sneaker line may slip past their attention, despite the fact that they follow 20 other sneaker pages and fashion blogs. Frustrating we know!
 
 A fundamental aspect of marketing is whether you are having to 'push' your advertisements towards consumers, or whether they're in fact being 'pulled' towards them.
 
-Advertising on Google means that you're advertising in front of someone who is actively searching for a product/service you offer - making the sell that much easier. Thus, a 'pull' campaign.
+Advertising on Google means that you're advertising in front of someone who is actively searching for a product/service you offer right now.
 
-Advertising on Facebook means that you're advertising in front of someone who likes pages and has purchase behaviour that matches your target market, but they're not necessarily looking for your product/service right now. Thus, a 'push' campaign.
+Advertising on Facebook means that you're advertising in front of someone who likes pages and has purchase behaviour that matches your target market - but right now they could have opened Facebook to post a selfie or look longingly at what their ex is up to. 
 
-The difference between the two being that one user is highly motivated to click on your ad, whereas the other is more likely to be passive, unless the ad is well targeted and engaging enough to overcome that.
-
-This distinction can be decisive in what kind of conversion rate your campaign receives, and how many clicks it gets overall.
+It's not to say that Facebook campaigns are less effective, it just means that you often need to 'narrow the market' down to a specific user to get better results, because of the diverse intentions of their user base.
 
 With the right message and ad creative, any campaign can be successful, but considering the motivation level of your end user is critical in understanding what kind of results you should expect.
 
-It's not to say that Facebook campaigns are less effective, it just means that you often need to 'narrow the market' down to a specific target market to avoid wastage.
+## So what's the answer?
 
-## The golden rules
+There's no golden rule on which PPC platform is better - so consider the below before making your decision;
 
-It's not always black and white when making a call on which is better for your business - but we've put some key factors below that you should help you make the decision;
-
-* .
-* .
-* .
+* More likely to click/convert? Google beats Facebook here with the average ROI being $2 per $1 spent on Google AdWords
+* Targeting? Facebook allows you to tap into far more than just age/location, going as deep as page likes, job title, relationship status and more
+* Audience? Google has a much greater reach than Facebook with over 3.5 billion unique searche per day
+* Options for advertising? Facebook has the more dynamic options, with over 10 total ad types available
+* Cost? Facebook has the edge over Google here, with the average cost per click as low as $1 per 4,000 impressions and daily mimimum spend at $1
 
 **Thinking of starting a PPC campaign for your business? Fill out the form below to speak to an expert!**
