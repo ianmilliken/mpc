@@ -11,23 +11,26 @@ Currently, you might not be the first thing that comes to mind when they think o
 
 But where to advertise? Google and Facebook are the biggest PPC marketplaces and it's worth a look at whether they're both good options for your business, or in fact one fits you better than the other.
 
-## Google's advertising options
+## The advertising options
 
-It doesn't matter whether you're running a product or service, Google has a range of diverse ad options for your business to be advertised far and wide.
+You have to take a good look at what you're selling to determine whether Google or Facebook's advertising options are better for you. For example, Facebook offers a be
 
-* Text ads - lookalike Google search results, appearing at the top of searches
+**Google**
+
+Google's advertising options have remained largely unchanged for many years, with the most popular choice being 'search ads' that appear in place of a regular search result. 
+
+* Search ads - lookalike Google search results, appearing at the top of searches
 * Banner/display ads - image heavy ads that appear on a range of websites
 * Ads that will appear across a range of apps of your choosing
 
-## Facebook's advertising options
+**Facebook**
 
-When compared to Google, Facebook's advertising capabilities are more creative, with a range of options available for 
+When compared to Google, Facebook's advertising options are far more extensive, with sophisticated video/carousel ads used to showcase products/services visually.
 
-* Photo ads
+* Link click ads -
+* Photo ads -
 * Video ads - 
 * Carousel ads - showcasing multiple products
-
-Best for:
 
 ## Push vs pull
 
