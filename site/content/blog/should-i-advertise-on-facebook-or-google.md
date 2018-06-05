@@ -1,5 +1,5 @@
 ---
-title: Get more for your PPC
+title: 'PPC: Why and where?'
 publishDate: 2018-04-15T23:00:10.000Z
 author: Jordan
 ---
