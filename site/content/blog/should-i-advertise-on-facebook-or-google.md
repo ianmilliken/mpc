@@ -26,7 +26,7 @@ Different types of ads, across the different platforms will suit you best.
 **Google**
 
 * Want an ad that puts you ahead of competitors on important searches? Google's search network ads can make that happen
-* Want an ad that gives you brand awareness on certain websites? Google's display network ads make that possible
+* Want an ad that gives you exposure on certain websites (i.e. a mechanic on automotive websites)? Google's display network ads make that possible
 * Want an ad that promotes your products when people are shopping online? Google's shopping ads position your business perfectly
 
 **Facebook**
@@ -37,28 +37,30 @@ Different types of ads, across the different platforms will suit you best.
 * How about a whole line of products? Facebook's 'carousel' and 'collections' ads allow businesses to advertise as many as 5 products/offers at once
 * Or do you just want more people to follow your page and your posts? Facebook's page and post like ads help you funnel traffic to your page
 
-## Is the intent to purchase different?
+## Are the users' intentions different?
 
 The advertising options are just one part of it - you should also be looking at whether the users on Facebook and Google are equally likely to click on your ads, or if one is has greater intent to act than the other.
 
 A fundamental aspect of marketing is whether you are having to 'push' your advertisements towards consumers, or whether they're in fact being 'pulled' towards them.
 
-Advertising on Google means that you're advertising in front of someone who is actively searching for a product/service you offer - making the sell that much easier. Thus, a pull campaign.
+Advertising on Google means that you're advertising in front of someone who is actively searching for a product/service you offer - making the sell that much easier. Thus, a 'pull' campaign.
 
-Advertising on Facebook means that you're advertising in front of someone who likes pages, and has purchase behaviour that matches your target market, but they're not necessarily looking for your product/service right now. Thus, a push campaign.
+Advertising on Facebook means that you're advertising in front of someone who likes pages and has purchase behaviour that matches your target market, but they're not necessarily looking for your product/service right now. Thus, a 'push' campaign.
 
-The difference between the two being that one user is highly motivated to click on your ad, whereas the other is more likely to be passive, unless the ad is well targeted enough and engaging that they're compelled to click through.
+The difference between the two being that one user is highly motivated to click on your ad, whereas the other is more likely to be passive, unless the ad is well targeted and engaging enough to overcome that.
 
 This distinction can be decisive in what kind of conversion rate your campaign receives, and how many clicks it gets overall.
 
 With the right message and ad creative, any campaign can be successful, but considering the motivation level of your end user is critical in understanding what kind of results you should expect.
 
-It's not to say that push campaigns are less effective, it just means that you often need to 'widen the net' and allow for a bigger target market to draw end users in.
+It's not to say that Facebook campaigns are less effective, it just means that you often need to 'narrow the market' down to a specific target market to avoid wastage.
 
 ## The golden rules
 
-It's not black and white, but here are some golden rules to help you make a decision on picking the best platform for your PPC advertising;
+It's not always black and white when making a call on which is better for your business - but we've put some key factors below that you should help you make the decision;
 
 * .
 * .
 * .
+
+**Thinking of starting a PPC campaign for your business? Fill out the form below to speak to an expert!**
