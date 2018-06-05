@@ -3,9 +3,9 @@ title: PPC Advertising - Is Google or Facebook your best bet?
 publishDate: 2018-04-15T23:00:10.000Z
 author: Jordan
 ---
-## Is there a golden rule for where to spend my budget?
+## First of all, why do it?
 
-Pay per click advertising is a great way to 'jump the queue' when it comes to getting in front of your target market.
+Pay per click (PPC) advertising is a great way to 'jump the queue' when it comes to getting in front of your target market.
 
 Currently, you might not be the first thing that comes to mind when they think of your product/service category, but carefully placed ads can ensure that you're the first thing they see.
 
@@ -13,15 +13,21 @@ But where to advertise? Google and Facebook are the biggest PPC marketplaces and
 
 ## Google's advertising options
 
-A look at the ads you can make
+It doesn't matter whether you're running a product or service, Google has a range of diverse ad options for your business to be advertised far and wide.
 
-A look at typical user, time spent, average session
+* Text ads - lookalike Google search results, appearing at the top of searches
+* Banner/display ads - image heavy ads that appear on a range of websites
+* Ads that will appear across a range of apps of your choosing
 
 ## Facebook's advertising options
 
-A look at the ads you can make
+When compared to Google, Facebook's advertising capabilities are more creative, with a range of options available for 
 
-A look at typical user, time spent, average session
+* Photo ads
+* Video ads - 
+* Carousel ads - showcasing multiple products
+
+Best for:
 
 ## Push vs pull
 
@@ -39,14 +45,4 @@ With the right message and ad creative, any campaign can be successful, but cons
 
 It's not to say that push campaigns are less effective, it just means that you often need to 'widen the net' and allow for a bigger target market to draw end users in.
 
-## The ads themselves
-
-The biggest difference however, is what the ads look like on each platform.
-
-Google's most popular ad type is built to look like and be confused with a real search result - so it's very text heavy. 
-
-Whereas Facebook's most popular ad type is a image/text combination ad, that appears in the middle of someone's feed.
-
-So before you write Facebook off altogether, it's more dynamic ad capabilities may be just what you're looking for.
-
-For a jewellery or clothing company, Facebook is often the perfect platform for their PPC ads, rather than Google, because
+##
