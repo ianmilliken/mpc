@@ -1,5 +1,5 @@
 ---
-title: PPC Advertising - Is Google or Facebook your best bet?
+title: You pay per click - so get it right!
 publishDate: 2018-04-15T23:00:10.000Z
 author: Jordan
 ---
