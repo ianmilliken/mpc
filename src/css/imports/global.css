@@ -65,6 +65,7 @@
 
 html {
 	font-size: var(--baseHtmlSize);
+	overflow-x: hidden;
 }
 
 body {
