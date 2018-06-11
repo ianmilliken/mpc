@@ -11,12 +11,11 @@ brief:
     to the elderly. Sundale have been running a successful organisation spanning
     over 5 decades, however they were lacking in an online/digital capacity.
 
-     
 
-    Sundale engaged with MPC mid-2017 to develop and build a comprehensive
-    website for one of their new communities. MPC were then further engaged by
-    Sundale in November 2017 to begin planning a Christmas event to capitalise
-    on attendees and convert them into sales.
+    Sundale engaged with Marketplace mid-2017 to develop and build a
+    comprehensive website for one of their new communities. Marketplace were
+    then further engaged by Sundale in November 2017 to begin planning a
+    Christmas event to capitalise on attendees and convert them into sales.
 service_list:
   - service: Half-day Strategy Workshop
   - service: Digital Marketing
@@ -26,26 +25,25 @@ service_list:
   - service: Sales Advice
 solution:
   body: >-
-    Following strategy meetings run by MPC, Sundale were eager to engage our
-    services to streamline their digital marketing practice and customer
+    Following strategy meetings run by Marketplace, Sundale were eager to engage
+    our services to streamline their digital marketing practice and customer
     nurturing processes.
 
-     
 
     We developed a digital marketing strategy within budget and the designated
     timeline to deliver a modern, easy to replicate platform which formed a new
     foundation for Sundale’s websites. The website maintained Sundale’s brand
     guidelines and complimented the new community.
 
-     
 
-    For the Christmas event, MPC wrote, designed and submitted a targeted press
-    and flyer campaign to maximise awareness in a short amount of time. MPC also
-    coordinated the event running in conjunction with a consultant from Sundale.
+    For the Christmas event, Marketplace wrote, designed and submitted a
+    targeted press and flyer campaign to maximise awareness in a short amount of
+    time. Marketplace also coordinated the event running in conjunction with a
+    consultant from Sundale.
 results:
   body: >-
-    MPC continues to work with Sundale who have requested our assistance on a
-    second website and event.
+    Marketplace continues to work with Sundale who have requested our assistance
+    on a second website and event.
   key_results:
     - big_text: 60 sales leads
       supportive_text: To the local Christmas Event
