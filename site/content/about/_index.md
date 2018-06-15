@@ -46,5 +46,17 @@ logo_wall:
   - client: Childcare Queensland
   - client: Jones Lang Lasalle
   - client: Stockland
+  - client: Quest
+  - client: Suncorp
+  - client: Links Hope Island
+  - client: Ray White
+  - client: Brisbane Racing Club
+  - client: HSBC
+  - client: Bartercard
+  - client: Woolworths
+  - client: LJ Hooker
+  - client: Noosa Northrise
+  - client: Dish
+  - client: Remax
 ---
 
