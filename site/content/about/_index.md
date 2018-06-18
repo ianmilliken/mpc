@@ -2,12 +2,15 @@
 title: Who we are
 mission:
   body: >-
-    Our mission as a collective is to step into the shoes of your customers, and
-    learn a little. To be an effective marketing team, you’ve got to understand
-    who you’re marketing to. Our strength lies in understanding your market, and
-    bringing ideas to the table which will help you become something bigger to
-    them.
-  title: The Marketplace Mission
+    For more than 30 years, Marketplace Strategy Solutions has been the trusted
+    marketing partner to some of Brisbane, Queensland and Australia’s leading
+    businesses. Our strength lies in the ability of our team to bring ideas to
+    the table which help your business increase its stature in the marketplace.
+    You only have to look at the names on our client list to appreciate how we
+    can help you do the same. We understand that success can be won quickly, but
+    ensuring its longevity is another skill set altogether; so we challenge you
+    to think big, and give us a call.
+  title: Why Choose Us
   video: 'https://www.youtube.com/embed/eKI4fOgwuQA'
 story:
   body: >-
