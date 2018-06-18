@@ -26,6 +26,8 @@ Consumers already had an established hardware offering from Bunnings and Masters
 
 ## Eagle Boys vs Dominos
 
+Bunnings has been trading for 66 years, when customers already have exactly what they want under the one roof Master knew they were up for the challenge. Unfortunately, Australia’s newest hardware improvement store couldn’t keep up, 5 years on and $227 billion dollars down Masters giant closed its doors. What went so wrong?
+
 * Dominos used technology as a selling point whilst Eagle Boys lagged behind
 * Dominos online services were easier to use from ordering to pick-up and purchase process
 * Eagle Boys never actively advertised 
