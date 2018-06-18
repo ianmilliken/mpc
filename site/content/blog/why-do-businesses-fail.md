@@ -3,9 +3,15 @@ title: Why do businesses fail?
 publishDate: '2018-06-18T09:04:51+10:00'
 author: Jordan
 ---
-Why do businesses in the same industry fail?
+In many ways, it's never been easier to start a business and run it profitably - so why do we still see businesses failing in the marketplace?
 
-Numerous large, once-successful companies have failed in recent years. Some have gone bankrupt; others have been substantially reduced in size and fallen from an industry leadership position. What caused their failures? Were they not sufficiently analytical? Perhaps they had adequate information and analysis but made irrational decisions.
+Changes in technology have cut overheads down in terms of marketing your business, managing your business' finances and automating jobs that in days gone by would have been run by staff but failure is still rife in the business community.
+
+There are a variety of reasons, and some are unique to the industry that business is in, so the following is a look at why businesses in the same industry fail.
+
+They're dealing with the same customers. They're facing the same competitive forces. So what makes one fail and the other succeed?
+
+We hope this will share some insight on how your business can avoid the former...
 
 ## Masters vs Bunnings
 
@@ -47,7 +53,7 @@ Lastly, one of the biggest things... poorly educated.
 
 Maybe your running your own marketing campaign and your go-to is google. This may be one of your biggest downfalls, a lot of people come to us with a multitude or different propositions that they’ve read off the internet. So, let’s bust a few myths.
 
-## Having a website is good enough 
+## Having a website is good enough
 
 No more of this “if you build it, they will come” mentality. You must put yourself out there for people to notice you. Hundreds, maybe thousands of companies are competing with you on the web for your ideal client’s business.
 
