@@ -10,7 +10,7 @@ mission:
     can help you do the same. We understand that success can be won quickly, but
     ensuring its longevity is another skill set altogether; so we challenge you
     to think big, and give us a call.
-  title: The Marketplace Mission
+  title: Why Choose Us
   video: 'https://www.youtube.com/embed/eKI4fOgwuQA'
 story:
   body: >-
