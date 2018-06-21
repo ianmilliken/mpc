@@ -3,9 +3,11 @@ title: Why do businesses fail?
 publishDate: '2018-06-18T09:04:51+10:00'
 author: Jordan
 ---
-In many ways, it's never been easier to start a business and run it profitably than it is right now - so why do we still see businesses failing in the marketplace?
+In many ways it's never been easier to start a business and run it profitably than it is right now - so why do we still see businesses failing in the marketplace?
 
-Changes in technology have cut overheads down in terms of marketing your business, managing your business' finances and automating jobs that in days gone by would have been run by staff but failure is still rife in the business community.
+Changes in technology have cut overheads down in terms of marketing your business, managing your business' finances and even considering how many staff you employ, thanks to automation.
+
+But failure is still rife in the business community.
 
 There are a variety of reasons, and some are unique to the industry that business is in, so the following is a look at why businesses in the same industry fail.
 
@@ -15,38 +17,32 @@ We hope this will share some insight on how your business can avoid the former..
 
 ## Masters vs Bunnings
 
-Bunnings has been trading for 66 years, when customers already have exactly what they want under the one roof Master knew they were up for the challenge. Unfortunately, Australia’s newest hardware improvement store couldn’t keep up, 5 years on and $227 billion dollars down Masters giant closed its doors. What went so wrong?
+* No point of difference, or single unique aspect of marketing.
 
-Consumers already had an established hardware offering from Bunnings and Masters failed to deliver a point of difference. 
+The fact that Masters wasn't the first player in the hardware market wasn't the problem at hand.
 
-* Masters were over-optimistic with their roll-out plans
-* Selling the wrong products
-* Lacklustre customer experience
-* Flawed workplace culture
+Apple wasn't the first company to make computers or smart phones, just like Aldi wasn't close to being Australia's first supermarket.
+
+But they both entered their respective markets with a clear point of difference, something Masters failed to do.
+
+Consumers already had an established hardware offering from Bunnings and Masters failed to deliver a reason to switch.
+
+Furthermore, Bunnings has had an effective marketing message in place for years via their price guarantee, and Masters wasn't able to create an offer that bested that for Australians.
 
 ## Eagle Boys vs Dominos
 
-Bunnings has been trading for 66 years, when customers already have exactly what they want under the one roof Master knew they were up for the challenge. Unfortunately, Australia’s newest hardware improvement store couldn’t keep up, 5 years on and $227 billion dollars down Masters giant closed its doors. What went so wrong?
+* Failure to embrace technology and adapt alongside their target market
 
-* Dominos used technology as a selling point whilst Eagle Boys lagged behind
-* Dominos online services were easier to use from ordering to pick-up and purchase process
-* Eagle Boys never actively advertised 
-* Eagle Boys never had an offer that invigorated people to buy their pizza, eventually they became non-existent
+Dominos and Eagle Boys. Both big names in the fast food pizza scene a decade ago. Both franchise businesses with a national footprint. So why does one fail but not the other?
 
-## Forever 21 vs H&M
+Here's a hint, it's got nothing to do with their pizza.
 
-Both stores both born in the US and worked their way into Australia, with stores across some of the most popular strips of Melbourne, Sydney and Brisbane. But what left Forever 21 licking their wounds and closing shop?
+The short answer is Eagle Boys failed to keep up with their target market, and it's a risk for every business out there, with the pace of technological advancements now measured in years, not decades.
 
-* Lack of online presence 
-* Not keeping up with seasonal trends and offering clothes that were outdated
-* Too much competition (Zara giant started taking over)
-* Lacking creativity
+Fast food pizza has always been a food experience enjoyed by the younger generations, no matter what era, and the inability of Eagle Boys to create a slick, reliable online ordering service was a major downfall for their business, as people opted to order on their phone instead of calling the business directly.
 
-As you can see by some of the above examples, without the right business and marketing strategy your business can go from bang to bust quiet easily. Some of the key mistakes we analysed were:
+This streamlined form of online business is everywhere now, from having your groceries delivered to your door instead of going to the shops to booking an appointment with your GP online and the slow reaction of Eagle Boys to jump on this trends cost them.
 
-* Bringing in new clients wasn’t a key focus
-* Over extending their marketing budget
-* Not understand when and how to advertise
-* Not embracing the latest technology
-* Not taking advantage of some of the marketing tools available
-* Not implementing value propositions
+## Business Name
+
+*
