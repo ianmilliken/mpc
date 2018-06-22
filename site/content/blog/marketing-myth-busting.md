@@ -3,30 +3,22 @@ title: Marketing myth-busting!
 publishDate: '2018-06-18T15:22:22+10:00'
 author: Jordan
 ---
-Lastly, one of the biggest things... poorly educated. 
+## Think you know marketing? Think again...
 
 Maybe your running your own marketing campaign and your go-to is google. This may be one of your biggest downfalls, a lot of people come to us with a multitude or different propositions that they’ve read off the internet. So, let’s bust a few myths.
 
-## Having a website is good enough
+## \#1 Having a website is good enough 
 
 No more of this “if you build it, they will come” mentality. You must put yourself out there for people to notice you. Hundreds, maybe thousands of companies are competing with you on the web for your ideal client’s business.
 
 If you are not putting yourself in front of them on that digital screen with valuable information that catches their eye and helps answer their questions, you most likely will not be discovered.
 
-## Word of mouth is all we need to make our sales
-
-Many companies still rely heavily on worth of mouth for their marketing and sales. As effective the “old school method” can be, having this as your only marketing method won’t win you sales.
-
-In today’s world we can have the information we want at a drop of a hat just by picking up our computer, tablet or phone and searching for it. In order to advance your business, you need to be above your competition, or at least on par with them. Adapt and embrace what the digital world has to offer or you’ll no doubt get lost in the crowd. 
-
-## I just need some SEO to get my website found
+## \#3 I just need some SEO to get my website found
 
 When we conduct competitor analysis SEO component is only 1 of an array analytical component that we look at. That is because SEO is only one factor that affects your company’s exposure to your audience. Don’t get me wrong, SEO is an extremely important part of your businesses marketing, but it alone isn’t enough to compete in today’s digital market.  
 
-## I have a steady client base already, therefore, I don’t need to invest in marketing
+## \#5 Quantity is more important than quality
 
-I am yet to have a company tell me that they want to stay as is and not grow. Without investing in marketing your business won’t grow. The more you invest into marketing the more return on investment you will see. The more return on investment, the more your company grows, simple really!
+ A common fallacy for content marking is that quantity has the upper hand over quality. Whilst it is an integral part of marketing to be uploading frequent content so that Google rewards your organic growth, you also need to make sure that the quality of what you are publishing isn’t sub-par content that nobody wants to read. 
 
-There are a lot of myths out there, especially with so much content available on the internet. If you are a business that already exists or looking to start-up, make sure that you don’t get caught up in reading too much of the wrong thing. 
-
-If you want to stay up to date with our latest blogs, remember to sign up to our website.
+The bee-all and end-all is that quality trumps all. Quality is way more important than quantity in the eyes of consumers. Each piece of content that you create should have purpose that brings value to consumers. Don’t fall into old SEO tactics that don’t work.
