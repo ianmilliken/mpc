@@ -66,3 +66,5 @@ That kind of advertising provides value to the target market, by keeping them in
 Rightfully so, it was judged as self-indulgent, and people grew very tired of hearing about why 'he was born to do this'.
 
 It's a cautious tale of advertising when you've got something to say, and not just for the sake of it.
+
+All the businesses above, either succeeded or languished thanks to the quality of their marketing strategy. [To read about our marketing strategy services follow this link.](https://marketplacestrategysolutions.com.au/services/marketing-strategy/)
