@@ -45,7 +45,24 @@ Not being able to keep up with your target market is a risk for every business o
 
 Streamlined, online business is everywhere now, from having your groceries delivered to your door instead of going to the shops to booking an appointment with your GP online and the slow reaction of Eagle Boys to jump on this trends cost them in the long run.
 
-## Business Name
+## Tom Waterhouse vs Sportsbet
 
-* .
-*
+* Putting brand awareness above brand integrity, and advertising when you've got nothing to offer
+
+Australians love to gamble, and that's highlighted by our booming sports betting marketplace. So how does one company face backlash from the market, when all the others go from strength to strength?
+
+In the case of Tom Waterhouse, much of the business' failed to capture market share was failing to understand that being seen at every waking moment on primetime television isn't always an effective marketing strategy.
+
+After initially entering the market targeting everyday gamblers, the business quickly had to re-assess and pivot towards gamblers with a minimum $1,000 wager after losing the market's support.
+
+Waterhouse's company was infamous for 'over-advertising' to the point of annoyance, where if you sat down to watch a 1 hour program, you'd likely see his ads a handful of times in that period.
+
+Now I know what you're thinking, "every betting company does that too"; but the difference is that these companies are almost always advertising a new deal, for a sporting event that very week.
+
+That's certainly the case for Sportsbet, and for so many others.
+
+That kind of advertising provides value to the target market, by keeping them in the know, but if we look at Tom Waterhouse, they advertised the one ad for months on end, which simply explained who he was, his family's rich history in the market.
+
+Rightfully so, it was judged as self-indulgent, and people grew very tired of hearing about why 'he was born to do this'.
+
+It's a cautious tale of advertising when you've got something to say, and not just for the sake of it.
