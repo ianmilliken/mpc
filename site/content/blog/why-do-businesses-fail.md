@@ -19,6 +19,8 @@ We hope this will share some insight on how your business can avoid the former..
 
 * No point of difference, or single unique aspect of their marketing.
 
+![](/img/masters-2.jpg)
+
 The fact that Masters wasn't the first player in the hardware market wasn't the problem at hand.
 
 Apple wasn't the first company to make computers or smart phones, just like Aldi wasn't close to being Australia's first supermarket.
@@ -32,6 +34,8 @@ Furthermore, Bunnings has had an effective marketing message in place for years 
 ## Eagle Boys vs Dominos
 
 * Failure to embrace technology and adapt alongside their target market
+
+![](/img/dominos-img.jpg)
 
 Dominos and Eagle Boys. Both big names in the fast food pizza scene a decade ago. Both franchise businesses with a national footprint. So why does one fail but not the other?
 
@@ -48,6 +52,8 @@ Streamlined, online business is everywhere now, from having your groceries deliv
 ## Tom Waterhouse vs Sportsbet
 
 * Putting brand awareness above brand integrity, and advertising when you've got nothing to offer
+
+![](/img/waterhouse.jpg)
 
 Australians love to gamble, and that's highlighted by our booming sports betting marketplace. So how does one company face backlash from the market, when all the others go from strength to strength?
 
