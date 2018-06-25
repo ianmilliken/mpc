@@ -19,7 +19,7 @@ We hope this will share some insight on how your business can avoid the former..
 
 * No point of difference, or single unique aspect of their marketing.
 
-![](/img/masters-2.jpg)
+![null](/img/masters-2.jpg)
 
 The fact that Masters wasn't the first player in the hardware market wasn't the problem at hand.
 
@@ -35,7 +35,7 @@ Furthermore, Bunnings has had an effective marketing message in place for years 
 
 * Failure to embrace technology and adapt alongside their target market
 
-![](/img/dominos-img.jpg)
+![null](/img/dominos-img.jpg)
 
 Dominos and Eagle Boys. Both big names in the fast food pizza scene a decade ago. Both franchise businesses with a national footprint. So why does one fail but not the other?
 
@@ -53,13 +53,13 @@ Streamlined, online business is everywhere now, from having your groceries deliv
 
 * Putting brand awareness above brand integrity, and advertising when you've got nothing to offer
 
-![](/img/waterhouse.jpg)
+![null](/img/waterhouse.jpg)
 
 Australians love to gamble, and that's highlighted by our booming sports betting marketplace. So how does one company face backlash from the market, when all the others go from strength to strength?
 
-In the case of Tom Waterhouse, much of the business' failed to capture market share was failing to understand that being seen at every waking moment on primetime television isn't always an effective marketing strategy.
+In the case of Tom Waterhouse, the business' inability to get a foothold in the market came back to failing to understand that being seen at every waking moment on primetime television isn't always an effective marketing strategy.
 
-After initially entering the market targeting everyday gamblers, the business quickly had to re-assess and pivot towards gamblers with a minimum $1,000 wager after losing the market's support.
+After initially entering the market targeting everyday gamblers, the business quickly had to re-assess and pivot towards gamblers with a minimum $1,000 wager after losing the broader market's support.
 
 Waterhouse's company was infamous for 'over-advertising' to the point of annoyance, where if you sat down to watch a 1 hour program, you'd likely see his ads a handful of times in that period.
 
@@ -67,7 +67,7 @@ Now I know what you're thinking, "every betting company does that too"; but the 
 
 That's certainly the case for Sportsbet, and for so many others.
 
-That kind of advertising provides value to the target market, by keeping them in the know, but if we look at Tom Waterhouse, they advertised the one ad for months on end, which simply explained who he was, his family's rich history in the market.
+That kind of advertising provides value to the target market, by keeping them in the know, but if we look at Tom Waterhouse, they advertised the one ad for months on end, which simply explained who he was, his family's rich history in the market and why he knew gambling better than others.
 
 Rightfully so, it was judged as self-indulgent, and people grew very tired of hearing about why 'he was born to do this'.
 
