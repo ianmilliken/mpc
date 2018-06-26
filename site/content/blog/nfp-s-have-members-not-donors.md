@@ -38,10 +38,30 @@ In our opinion, it comes down to fundamentally changing the way you view your cu
 * Should they be approached just as donors, that come and go? 
 * Or are they members, who should get a set of benefits from you for their continued support?
 
-It may sound trivial but it revolutionises the way that the organisation interacts with them, and its worth every charity and not-for-profit having a good think about this marketing crossroads.
+It may sound trivial but it revolutionises the way an organisation interacts with their market, and its worth every charity and not-for-profit having a good think about this marketing crossroads.
 
 By treating donors as members, the sales pitch changes from asking for their financial support to saying, "sign up today and receive these benefits, for only X per month."
 
 Isn't that a much better phone call or email to receive? We think so.
 
-## Proof is in the pudding
+## The subscription model
+
+Charities can execute this "members > donors" strategy in a couple of ways, the first being via a subscription style approach.
+
+Like with any other subscription, you get a year's worth of benefits for your fee.
+
+We're seeing this a lot more with a 'paycheck pledges' whereby someone will pledge $5 from their monthly paycheck to a charity, that gets direct debited each month.
+
+Provided the numbers are crunched and the benefits not too cumbersome, charities stand to do exceptionally well out of this model, with the true benefit being signing 1000 new members up to a package of this kind, creating a steady, predictable stream of donations.
+
+## The tiered, campaign model
+
+The second way, and most popular in the marketplace is to focus on a key event and sell the market on a tier of benefits, with ascending benefits the higher the donation.
+
+.
+
+
+
+A great example of this working well is how Kickstarter projects recruit donations.
+
+More often than not, you're asking someone to kick in $20, $50, or $100 for a product that's still under development, s
