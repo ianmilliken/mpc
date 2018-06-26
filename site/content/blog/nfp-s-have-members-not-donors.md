@@ -1,5 +1,5 @@
 ---
-title: The shift in charitable marketing
+title: 'Marketing mistakes: Charities'
 publishDate: 2018-06-13T02:45:12.062Z
 author: Jordan
 ---
