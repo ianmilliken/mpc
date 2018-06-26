@@ -1,6 +1,6 @@
 ---
-title: Charity is not enough
-publishDate: 2018-06-13T02:45:12.062Z
+title: Evolution of NFP marketing
+publishDate: '2018-06-26T12:45:12+10:00'
 author: Jordan
 ---
 Donated to charity recently? Don't worry, there's no guilt trip coming from us.
