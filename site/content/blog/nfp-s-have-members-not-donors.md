@@ -1,5 +1,5 @@
 ---
-title: 'NFP''s have members, not donors'
+title: A charity's biggest marketing mistake
 publishDate: 2018-06-13T02:45:12.062Z
 author: Jordan
 ---
