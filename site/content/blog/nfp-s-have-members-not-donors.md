@@ -58,7 +58,11 @@ Provided the numbers are crunched and the benefits not too cumbersome on the org
 
 ## The tiered, campaign model
 
-The second way, and most popular in the marketplace is to focus on a key event and offer benefits to the market in order to encourage bigger donations for specific campaigns.
+The second way, and most popular in the marketplace is to focus on a key event and offer benefits to the market in order to encourage bigger donations for that donation drive.
+
+Think Movember, Shave for a Cure - there's a specific way these organisations use incentives to get more donations from the market, and it's a marketing lesson for all to consider.
+
+
 
 It turns the donation of funds into an aspirational, almost competitive environment whereby the supported is rewarded for reaching new milestones along their donation journey.
 
