@@ -16,6 +16,9 @@
 					{{ end }}
 				{{ end }}
 			</p>
+			{{ if .Params.image }}
+				<div class="article__hero padder padder--top"><img src="{{ .Params.image }}" alt="{{ .Title }}" /></div>
+			{{ end }}
 		</div>
 	</header>
 	<section class="container">
