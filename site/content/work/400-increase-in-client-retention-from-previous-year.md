@@ -1,5 +1,5 @@
 ---
-title: '250% increase in client retention '
+title: 250% increase in client retention thanks to CRM
 description: DC8 Client Retention
 keywords: 'DC8 '
 thumbnail: /img/shutterstock_256495909.jpg
