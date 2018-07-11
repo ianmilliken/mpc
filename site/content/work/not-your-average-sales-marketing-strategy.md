@@ -2,7 +2,7 @@
 title: Not your average sales & marketing strategy
 description: Noosa NorthRise
 keywords: Noosa NR
-thumbnail: /img/shutterstock_383863015 (1)-min.jpg
+thumbnail: /img/noosa-nr.jpg
 client: Noosa Northrise
 brief:
   body: >-
