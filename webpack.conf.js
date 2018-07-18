@@ -30,7 +30,8 @@ export default {
     }),
     new webpack.DefinePlugin({
       CRM_ACCOUNT_NAME: JSON.stringify(process.env.CRM_ACCOUNT_NAME),
-      CRM_API_KEY: JSON.stringify(process.env.CRM_API_KEY)
+      CRM_API_KEY: JSON.stringify(process.env.CRM_API_KEY),
+      MAP_KEY: JSON.stringify(process.env.MAP_KEY)
     })
   ],
 

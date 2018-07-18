@@ -194,7 +194,7 @@
     map.setMapTypeId('styled_map');
   }
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key={{ .Site.Params.mapKey }}&callback=initMap"
+<script src="https://maps.googleapis.com/maps/api/js?key={{ getenv "MAP_KEY" }}&callback=initMap"
 async defer>
 </script>
   <div class="padder padder--top"></div>

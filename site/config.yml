@@ -8,8 +8,6 @@ title: "Marketplace Strategy Solutions"
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds: ["RSS", "taxonomy", "taxonomyTerm"]
 
-mapsKey: AIzaSyCmu1ykB9J4_b_bqWbm_n9vsQHWmIdZ4iE
-
 menu:
   main:
     - Name: "Home"
