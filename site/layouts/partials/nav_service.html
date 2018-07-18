@@ -1,4 +1,4 @@
-<nav class="navbar {{ if .scheme }}navbar--{{ .scheme }}{{ end }} navbar--colored container">
+<nav class="navbar {{ if .scheme }}navbar--{{ .scheme }}{{ end }} navbar--colored navbar--work container">
 	{{ if .context.Site.Menus.main }}
 
 		{{ $currentNode := .context }}
@@ -10,7 +10,7 @@
 			*/}}
 
 			{{ if eq .Identifier "home" }}
-			<a class="navbar__link navbar__logo grid--align-center-x {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}" title="{{ $.Site.Data.brand.company_name }}">
+			<a class="navbar__link navbar__logo {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}" title="{{ $.Site.Data.brand.company_name }}">
 				<!--{{ if isset $.Site.Data.logo "logo" }}
 					<img src="{{ index $.Site.Data.logo "logo" }}" alt="{{ .Name }}"/>
 				{{ else }}
@@ -24,7 +24,7 @@
 			*/}}
 
 			{{ else if eq .Identifier "contact" }}
-			<a class="button button--navbar grid--align-right {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">{{ if isset $.context.Site.Data.menu .Identifier }}{{ index $.context.Site.Data.menu .Identifier }}{{ else }}{{ .Name }}{{ end }}</a>
+			<a class="button button--navbar grid--align-right show-at-tablet-portrait {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}">{{ if isset $.context.Site.Data.menu .Identifier }}{{ index $.context.Site.Data.menu .Identifier }}{{ else }}{{ .Name }}{{ end }}</a>
 
 			{{/*
 				For each menu link check whether there is a matching entry in the site
@@ -32,8 +32,10 @@
 			*/}}
 
 			{{ else }}
-			<a class="navbar__link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}"><i class="icon icon-arrow-left"></i> Back to {{ if isset $.context.Site.Data.menu .Identifier }}{{ index $.context.Site.Data.menu .Identifier | lower }}{{ else }}{{ .Name | lower }}{{ end }}</a>
+			<a class="navbar__link navbar__link--small show-at-tablet-portrait {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) (eq $currentNode.Section .Identifier) }}is--active{{end}}" href="{{ .URL }}"><i class="icon icon-arrow-left"></i> Back to {{ if isset $.context.Site.Data.menu .Identifier }}{{ index $.context.Site.Data.menu .Identifier | lower }}{{ else }}{{ .Name | lower }}{{ end }}</a>
 			{{ end }}
 		{{ end }}
+
+		<a class="burger hide-at-tablet-portrait" href="#">{{ partial "burger.svg" . }}</a>
 	{{ end }}
 </nav>
