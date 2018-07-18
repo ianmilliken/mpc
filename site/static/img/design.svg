@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="35px" height="50px" viewBox="0 0 35 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <g id="All" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="Services-Index" transform="translate(-869.000000, -320.000000)" stroke="#E6232C" stroke-width="1.20000002">
-            <g id="Group-6" transform="translate(870.000000, 321.000000)">
-                <path d="M21.0081574,8.33163 L25.4263546,1.60769326 C26.4989648,-0.0243960997 28.7138926,-0.491391588 30.3694616,0.566333235 C32.0249902,1.62405806 32.498247,3.80816003 31.4255963,5.44024939 L16.3467943,28.3879686 C16.2353516,28.5575638 16.1116029,28.7145861 15.9774102,28.8585165 L7.9992822,41 L2,37.167404 L20.9657744,8.30448838 L21.0081574,8.33163 Z" id="Stroke-1"></path>
-                <polygon id="Stroke-2" points="1 46 2.34068877 37 8 40.9903449"></polygon>
-                <path d="M23,28 L33,13" id="Stroke-3"></path>
-                <path d="M0,48 L1,46" id="Stroke-4"></path>
-                <path d="M25.5,14.5 L20,11" id="Stroke-6"></path>
-                <path d="M27.5,10.5 L22,7" id="Stroke-7"></path>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg height="52" viewBox="0 0 37 52" width="37" xmlns="http://www.w3.org/2000/svg"><g style="stroke:#e6232c;stroke-width:1.245763;fill:none;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round" transform="translate(1 1)"><path d="m22.4799583 8.90583333 4.5476667-7.01916666c1.1040417-1.70375 3.383875-2.19125 5.0879583-1.08708334 1.7040417 1.10416667 2.1911667 3.38416667 1.0870834 5.08791667l-15.5206667 23.9552917c-.1147083.1770416-.2420833.3409583-.3802083.4912083l-8.2119167 12.6745833-6.17508333-4.000875 19.52154163-30.1302083z"/><path d="m1.45191667 48.0314583 1.462875-9.02375 6.17508333 4.000875z"/><path d="m24.2205417 29.302375 10.4045416-15.6827917"/><path d="m.23408333 49.7000417 1.454875-2.1929584"/><path d="m32.9130833 16.0764583-3.963875-2.5542916"/><path d="m27.2045417 15.0375833-6.1644584-3.9722916"/><path d="m29.8027083 11.0652917-6.1644166-3.97237503"/></g></svg>
