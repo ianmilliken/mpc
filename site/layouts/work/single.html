@@ -14,15 +14,17 @@
 					<div class="casemeta__pre">Client</div>
 					<div class="casemeta__title">{{ .Params.client }}</div>
 				</div>
-				<div class="case__results flex">
-					{{ range .Params.results.key_results}}
-						<div class="key-result">
-							<div class="key-result__primary">{{ .big_text }}</div>
-							<div class="key-result__supportive">{{ .supportive_text }}</div>
-							<div class="key-result__icon">{{ partial "key_result_icon.svg" . }}</div>
-						</div>
-					{{ end }}
-				</div>
+				{{ if .Params.results.key_results }}
+					<div class="case__results flex">
+						{{ range .Params.results.key_results}}
+							<div class="key-result">
+								<div class="key-result__primary">{{ .big_text }}</div>
+								<div class="key-result__supportive">{{ .supportive_text }}</div>
+								<div class="key-result__icon">{{ partial "key_result_icon.svg" . }}</div>
+							</div>
+						{{ end }}
+					</div>
+				{{ end }}
 				{{ with .Site.GetPage "section" "clients" }}
 					{{ range where .Data.Pages "Section" "clients" }}
 						{{ if eq .Title $client }}
@@ -39,7 +41,7 @@
 	</header>
 
 	<section class="brief bg--2 padder">
-		<div class="container content">
+		<div class="container content content--work">
 			<h2 class="content__subtitle"><span>The brief</span></h2>
 			{{ .Params.brief.body | markdownify }}
 		</div>
@@ -84,7 +86,7 @@
 	</section>
 
 	<section class="solution bg--2 padder">
-		<div class="container content">
+		<div class="container content content--work">
 			<h2 class="content__subtitle"><span>Our solution</span></h2>
 			{{ if .Params.solution.video }}
 				<div class="video-wrapper gutter--bottom">
@@ -96,17 +98,19 @@
 	</section>
 
 	<section class="results padder">
-		<div class="container content">
+		<div class="container content content--work">
 			<h2 class="content__subtitle"><span>The results</span></h2>
-			<div class="case__results flex">
-				{{ range .Params.results.key_results}}
-					<div class="key-result">
-						<div class="key-result__primary">{{ .big_text }}</div>
-						<div class="key-result__supportive">{{ .supportive_text }}</div>
-						<div class="key-result__icon">{{ partial "key_result_icon.svg" . }}</div>
-					</div>
-				{{ end }}
-			</div>
+			{{ if .Params.results.key_results }}
+				<div class="case__results flex">
+					{{ range .Params.results.key_results }}
+						<div class="key-result">
+							<div class="key-result__primary">{{ .big_text }}</div>
+							<div class="key-result__supportive">{{ .supportive_text }}</div>
+							<div class="key-result__icon">{{ partial "key_result_icon.svg" . }}</div>
+						</div>
+					{{ end }}
+				</div>
+			{{ end }}
 			{{ .Params.results.body | markdownify }}
 		</div>
 	</section>
