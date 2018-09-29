@@ -2,6 +2,9 @@
 title: Why outsource marketing?
 publishDate: 2018-02-18T22:59:48.000Z
 author: Clare
+seo:
+  meta_title: Should You Outsource Your Marketing? | Marketplace Strategy Solutions
+  meta_description:  Why should you outsource your marketing? We see so many businesses try to do all themselves when in reality, we should all stick to our strengths. Trying to market your own business is most likely costing you money in the long run. 
 ---
 Outsourcing your business' marketing might not be what you had planned, but it might be just what you need right now.
 
@@ -10,7 +13,7 @@ Based on our 30 years of servicing clients in this space, we often see businesse
 * You don’t know how to best market your business
 * You are currently doing some marketing but could do with a more expert approach
 * There just isn’t enough time or resources for your team to do it well enough
-* You can’t currently afford to hire a full-time marketer or senior marketer 
+* You can’t currently afford to hire a full-time marketer or senior marketer
 
 So does hiring a marketing agency make sense for your business? If you want to take advantage of the following benefits, then outsourcing may be a valuable option indeed.
 
@@ -26,7 +29,7 @@ Karen Lawson, CEO of CareerOne says that: _“It’s impossible to expect one in
 
 ## Flexible, strategic use of resources
 
-By freeing up resources many businesses snag the benefits of higher flexibility. You may decide to outsource your digital marketing or strategy to a professional team, whilst leaving reputation management or email marketing in-house. Freeing up core staff responsibilities can allow for access to extra resources and capital for new growth opportunities. 
+By freeing up resources many businesses snag the benefits of higher flexibility. You may decide to outsource your digital marketing or strategy to a professional team, whilst leaving reputation management or email marketing in-house. Freeing up core staff responsibilities can allow for access to extra resources and capital for new growth opportunities.
 
 And think of the extra space you’ll save in the office, plus they hassle of managing staff health and safety, sick days or annual leave!
 

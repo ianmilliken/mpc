@@ -7,10 +7,13 @@ icon: /img/digital-marketing.svg
 icon_reverse: /img/digital-marketing-reverse.svg
 image: /img/digital marketing 2-min.jpg
 serviceType: Primary
+seo:
+  meta_title: Digital Marketing Services Brisbane | Marketplace Staregy Solutions
+  meta_description: Increase your visibility online with targeted solutions where you can measure their effectiveness. We provide you with a strategy to help your team excel in digital marketing, or we can become part of your digital marketing team.
 ---
 In our experience, digital marketing is something businesses know they need to have but don't truly have the skill and understanding to go at alone.
 
-Whether it's Google, Facebook or another platform, the advertising and marketing opportunities available are ever evolving and it can be hard to keep up, let alone get ahead of the competition. 
+Whether it's Google, Facebook or another platform, the advertising and marketing opportunities available are ever evolving and it can be hard to keep up, let alone get ahead of the competition.
 
 That's where we come in. We can provide you with a strategy to help your team excel in digital marketing, or in fact become your digital marketing team.
 

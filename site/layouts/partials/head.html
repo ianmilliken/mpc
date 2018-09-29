@@ -3,10 +3,19 @@
 	<meta content="text/html" http-equiv="Content-Type">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-	{{ if .Description }}<meta name="description" content="{{ .Description }}">{{ end }}
-	{{ if .Keywords }}<meta name="keywords" content="{{ .Keywords }}">{{ end }}
 	<base href="{{ $.Site.BaseURL }}">
-	<title>{{ $.Site.Title }} • {{ .Title }}</title>
+
+	{{/* SEO */}}
+	{{ if (isset .Params "seo") }}
+		<title>{{ .Params.seo.meta_title }}</title>
+		<meta name="description" content="{{ .Params.seo.meta_description }}">
+		<meta name="keywords" content="{{ .Params.seo.meta_keywords }}">
+	{{ else }}
+		<title>{{ $.Site.Title }} • {{ .Title }}</title>
+		<meta name="description" content="{{ .Description }}">
+		<meta name="keywords" content="{{ .Keywords }}">
+	{{ end }}
+
 	<link rel="stylesheet" href="css/app.css" />
 
 	{{/* Favicons */}}

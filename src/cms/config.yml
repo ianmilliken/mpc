@@ -14,6 +14,13 @@ collections:
         label: Home Page
         name: home
         fields:
+          - label: SEO
+            name: seo
+            widget: object
+            fields:
+              - { label: Meta Title, name: meta_title, widget: string }
+              - { label: Meta Description, name: meta_description, widget: string }
+              - { label: Meta Keywords, name: meta_keywords, widget: string }
           - { label: Title, name: title, widget: string }
           - { label: Subtitle, name: subtitle, widget: string }
           - { label: Image, name: image, widget: image }
@@ -61,6 +68,13 @@ collections:
         label: Services
         name: services
         fields:
+          - label: SEO
+            name: seo
+            widget: object
+            fields:
+              - { label: Meta Title, name: meta_title, widget: string }
+              - { label: Meta Description, name: meta_description, widget: string }
+              - { label: Meta Keywords, name: meta_keywords, widget: string }
           - { label: Title, name: title, widget: string }
           - label: Banner services
             name: banner
@@ -68,16 +82,32 @@ collections:
             fields:
               - { label: Service, name: service, widget: relation, collection: services, searchFields: [title], valueField: title }
 
+
       - file: site/content/work/_index.md
         label: Work
         name: work
         fields:
+          - label: SEO
+            name: seo
+            widget: object
+            fields:
+              - { label: Meta Title, name: meta_title, widget: string }
+              - { label: Meta Description, name: meta_description, widget: string }
+              - { label: Meta Keywords, name: meta_keywords, widget: string }
           - { label: Title, name: title, widget: string }
+
 
       - file: site/content/about/_index.md
         label: About
         name: about
         fields:
+          - label: SEO
+            name: seo
+            widget: object
+            fields:
+              - { label: Meta Title, name: meta_title, widget: string }
+              - { label: Meta Description, name: meta_description, widget: string }
+              - { label: Meta Keywords, name: meta_keywords, widget: string }
           - { label: Title, name: title, widget: string }
           - label: Our Mission
             name: mission
@@ -110,17 +140,33 @@ collections:
             fields:
               - { label: Client, name: client, widget: relation, collection: clients, searchFields: [title, contact], valueField: title }
 
+
       - file: site/content/blog/_index.md
         label: Blog
         name: blog
         fields:
+          - label: SEO
+            name: seo
+            widget: object
+            fields:
+              - { label: Meta Title, name: meta_title, widget: string }
+              - { label: Meta Description, name: meta_description, widget: string }
+              - { label: Meta Keywords, name: meta_keywords, widget: string }
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: string }
+
 
       - file: site/content/contact/_index.md
         label: Contact
         name: contact
         fields:
+          - label: SEO
+            name: seo
+            widget: object
+            fields:
+              - { label: Meta Title, name: meta_title, widget: string }
+              - { label: Meta Description, name: meta_description, widget: string }
+              - { label: Meta Keywords, name: meta_keywords, widget: string }
           - { label: Title, name: title, widget: string }
 
 
@@ -130,6 +176,13 @@ collections:
     create: true
     url: {{ title }}
     fields:
+      - label: SEO
+        name: seo
+        widget: object
+        fields:
+          - { label: Meta Title, name: meta_title, widget: string }
+          - { label: Meta Description, name: meta_description, widget: string }
+          - { label: Meta Keywords, name: meta_keywords, widget: string }
       - { label: Title, name: title, widget: string }
       - { label: Publish Date, name: publishDate, widget: datetime }
       - { label: Intro, name: intro, widget: text }
@@ -144,6 +197,13 @@ collections:
     folder: site/content/blog
     create: true
     fields:
+      - label: SEO
+        name: seo
+        widget: object
+        fields:
+          - { label: Meta Title, name: meta_title, widget: string }
+          - { label: Meta Description, name: meta_description, widget: string }
+          - { label: Meta Keywords, name: meta_keywords, widget: string }
       - { label: Title, name: title, widget: string }
       - { label: Publish Date, name: publishDate, widget: datetime }
       - { label: Author, name: author, widget: relation, collection: authors, searchFields: [first_name, surname], valueField: first_name }
@@ -169,6 +229,13 @@ collections:
     folder: site/content/work
     create: true
     fields:
+      - label: SEO
+        name: seo
+        widget: object
+        fields:
+          - { label: Meta Title, name: meta_title, widget: string }
+          - { label: Meta Description, name: meta_description, widget: string }
+          - { label: Meta Keywords, name: meta_keywords, widget: string }
       - { label: Title, name: title, widget: string }
       - { label: Meta Description, name: description, widget: string }
       - { label: Meta Keywords, name: keywords, widget: string }
@@ -204,6 +271,13 @@ collections:
     folder: site/content/services
     create: true
     fields:
+      - label: SEO
+        name: seo
+        widget: object
+        fields:
+          - { label: Meta Title, name: meta_title, widget: string }
+          - { label: Meta Description, name: meta_description, widget: string }
+          - { label: Meta Keywords, name: meta_keywords, widget: string }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text, required: false }
       - { label: Icon, name: icon, widget: image, required: false }

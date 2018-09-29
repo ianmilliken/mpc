@@ -2,6 +2,9 @@
 title: Why do businesses fail?
 publishDate: '2018-06-18T09:04:51+10:00'
 author: Jordan
+seo:
+  meta_title: Why Do Businesses Fail? | Marketplace Strategy Solutions
+  meta_description: It's so easy to start a business these days but failure is still rife. So why do so many businesses fail when seemingly getting the word out there is at their fingertips? Let's look at some examples of large companies that didn't get it right.
 ---
 In many ways it's never been easier to start a business and run it profitably than it is right now - so why do we still see businesses failing in the marketplace?
 
@@ -41,7 +44,7 @@ Dominos and Eagle Boys. Both big names in the fast food pizza scene a decade ago
 
 Here's a hint, it's got nothing to do with their pizza.
 
-The short answer is Eagle Boys failed to deliver a new experience to their target market, which was growing out of old habits. 
+The short answer is Eagle Boys failed to deliver a new experience to their target market, which was growing out of old habits.
 
 Fast food pizza has always been a food experience enjoyed by the younger generations, no matter what era, and the inability of Eagle Boys to create a slick, reliable online ordering service was a major downfall for their business, as people opted to order on their phone instead of calling the business directly.
 

@@ -5,6 +5,9 @@ intro: >-
   goals
 image: /img/services8.png
 serviceType: Primary
+seo:
+  meta_title: Marketing Workshops and Training in Brisbane |  Marketplace Strategy Solutions
+  meta_description: Participate in a half-day or full-day workshop to help your marketing and sales teams develop end-to-end brand growth strategies.
 ---
 
 Every single one of our marketing workshops has a strong focus on strategy. We

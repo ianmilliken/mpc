@@ -85,5 +85,7 @@ service_picker:
         - service: Advertising
         - service: Digital Marketing
   title: 'Know you need marketing help, but don’t know where to start?'
+seo:
+  meta_title: Marketing Agency Brisbane | Marketplace Strategy Solutions
+  meta_description: Makers of marketing solutions in Brisbane for 30+ years, we provide flexible, proven strategies for business growth. Call us today on 07 3350 3870.
 ---
-

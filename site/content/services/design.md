@@ -5,6 +5,9 @@ icon: /img/design.svg
 icon_reverse: /img/design-reverse.svg
 image: /img/services6-min.png
 serviceType: Primary
+seo:
+  meta_title: Design Services Brisbane | Marketplace Strategy Solutions
+  meta_description: Our focus is on quality design that aligns with your intended message and is achieved for your deadline. We design logos, billboards, business cards, corporate merchandise, websites and newspaper advertisements.
 ---
 
 Design is a key part of making valuable impressions on your prospective

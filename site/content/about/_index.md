@@ -61,5 +61,7 @@ logo_wall:
   - client: Noosa Northrise
   - client: Dish
   - client: Remax
+seo:
+  meta_title: Who We Are | Marketplace Strategy Solutions
+  meta_description: For more than 30 years, Marketplace Strategy Solutions has been the trusted marketing partner to some of Brisbane, Queensland and Australia’s leading businesses.
 ---
-

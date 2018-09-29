@@ -2,6 +2,9 @@
 title: Evolution of NFP marketing
 publishDate: '2018-06-26T12:45:12+10:00'
 author: Jordan
+seo:
+  meta_title: Stop Selling Guilt! The Evolution of Not For Profit Marketing | Marketplace Strategy Solutions
+  meta_description: How do charities and not-for-profits achieve success in this marketplace? There’s very little repeat business in this sector primarily due to the marketing and sales strategies being implemented. Here we discuss how to do NFP marketing successfully.
 ---
 Donated to charity recently? Don't worry, there's no guilt trip coming from us.
 
@@ -35,7 +38,7 @@ As mentioned at the top of this post, people are more money conscious than ever,
 
 In our opinion, it comes down to fundamentally changing the way you view your market.
 
-* Should they be approached just as donors, that come and go? 
+* Should they be approached just as donors, that come and go?
 * Or are they members, who should get a set of benefits from you for their continued support?
 
 It may sound trivial but it revolutionises the way an organisation interacts with their market, and its worth every charity and not-for-profit having a good think about this marketing crossroads.
@@ -78,7 +81,7 @@ Despite a decrease in event registrations, a Walk in the Park raised $260,000 ag
 
 Less donors = more donations.
 
-This tiered approach transforms the donation process into a goal based, almost competitive environment whereby the supporter gets something back for their increased support, and it's the future of donation drives, in our opinion. 
+This tiered approach transforms the donation process into a goal based, almost competitive environment whereby the supporter gets something back for their increased support, and it's the future of donation drives, in our opinion.
 
 ![](/img/tiered-charity.jpg)
 

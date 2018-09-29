@@ -5,8 +5,11 @@ icon: /img/media-and-communications.svg
 icon_reverse: /img/media-and-communications-reverse.svg
 image: /img/services3.png
 serviceType: Primary
+seo:
+  meta_title: PR Services Brisbane | Media & Communications | Marketplace Strategy Solutions
+  meta_description: We pride ourselves on creating media releases that turn into significant editorial publications. Benefit from our innovative techniques to get the coverage your brand needs to capture the attention of your audience.
 ---
-Communicating effectively with your audience and your potential clients is 
+Communicating effectively with your audience and your potential clients is
 essential for business and brand management. It pays to build your profile
 through optimal media coverage and we have an established media base to
 successfully get your brand ‘out there’.

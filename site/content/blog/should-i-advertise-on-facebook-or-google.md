@@ -2,6 +2,9 @@
 title: The Why and Where of PPC
 publishDate: 2018-04-15T23:00:10.000Z
 author: Jordan
+seo:
+  meta_title: Should You Advertsise on Facebook or Google? | Marketplace Strategy Solutions
+  meta_description: Pay per click (PPC) advertising is a great way to get your business in front of prospective customers. But where should you advertise? What are the benfits of one platform over another? Let's discuss the options. 
 ---
 ## First of all, why do it?
 
@@ -39,7 +42,7 @@ Different types of ads across the different platforms will ultimately suit you b
 
 ## Are the users' intentions different?
 
-Yes.  Facebook and Google users are not equally likely to click on your ads. 
+Yes.  Facebook and Google users are not equally likely to click on your ads.
 
 People go on Google to search for something, and if that search happens to be for a keyword your ad is targeting then you stand a good chance of being clicked on.
 
@@ -49,7 +52,7 @@ A fundamental aspect of marketing is whether you are having to 'push' your adver
 
 Advertising on Google means that you're advertising in front of someone who is actively searching for a product/service you offer right now.
 
-Advertising on Facebook means that you're advertising in front of someone who likes pages and has purchase behaviour that matches your target market - but right now they could have opened Facebook to post a selfie or look longingly at what their ex is up to. 
+Advertising on Facebook means that you're advertising in front of someone who likes pages and has purchase behaviour that matches your target market - but right now they could have opened Facebook to post a selfie or look longingly at what their ex is up to.
 
 It's not to say that Facebook campaigns are less effective, it just means that you often need to 'narrow the market' down to a specific user to get better results, because of the diverse intentions of their user base.
 
