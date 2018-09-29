@@ -3,7 +3,7 @@ title: Workshops & Training
 intro: >-
   Get access to professional marketing advice that works towards your business
   goals
-image: /img/services8.png
+image: /img/services8-min.png
 serviceType: Primary
 seo:
   meta_title: Marketing Workshops and Training in Brisbane |  Marketplace Strategy Solutions

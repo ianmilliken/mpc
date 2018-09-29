@@ -3,7 +3,6 @@ title: Media & Communications
 intro: 'Media-driven, promotional communications that get you noticed'
 icon: /img/media-and-communications.svg
 icon_reverse: /img/media-and-communications-reverse.svg
-image: /img/services3.png
 serviceType: Primary
 seo:
   meta_title: PR Services Brisbane | Media & Communications | Marketplace Strategy Solutions
