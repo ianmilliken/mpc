@@ -1,4 +1,7 @@
 ---
+seo:
+  meta_description: TEST
+  meta_title: TEST
 title: FREE Marketing Strategy Toolkit
 publishDate: 2018-02-25T09:16:39.321Z
 intro: >-
