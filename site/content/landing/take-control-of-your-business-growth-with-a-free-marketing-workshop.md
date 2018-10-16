@@ -27,7 +27,7 @@ Our marketing workshops are designed to have a strong focus on strategy. Let us 
 
 * Seek professional marketing help, but don’t want to hire a full time marketing manager
 * Tap into a professional mix of skills
-* Source an outside ‘health check’ on your current self-managed marketing plan
+* Source an outside ‘health check’ on your current marketing plan
 * Gain extra marketing support to grow your business 
 
 </p>
@@ -36,11 +36,13 @@ Our marketing workshops are designed to have a strong focus on strategy. Let us 
 
 **Marketing Workshop Includes:**
 
-* A clear approach to brand and marketing positioning
+* Review your business
+* Spy on your competitors 
+* Analyse your audience, sales process and goals
 * Define your key marketing messages
 * Define your ideal target markets and map the journey back to your business
 * Review your website performance and role 
-* Define appropriate marketing tactics
+* Discuss early observations and recommendations
 
 </p>
 
