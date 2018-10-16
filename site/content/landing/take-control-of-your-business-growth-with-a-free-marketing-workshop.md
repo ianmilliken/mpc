@@ -3,13 +3,13 @@ seo:
   meta_description: A
   meta_keywords: A
   meta_title: A
-title: Take Control Of Your Business Growth With A FREE Marketing Workshop
+title: FREE Marketing Workshop
 publishDate: '2018-10-16T10:03:18+10:00'
 intro: >-
   Get your brand and marketing strategies on track with a half-day workshop
   facilitated by our experienced Managing Director.
 cta: A
-download: /img/ace signup-min.png
+download: /img/marketing strategy 2 (1)-min.jpg
 ---
 <br>
 
