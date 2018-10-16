@@ -52,7 +52,7 @@ Our marketing workshops are designed to have a strong focus on strategy. Let us 
 
 <p>
 
-We're a Brisbane Marketing Agency who has been providing tailor marketing strategies to companies big and small, across Australia for over 30 years. 
+For more than 30 years, Marketplace Strategy Solutions has been the trusted marketing partner to some of Brisbane, Queensland and Australia’s leading businesses. Our strength lies in the ability of our team to bring ideas to the table which help your business increase its stature in the marketplace.
 
 </p>
 
