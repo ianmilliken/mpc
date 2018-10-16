@@ -8,7 +8,7 @@ publishDate: '2018-10-16T10:03:18+10:00'
 intro: >-
   Get your brand and marketing strategies on track with a half-day workshop
   facilitated by our experienced Managing Director.
-cta: A
+cta: '?'
 download: /img/marketing strategy 2 (1)-min.jpg
 ---
 <br>
