@@ -17,8 +17,6 @@ download: /img/marketing strategy 2 (1)-min.jpg
 
 <p>
 
-Our marketing workshops are designed to have a strong focus on strategy. Let us review your business, spy on your competitors and analyse your audience, sales process and goals with you. 
-
 </p>
 
 <p>
