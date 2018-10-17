@@ -11,44 +11,81 @@ intro: >-
 cta: '?'
 download: /img/marketing strategy 2 (1)-min.jpg
 ---
+<html>
+
+<head>
+
 <br>
 
-<Center>
+<left> 
 
 <p>
 
-</p>
+</p>          
 
 <p>
 
-**When You Need To:**
+<center>
 
-* Seek professional marketing help, but don’t want to hire a full time marketing manager
-* Tap into a professional mix of skills
-* Source an outside ‘health check’ on your current marketing plan
-* Gain extra marketing support to grow your business 
+**When You Need To:**
 
-</p>
+</center>
+
+<br>
+
+<ul> 
+
+<li>      Seek professional marketing help, but don’t want to hire a full time marketing manager</li>
+
+<li>      Tap into a professional mix of skills </li>
+
+<li>      Source an outside ‘health check’ on your current marketing plan </li>
+
+<li>      Gain extra marketing support to grow your business </li>
+
+</ul>
+
+</p>          
 
 <p>
 
-**Marketing Workshop Includes:**
+<center>
 
-* Review your business
-* Spy on your competitors 
-* Analyse your audience, sales process and goals
-* Define your key marketing messages
-* Define your ideal target markets and map the journey back to your business
-* Review your website performance and role 
-* Discuss early observations and recommendations
+<br>
 
-</p>
+**Marketing Workshop Includes:**
+
+</center>
+
+<br>
+
+<ul> 
+
+<li>      Review your business</li>
+
+<li>      Spy on your competitors</li>
+
+<li>      Analyse your audience, sales process and goals</li>
+
+<li>      Define your key marketing messages</li>
+
+<li>      Define your ideal target markets and map the journey back to your business</li>
+
+<li>      Review your website performance and role</li>
+
+<li>      Discuss early observations and recommendations</li>
+
+</ul>
+
+</p>         
 
 <p>
 
-**Who We Are**
+<center>
 
-</p>
+<br>
+
+**Who We Are**
 
 <p>
 
@@ -56,6 +93,10 @@ Marketplace Strategy Solutions is a Brisbane based, full service marketing agenc
 
 With over 30 years in the marketplace, we know better than most that businesses have to adapt to keep kicking goals, and it’s exactly the support we can provide to you and your business.
 
+</center>
+
 </p>
 
-<Center/>
+</left>
+
+</html>
