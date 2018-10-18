@@ -11,17 +11,21 @@ intro: >-
 cta: '?'
 download: /img/marketing strategy 2 (1)-min.jpg
 ---
+
+
+<br>
+
+Spend a couple of hours with our experience marketing expert and get the information you need to nail your marketing strategy.  
+
 <html>
 
 <head>
-
-<br>
 
 <left> 
 
 <p>
 
-</p>          
+</p>        
 
 <p>
 
@@ -61,9 +65,9 @@ download: /img/marketing strategy 2 (1)-min.jpg
 
 <ul> 
 
-<li>      Review your business</li>
+<li>      Review of your business</li>
 
-<li>      Spy on your competitors</li>
+<li>      Spy on your competitors with an in-depth analysis</li>
 
 <li>      Analyse your audience, sales process and goals</li>
 
