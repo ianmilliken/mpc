@@ -11,11 +11,9 @@ intro: >-
 cta: '?'
 download: /img/marketing strategy 2 (1)-min.jpg
 ---
-
-
 <br>
 
-Spend a couple of hours with our experience marketing expert and get the information you need to nail your marketing strategy.  
+
 
 <html>
 
@@ -25,13 +23,15 @@ Spend a couple of hours with our experience marketing expert and get the informa
 
 <p>
 
-</p>        
+</p>
+        
 
 <p>
 
 <center>
 
-**When You Need To:**
+**When You Need To:
+**
 
 </center>
 
@@ -49,7 +49,8 @@ Spend a couple of hours with our experience marketing expert and get the informa
 
 </ul>
 
-</p>          
+</p>
+          
 
 <p>
 
@@ -57,7 +58,8 @@ Spend a couple of hours with our experience marketing expert and get the informa
 
 <br>
 
-**Marketing Workshop Includes:**
+**Marketing Workshop Includes:
+**
 
 </center>
 
@@ -81,7 +83,8 @@ Spend a couple of hours with our experience marketing expert and get the informa
 
 </ul>
 
-</p>         
+</p>
+         
 
 <p>
 
@@ -89,7 +92,12 @@ Spend a couple of hours with our experience marketing expert and get the informa
 
 <br>
 
-**Who We Are**
+Spend a couple of hours with our experienced marketing expert and get the information you need to nail your marketing strategy.  
+
+<br>
+
+**Who We Are
+**
 
 <p>
 
