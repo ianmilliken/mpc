@@ -1,8 +1,8 @@
 ---
 seo:
-  meta_description: A
+  meta_description: 'Marketing Strategy Workshop, Bri'
   meta_keywords: A
-  meta_title: A
+  meta_title: 'Marketplace Strategy Solutions - Free Brisbane Marketing Workshop '
 title: FREE Marketing Workshop
 publishDate: '2018-10-16T10:03:18+10:00'
 intro: >-
