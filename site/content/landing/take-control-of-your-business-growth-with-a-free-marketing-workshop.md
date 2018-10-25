@@ -1,8 +1,10 @@
 ---
 seo:
-  meta_description: 'Marketing Strategy Workshop, Bri'
-  meta_keywords: A
-  meta_title: 'Marketplace Strategy Solutions - Free Brisbane Marketing Workshop '
+  meta_description: >-
+    Get your brand and marketing strategies on track with a free marketing
+    workshop. Business Growth for 2019 with a free marketing plan.
+  meta_keywords: ''
+  meta_title: 'Free Brisbane Marketing Workshop | Marketplace Strategy Solutions - '
 title: FREE Marketing Workshop
 publishDate: '2018-10-16T10:03:18+10:00'
 intro: >-
