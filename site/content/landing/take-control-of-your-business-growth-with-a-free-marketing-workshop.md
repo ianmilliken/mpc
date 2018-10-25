@@ -15,8 +15,6 @@ download: /img/marketing strategy 2 (1)-min.jpg
 ---
 <br>
 
-
-
 <html>
 
 <head>
@@ -43,7 +41,7 @@ download: /img/marketing strategy 2 (1)-min.jpg
 
 <li>      Seek professional marketing help, but don’t want to hire a full time marketing manager</li>
 
-<li>      Tap into a professional mix of skills </li>
+<li>      Tap into a professional mix of skills and a 30 year track record of success </li>
 
 <li>      Source an outside ‘health check’ on your current marketing plan </li>
 
@@ -69,19 +67,19 @@ download: /img/marketing strategy 2 (1)-min.jpg
 
 <ul> 
 
-<li>      Review of your business</li>
+<li>      A graded review of your business' marketing</li>
 
-<li>      Spy on your competitors with an in-depth analysis</li>
+<li>      In-depth analysis of your competitors</li>
 
-<li>      Analyse your audience, sales process and goals</li>
+<li>      A review of your audience, sales process and goals</li>
 
 <li>      Define your key marketing messages</li>
 
-<li>      Define your ideal target markets and map the journey back to your business</li>
+<li>      A customer journey and target market analysis</li>
 
-<li>      Review your website performance and role</li>
+<li>      A benchmarking session on your website performance </li>
 
-<li>      Discuss early observations and recommendations</li>
+<li>      Initial observations and recommendations from our experts</li>
 
 </ul>
 
@@ -94,7 +92,7 @@ download: /img/marketing strategy 2 (1)-min.jpg
 
 <br>
 
-Spend a couple of hours with our experienced marketing expert and get the information you need to nail your marketing strategy.  
+Spend a couple of hours with our experienced marketing experts and get the information you need to nail your marketing strategy.  
 
 <br>
 
