@@ -11,7 +11,7 @@ intro: >-
   Get your brand and marketing strategies on track with a free half-day workshop
   facilitated by our experienced Managing Director.
 cta: '?'
-download: /img/marketing strategy 2 (1)-min.jpg
+download: /img/ace signup-min.png
 ---
 <br>
 
