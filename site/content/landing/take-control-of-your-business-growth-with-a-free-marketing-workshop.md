@@ -23,6 +23,12 @@ download: /img/ace signup-min.png
 
 <p>
 
+
+
+<a href="http://tinypic.com?ref=s63fc7" target="_blank"><img src="http://i64.tinypic.com/s63fc7.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
+
+
+
 </p>
         
 
