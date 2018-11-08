@@ -10,8 +10,8 @@ publishDate: '2018-10-16T10:03:18+10:00'
 intro: >-
   Get your brand and marketing strategies on track with a free half-day workshop
   facilitated by our experienced Managing Director.
-cta: '?'
-download: /img/ace signup-min.png
+cta: A
+download: /img/advertising.svg
 ---
 <br>
 
