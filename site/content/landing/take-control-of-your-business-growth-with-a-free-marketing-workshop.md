@@ -8,8 +8,8 @@ seo:
 title: FREE Marketing Workshop
 publishDate: '2018-10-16T10:03:18+10:00'
 intro: >-
-  Get your brand and marketing strategies on track with a free half-day workshop
-  facilitated by our experienced Managing Director.
+  Get your brand and marketing strategies on track for 2019 with a free half-day
+  workshop facilitated by our experienced Managing Director.
 cta: A
 download: /img/advertising.svg
 ---
@@ -23,11 +23,7 @@ download: /img/advertising.svg
 
 <p>
 
-
-
 <a href="http://tinypic.com?ref=s63fc7" target="_blank"><img src="http://i64.tinypic.com/s63fc7.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
-
-
 
 </p>
         
@@ -118,3 +114,12 @@ With over 30 years in the marketplace, we know better than most that businesses 
 </left>
 
 </html>
+
+<p>
+
+<center>
+
+<br>
+
+**What Our Clients Have To Say..
+**
