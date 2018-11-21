@@ -1,0 +1,20 @@
+<div class="result__form">
+	<form id="landingForm" name="landingForm" action="/">
+		<div class="form-group">
+			<label for="landingFullName">{{ if .Site.Data.language.fullname_label }}{{ .Site.Data.language.fullname_label }}{{ else }}Full Name{{ end }}</label>
+			<input id="landingFullName" type="text" name="fullname" required placeholder="{{ if .Site.Data.language.fullname_placeholder }}{{ .Site.Data.language.fullname_placeholder }}{{ else }}Your full name{{ end }}" />
+		</div>
+		<div class="form-group">
+			<label for="landingEmail">{{ if .Site.Data.language.email_label }}{{ .Site.Data.language.email_label }}{{ else }}Email address{{ end }}</label>
+			<input id="landingEmail" type="email" name="email" required placeholder="{{ if .Site.Data.language.email_placeholder }}{{ .Site.Data.language.email_placeholder }}{{ else }}Your email address{{ end }}" />
+		</div>
+		<div class="form-group">
+			<label for="landingCompany">{{ if .Site.Data.language.company_label }}{{ .Site.Data.language.company_label }}{{ else }}Company{{ end }}</label>
+			<input id="landingCompany" type="text" name="company" required placeholder="{{ if .Site.Data.language.company_placeholder }}{{ .Site.Data.language.company_placeholder }}{{ else }}Your company name{{ end }}" />
+		</div>
+		<div>
+			<button class="button button--primary button--large dl-button" type="submit" id="landingSubmit">{{ .Params.cta }}</button>
+		</div>
+	</form>
+	<a class="is-hidden" href="{{ .Params.download }}" download data-download></a>
+</div>
