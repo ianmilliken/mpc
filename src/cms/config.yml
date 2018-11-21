@@ -186,7 +186,6 @@ collections:
       - { label: Title, name: title, widget: string }
       - { label: Publish Date, name: publishDate, widget: datetime }
       - { label: Intro, name: intro, widget: text }
-      - { label: Image, name: image, widget: image, required: false }
       - label: Form Position
         name: formPosition
         widget: select
@@ -194,6 +193,7 @@ collections:
         options:
           - { label: Below Intro, value: belowIntro }
           - { label: Below Content, value: belowContent }
+      - { label: Form Image, name: image, widget: image, required: false }
       - { label: Form CTA, name: cta, widget: string }
       - { label: Download, name: download, widget: file }
       - { label: Additional content, name: body, widget: markdown, required: false }
