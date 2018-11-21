@@ -38,7 +38,7 @@ export default class LandingPreview extends Component {
 								<input id="landingCompany" type="text" name="company" required placeholder="Your company name" />
 							</div>
 							<div>
-								<button className="button button--primary button--large dl-button" type="submit" id="landingSubmit">{ entry.getIn(["data", "title"]) }</button>
+								<button className="button button--primary button--large dl-button" type="submit" id="landingSubmit">{ entry.getIn(["data", "cta"]) }</button>
 							</div>
 						</form>
 						<a className="is-hidden" href={ entry.getIn(["data", "download"]) }></a>
