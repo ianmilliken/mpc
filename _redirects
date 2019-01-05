@@ -1,5 +1,6 @@
 # Redirect domain aliases to primary domain
 https://mpc.com.au/* https://marketplacestrategysolutions.com.au/:splat 301!
+https://www.mpc.com.au/* https://marketplacestrategysolutions.com.au/:splat 301!
 
 # Optional: Redirect default Netlify subdomain to primary domain
 https://marketplacestrategysolutions.netlify.com/* https://marketplacestrategysolutions.com.au/:splat 301!
