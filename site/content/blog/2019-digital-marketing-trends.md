@@ -8,7 +8,7 @@ seo:
     Micro-influencer, Video Marketing, Social Media Personalisation, LinkedIn
     B2B Marketing 
   meta_title: '2019 Digital Marketing '
-title: 2019 Digital Marketing Trends
+title: '2019 Digital Marketing '
 publishDate: '2019-01-09T09:07:00+10:00'
 author: Genevieve Sanders
 image: /img/digital-marketing.jpg
