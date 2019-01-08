@@ -11,7 +11,7 @@ seo:
 title: 2019 Digital Marketing Trends
 publishDate: '2019-01-07T14:54:22+10:00'
 author: Genevieve Sanders
-image: /img/digital-marketing-trend-2019-pic.jpg
+image: /img/digital-marketing.jpg
 ---
 As 2018 has recently come to an end, we say goodbye to the trends in the marketing space that have reached the expiration date and welcome 2019 prospects with open arms. 
 
