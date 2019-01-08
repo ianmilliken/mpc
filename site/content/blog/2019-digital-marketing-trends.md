@@ -7,9 +7,9 @@ seo:
     2019 Digital Marketing Trends, Digital Marketing, Content Marketing,
     Micro-influencer, Video Marketing, Social Media Personalisation, LinkedIn
     B2B Marketing 
-  meta_title: '2019 Digital Marketing '
-title: '2019 Digital Marketing '
-publishDate: '2019-01-09T09:07:00+10:00'
+  meta_title: Digital Marketing for 2019
+title: Digital Marketing for 2019
+publishDate: '2019-01-09T09:17:00+10:00'
 author: Genevieve Sanders
 image: /img/digital-marketing.jpg
 ---
@@ -55,6 +55,3 @@ These trends are sure to make a big splash in 2019 and have the power to set you
 
 **Need help creating a marketing strategy for 2019? 
 Fill out the form below to speak to an expert!**
-
-\*\*
-\*\*
