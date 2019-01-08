@@ -1,7 +1,12 @@
 ---
 seo:
-  meta_description: '80'
-  meta_keywords: most used words all 5 headings  80 - image from shutterstock
+  meta_description: >-
+    Our top digital marketing trend picks for 2019, predicted to have the
+    biggest impact for your business.
+  meta_keywords: >-
+    2019 Digital Marketing Trends, Digital Marketing, Content Marketing,
+    Micro-influencer, Video Marketing, Social Media Personalisation, LinkedIn
+    B2B Marketing 
   meta_title: 2019 Digital Marketing Trends
 title: 2019 Digital Marketing Trends
 publishDate: '2019-01-07T14:54:22+10:00'
