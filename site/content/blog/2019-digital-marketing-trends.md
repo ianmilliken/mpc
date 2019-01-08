@@ -9,7 +9,7 @@ seo:
     B2B Marketing 
   meta_title: 2019 Digital Marketing Trends
 title: 2019 Digital Marketing Trends
-publishDate: '2019-01-09T09:00:00+10:00'
+publishDate: '2019-01-09T09:07:00+10:00'
 author: Genevieve Sanders
 image: /img/digital-marketing.jpg
 ---
