@@ -1,10 +1,15 @@
 ---
+seo:
+  meta_description: >-
+    Why should you outsource your marketing? We see so many businesses try to do
+    all themselves when in reality, we should all stick to our strengths. Trying
+    to market your own business is most likely costing you money in the long
+    run.
+  meta_title: Should You Outsource Your Marketing? | Marketplace Strategy Solutions
 title: Why outsource marketing?
 publishDate: 2018-02-18T22:59:48.000Z
 author: Clare
-seo:
-  meta_title: Should You Outsource Your Marketing? | Marketplace Strategy Solutions
-  meta_description:  Why should you outsource your marketing? We see so many businesses try to do all themselves when in reality, we should all stick to our strengths. Trying to market your own business is most likely costing you money in the long run. 
+image: /img/digital marketing 2-min.jpg
 ---
 Outsourcing your business' marketing might not be what you had planned, but it might be just what you need right now.
 
