@@ -4,6 +4,7 @@ seo:
     Did you achieve your marketing goals in 2018? Ensure 2019 is a success by
     booking in a free marketing workshop from Brisbane's most experienced
     marketing agency
+  meta_title: free marketing workshop
 title: Free Marketing Workshop
 publishDate: '2019-01-09T14:18:01+10:00'
 intro: >
