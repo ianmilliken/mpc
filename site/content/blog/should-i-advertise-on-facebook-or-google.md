@@ -1,10 +1,16 @@
 ---
+seo:
+  meta_description: >-
+    Pay per click (PPC) advertising is a great way to get your business in front
+    of prospective customers. But where should you advertise? What are the
+    benfits of one platform over another? Let's discuss the options.
+  meta_title: >-
+    Should You Advertsise on Facebook or Google? | Marketplace Strategy
+    Solutions
 title: The Why and Where of PPC
 publishDate: 2018-04-15T23:00:10.000Z
 author: Jordan
-seo:
-  meta_title: Should You Advertsise on Facebook or Google? | Marketplace Strategy Solutions
-  meta_description: Pay per click (PPC) advertising is a great way to get your business in front of prospective customers. But where should you advertise? What are the benfits of one platform over another? Let's discuss the options. 
+image: /img/services-min.png
 ---
 ## First of all, why do it?
 
