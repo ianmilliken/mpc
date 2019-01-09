@@ -1,10 +1,17 @@
 ---
+seo:
+  meta_description: >-
+    How do charities and not-for-profits achieve success in this marketplace?
+    There’s very little repeat business in this sector primarily due to the
+    marketing and sales strategies being implemented. Here we discuss how to do
+    NFP marketing successfully.
+  meta_title: >-
+    Stop Selling Guilt! The Evolution of Not For Profit Marketing | Marketplace
+    Strategy Solutions
 title: Evolution of NFP marketing
 publishDate: '2018-06-26T12:45:12+10:00'
 author: Jordan
-seo:
-  meta_title: Stop Selling Guilt! The Evolution of Not For Profit Marketing | Marketplace Strategy Solutions
-  meta_description: How do charities and not-for-profits achieve success in this marketplace? There’s very little repeat business in this sector primarily due to the marketing and sales strategies being implemented. Here we discuss how to do NFP marketing successfully.
+image: /img/nfp-marketing.jpg
 ---
 Donated to charity recently? Don't worry, there's no guilt trip coming from us.
 
