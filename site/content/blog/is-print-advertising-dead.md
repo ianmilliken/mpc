@@ -1,10 +1,13 @@
 ---
+seo:
+  meta_description: >-
+    Is print advertising really dead? Should you be using print adcertising in
+    your business? Are there benfits of this medium over digital advertising?
+  meta_title: Should You Advertise in the Paper? | Marketplace Strategy Solutions
 title: Is print advertising dead?
 publishDate: 2018-04-12T23:00:10.000Z
 author: Jordan
-seo:
-  meta_title: Should You Advertise in the Paper? | Marketplace Strategy Solutions
-  meta_description: Is print advertising really dead? Should you be using print adcertising in your business? Are there benfits of this medium over digital advertising?
+image: /img/print-advertisement.jpg
 ---
 ## Does advertising in the paper still work?
 
