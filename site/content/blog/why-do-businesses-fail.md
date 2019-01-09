@@ -1,10 +1,15 @@
 ---
+seo:
+  meta_description: >-
+    It's so easy to start a business these days but failure is still rife. So
+    why do so many businesses fail when seemingly getting the word out there is
+    at their fingertips? Let's look at some examples of large companies that
+    didn't get it right.
+  meta_title: Why Do Businesses Fail? | Marketplace Strategy Solutions
 title: Why do businesses fail?
 publishDate: '2018-06-18T09:04:51+10:00'
 author: Jordan
-seo:
-  meta_title: Why Do Businesses Fail? | Marketplace Strategy Solutions
-  meta_description: It's so easy to start a business these days but failure is still rife. So why do so many businesses fail when seemingly getting the word out there is at their fingertips? Let's look at some examples of large companies that didn't get it right.
+image: /img/masters-img.jpg
 ---
 In many ways it's never been easier to start a business and run it profitably than it is right now - so why do we still see businesses failing in the marketplace?
 
