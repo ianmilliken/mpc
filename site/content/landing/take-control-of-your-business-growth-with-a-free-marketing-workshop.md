@@ -4,14 +4,16 @@ seo:
     Get your brand and marketing strategies on track with a free marketing
     workshop. Business Growth for 2019 with a free marketing plan.
   meta_keywords: ''
-  meta_title: 'Free Brisbane Marketing Workshop | Marketplace Strategy Solutions - '
+  meta_title: 'Free Brisbane Marketing Workshop | Marketplace Strategy Solutions '
 title: FREE Marketing Workshop
 publishDate: '2018-10-16T10:03:18+10:00'
 intro: >-
-  Get your brand and marketing strategies on track for 2019 with a free half-day
-  workshop facilitated by our experienced Managing Director.
+  Did you achieve all of your business' marketing goals in 2018? If your answer
+  was no, what's stopping your 2019 marketing goals from realising the same
+  fate? Get your brand and marketing strategies on track for 2019 with a free
+  half-day workshop facilitated by our experienced Managing Director.
 formPosition: belowContent
-cta: A
+cta: Register for a free marketing workshop
 download: /img/advertising.svg
 ---
 <br>
@@ -33,7 +35,7 @@ download: /img/advertising.svg
 
 <center>
 
-**When You Need To:
+**Business' rely us when they need to...
 **
 
 </center>
@@ -95,7 +97,7 @@ download: /img/advertising.svg
 
 <br>
 
-Spend a couple of hours with our experienced marketing experts and get the information you need to nail your marketing strategy.  
+Spend a few short hours with our experienced marketing experts and get the information you need to nail your marketing strategy.  
 
 <br>
 
@@ -121,6 +123,3 @@ With over 30 years in the marketplace, we know better than most that businesses 
 <center>
 
 <br>
-
-**What Our Clients Have To Say..
-**
