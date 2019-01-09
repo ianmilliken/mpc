@@ -9,7 +9,7 @@ seo:
 title: Why do businesses fail?
 publishDate: '2018-06-18T09:04:51+10:00'
 author: Jordan
-image: /img/masters-img.jpg
+image: /img/bunningsmasters.png
 ---
 In many ways it's never been easier to start a business and run it profitably than it is right now - so why do we still see businesses failing in the marketplace?
 
