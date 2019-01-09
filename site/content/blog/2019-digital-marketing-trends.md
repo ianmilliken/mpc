@@ -10,7 +10,7 @@ seo:
   meta_title: Digital Marketing for 2019
 title: Digital Marketing for 2019
 publishDate: '2019-01-09T09:17:00+10:00'
-author: Genevieve Sanders
+author: Jordan
 image: /img/digital-marketing.jpg
 ---
 As 2018 has recently come to an end, we say goodbye to the trends in the marketing space that have reached the expiration date and welcome 2019 prospects with open arms. 
