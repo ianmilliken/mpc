@@ -1,10 +1,16 @@
 ---
+seo:
+  meta_description: >-
+    Social Media is not a one size fits all package. What works for other
+    businesses, may not work for your business. Before you get started, there’s
+    a few things you should consider before jumping in.
+  meta_title: >-
+    Which Social Media is Right For My Business? | Marketplace Strategy
+    Solutions
 title: Pick the right social media
 publishDate: 2018-05-25T04:25:16.977Z
 author: Jordan
-seo:
-  meta_title: Which Social Media is Right For My Business? | Marketplace Strategy Solutions
-  meta_description: Social Media is not a one size fits all package. What works for other businesses, may not work for your business. Before you get started, there’s a few things you should consider before jumping in.  
+image: /img/social-media.jpg
 ---
 ## Which social network best suits my business' marketing?
 
