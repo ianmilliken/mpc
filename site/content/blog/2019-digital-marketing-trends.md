@@ -7,7 +7,7 @@ seo:
     2019 Digital Marketing Trends, Digital Marketing, Content Marketing,
     Micro-influencer, Video Marketing, Social Media Personalisation, LinkedIn
     B2B Marketing 
-  meta_title: Digital Marketing for 2019
+  meta_title: Digital Marketing Trends in 2019 - Brisbane Marketing Agency
 title: Digital Marketing for 2019
 publishDate: '2019-01-09T09:17:00+10:00'
 author: Jordan
