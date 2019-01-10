@@ -1,9 +1,9 @@
 ---
 seo:
   meta_description: >-
-    Is print advertising really dead? Should you be using print adcertising in
+    Is print advertising really dead? Should you be using print advertising in
     your business? Are there benfits of this medium over digital advertising?
-  meta_title: Should You Advertise in the Paper? | Marketplace Strategy Solutions
+  meta_title: Is Press Advertising for You? | Brisbane Marketing Agency
 title: Is print advertising dead?
 publishDate: 2018-04-12T23:00:10.000Z
 author: Jordan
