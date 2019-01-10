@@ -14,7 +14,7 @@ intro: >-
   half-day workshop facilitated by our experienced Managing Director.
 formPosition: belowContent
 cta: Register for a free marketing workshop
-download: /img/advertising.svg
+download: /img/client-references-mss.pdf
 ---
 <br>
 
