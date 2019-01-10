@@ -5,7 +5,7 @@ seo:
     workshop. Business Growth for 2019 with a free marketing plan.
   meta_keywords: >-
     Brisbane marketing agency, 2019 marketing, marketing strategies, marketing
-    workshop, 
+    workshop
   meta_title: Free Marketing Strategy Workshop | Brisbane Marketing Agency
 title: FREE Marketing Workshop
 publishDate: '2018-10-16T10:03:18+10:00'
