@@ -24,12 +24,9 @@ download: /img/client-references-mss.pdf
 
 <left> 
 
-<p>
 
-<a href="http://tinypic.com?ref=s63fc7" target="_blank"><img src="http://i64.tinypic.com/s63fc7.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
 
-</p>
-        
+<a href="http://tinypic.com?ref=s63fc7" target="_blank"><img src="http://i64.tinypic.com/s63fc7.jpg" border="0" alt="Image and video hosting by TinyPic"></a>       
 
 <p>
 
@@ -102,6 +99,8 @@ Spend a few short hours with our experienced marketing experts and get the infor
 <br>
 
 </p>
+
+
 
 <b> **Who We Are
 **
