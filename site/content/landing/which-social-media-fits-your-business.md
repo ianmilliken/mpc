@@ -14,10 +14,6 @@ formPosition: belowContent
 cta: I want advice on social marketing!
 download: /img/client-references-mss.pdf
 ---
-`<div class="apester-media" data-media-id="5c32c016b183765a399fe4cd" height="512"></div><script async src="//static.apester.com/js/sdk/v2.0/apester-javascript-sdk.min.js"></script>`
-
-
-
 Regardless of your result, Marketplace has a team of experts ready to advise on the best strategies for paid and non paid activities on Facebook, LinkedIn, Twitter and Instagram.
 
 Fill out the form below to receive more information from our team on which social media suits your business and how it can benefit your bottom line.
