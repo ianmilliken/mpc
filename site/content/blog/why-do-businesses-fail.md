@@ -5,7 +5,7 @@ seo:
     why do so many businesses fail when seemingly getting the word out there is
     at their fingertips? Let's look at some examples of large companies that
     didn't get it right.
-  meta_title: Why Do Businesses Fail? | Marketplace Strategy Solutions
+  meta_title: Why Do Businesses Fail? | Brisbane Marketing Agency
 title: Why do businesses fail?
 publishDate: '2018-06-18T09:04:51+10:00'
 author: Jordan
