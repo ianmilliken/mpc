@@ -35,14 +35,9 @@ intro: >
   What's included? By registering for a free workshop you'll get a two hour
   strategy session run by our executive team with your decision makers to review
   your marketing plan and its 
-formPosition: belowIntro
+formPosition: belowContent
 image: ''
 cta: I want a free marketing workshop!
 download: /img/sprinters-facebook-ad.png
 ---
-1. Review your marketing plan
-2. Get recommendations from the experts
-3. Map out a plan for success in 2019
-4. $1,500 workshop at no cost
-
-![](/img/sprinters-facebook-ad.png)
+![null](/img/sprinters-facebook-ad.png)
