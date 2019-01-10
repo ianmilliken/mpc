@@ -35,7 +35,7 @@ download: /img/client-references-mss.pdf
 
 <center>
 
-**Business' rely us when they need to...
+<b> **Business' rely us when they need to...
 **
 
 </center>
@@ -63,9 +63,7 @@ download: /img/client-references-mss.pdf
 
 <br>
 
-
-
-**Marketing Workshop Includes:
+<b> **Marketing Workshop Includes:
 **
 
 </center>
@@ -103,9 +101,9 @@ Spend a few short hours with our experienced marketing experts and get the infor
 
 <br>
 
+</p>
 
-
-**Who We Are
+<b> **Who We Are
 **
 
 <p>
