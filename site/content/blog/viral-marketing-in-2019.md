@@ -24,7 +24,7 @@ Targeting is a key element evidenced in successful viral campaigns. Through iden
 
 Old Spice “The Man Your Man Could Smell Like” iconic viral campaign hit the nail on the head, when they chose to target women, after identifying the segment as the main purchaser of men’s personal hygiene products.  
 
-![](/img/old-spice.jpg)
+![null](/img/old-spice.jpg)
 
 # Pick the right social media
 
@@ -32,7 +32,7 @@ Social media platforms play a significant role in making or breaking a viral cam
 
 The 2016 Netflix ‘Gilmore Girls’ viral Snapchat campaign, which reached more than 500,000 people in one day is a clear example of this. Netflix chose to promote the upcoming film over one day, with Snapchat geo-filters exclusively obtained on coffee cups in participating local US diners with staff dressed like characters from the film. The call for action and sense of urgency created with an expiry feature on the campaign helped fuel its success in going viral. 
 
-![](/img/gilmore-girls.jpg)
+![null](/img/gilmore-girls-snap-filter-hed-2016.png)
 
 # Be Bold
 
@@ -40,7 +40,7 @@ The hallmark of a successful viral campaign is also measured in the boldness and
 
 The power of being bold is clearly exemplified in the recent Tourism Australia advertisement premiered at the 2018 Super Bowl. The advertisement led audience to think it was a sequel to the popular Crocodile Dundee, when it was a promotion for Australia, which led to the campaigns viral success.  
 
-![](/img/tourism-ad.jpg)
+![null](/img/tourism-ad.jpg)
 
 # Prevention is key
 
@@ -54,10 +54,10 @@ Viral marketing in 2019 is clearly all about businesses being bold and taking ri
 
 **Need help creating your marketing campaign strategy for 2019? Fill out the form below to speak to an expert**
 
-**_Image Sources_**
+_**Image Sources**_
 
 _ https://bit.ly/2TUHoC2_
 
-_https://bit.ly/2T1VgdK_
+_https://bit.ly/2FBmCmX_
 
 _https://bit.ly/2TUHXMa_
