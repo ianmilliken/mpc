@@ -9,7 +9,8 @@ seo:
   meta_title: Viral Marketing in 2019
 title: Viral Marketing in 2019
 publishDate: '2019-01-16T13:27:21+10:00'
-author: Genevi
+author: Jordan
+image: /img/shutterstock_289487888.jpg
 ---
 So you’ve been thinking about creating a viral marketing campaign for your business in 2019, but don’t know where to start? 
 
@@ -23,7 +24,7 @@ Targeting is a key element evidenced in successful viral campaigns. Through iden
 
 Old Spice “The Man Your Man Could Smell Like” iconic viral campaign hit the nail on the head, when they chose to target women, after identifying the segment as the main purchaser of men’s personal hygiene products.  
 
-![http://cdn.themill.com/media/00000006207.jpg](/img/old-spice.jpg)
+![](/img/old-spice.jpg)
 
 # Pick the right social media
 
@@ -31,7 +32,7 @@ Social media platforms play a significant role in making or breaking a viral cam
 
 The 2016 Netflix ‘Gilmore Girls’ viral Snapchat campaign, which reached more than 500,000 people in one day is a clear example of this. Netflix chose to promote the upcoming film over one day, with Snapchat geo-filters exclusively obtained on coffee cups in participating local US diners with staff dressed like characters from the film. The call for action and sense of urgency created with an expiry feature on the campaign helped fuel its success in going viral. 
 
-![https://uploads.digitalmarketinginstitute.com/general/1_1.jpg?mtime=1495531943](/img/gilmore-girls.jpg)
+![](/img/gilmore-girls.jpg)
 
 # Be Bold
 
@@ -39,7 +40,7 @@ The hallmark of a successful viral campaign is also measured in the boldness and
 
 The power of being bold is clearly exemplified in the recent Tourism Australia advertisement premiered at the 2018 Super Bowl. The advertisement led audience to think it was a sequel to the popular Crocodile Dundee, when it was a promotion for Australia, which led to the campaigns viral success.  
 
-![https://static.adweek.com/adweek.com-prod/wp-content/uploads/2018/02/dundee-australia-PAGE-2018.jpg](/img/tourism-ad.jpg)
+![](/img/tourism-ad.jpg)
 
 # Prevention is key
 
@@ -47,10 +48,16 @@ Whilst viral marketing can be hit, it’s important to remember if done wrong ca
 
 Furthermore, it’s important to make sure your content is shareable and has the power to go viral and is unique from different campaigns. Lastly you want to make sure your content is easy to find on digital platforms, so your target audience doesn’t have to go researching for it. 
 
-
-
 # In Summary
 
 Viral marketing in 2019 is clearly all about businesses being bold and taking risks to stand out from competitors in the digital marketplace. Through doing your research and utilizing an integrated marketing strategy, your next campaign could have the power to go viral. 
 
 **Need help creating your marketing campaign strategy for 2019? Fill out the form below to speak to an expert**
+
+**_Image Sources_**
+
+_ https://bit.ly/2TUHoC2_
+
+_https://bit.ly/2T1VgdK_
+
+_https://bit.ly/2TUHXMa_
