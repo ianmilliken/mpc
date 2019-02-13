@@ -1,4 +1,9 @@
 ---
+seo:
+  meta_description: >-
+    Participate in a half-day or full-day workshop to help your marketing and
+    sales teams develop end-to-end brand growth strategies. 
+  meta_title: Marketing Workshops Brisbane | Marketplace Strategy Solutions
 title: Workshops & Training
 intro: >-
   Get access to professional marketing advice that works towards your business
