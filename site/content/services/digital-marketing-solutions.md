@@ -1,4 +1,11 @@
 ---
+seo:
+  meta_description: >-
+    Increase your visibility online with targeted solutions where you can
+    measure their effectiveness. We provide you with a strategy to help your
+    team excel in digital marketing, or we can become part of your digital
+    marketing team.
+  meta_title: Digital Marketing Services Brisbane | Marketplace Staregy Solutions
 title: Digital Marketing
 intro: >-
   Digital marketing solutions that increase your visibility online and arm your
@@ -7,15 +14,12 @@ icon: /img/digital-marketing.svg
 icon_reverse: /img/digital-marketing-reverse.svg
 image: /img/digital marketing 2-min.jpg
 serviceType: Primary
-seo:
-  meta_title: Digital Marketing Services Brisbane | Marketplace Staregy Solutions
-  meta_description: Increase your visibility online with targeted solutions where you can measure their effectiveness. We provide you with a strategy to help your team excel in digital marketing, or we can become part of your digital marketing team.
 ---
 In our experience, digital marketing is something businesses know they need to have but don't truly have the skill and understanding to go at alone.
 
 Whether it's Google, Facebook or another platform, the advertising and marketing opportunities available are ever evolving and it can be hard to keep up, let alone get ahead of the competition.
 
-That's where we come in. We can provide you with a strategy to help your team excel in digital marketing, or in fact become your digital marketing team.
+That's where we come in. We can provide you with a [strategy](https://marketplacestrategysolutions.com.au/services/marketing-strategy/) to help your team excel in digital marketing, or in fact become your digital marketing team.
 
 Businesses who aren’t performing online are effectively invisible to potential new customers, who look for you on their phones, desktops and tablets.
 
@@ -23,7 +27,7 @@ So our support focuses on bringing you to the front of their eyeline where we kn
 
 ## Giving you the tools to adapt with the online market
 
-Whatever digital solutions you’re looking for we’ll help you measure and maximise your results, and share with you proven tools to help you present a consistent message to your online audiences.
+Whatever digital solutions you’re looking for [we’ll help you](https://marketplacestrategysolutions.com.au/) measure and maximise your results, and share with you proven tools to help you present a consistent message to your online audiences.
 
 * Digital marketing plans
 * Pay per click (PPC) advertising campaigns
