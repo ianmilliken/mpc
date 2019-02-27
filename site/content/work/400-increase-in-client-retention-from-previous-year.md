@@ -1,4 +1,12 @@
 ---
+seo:
+  meta_description: >-
+    Our strategy involved setting up a tiered customer retention model,
+    splitting DC8’s client base into three specific segments and plotting a
+    sequence of marketing actions to nurture relationships with each.
+  meta_title: >-
+    250% increase in client retention thanks to CRM Strategy | Marketplace
+    Strategy Solutions
 title: 250% increase in client retention thanks to CRM
 description: DC8 Client Retention
 keywords: 'DC8 '
@@ -60,8 +68,9 @@ solution:
     off.
 
 
-    We believe this strategy is applicable for any business, with big diversity
-    in their client base.
+    We believe this
+    [strategy](https://marketplacestrategysolutions.com.au/services/marketing-strategy/)
+    is applicable for any business, with big diversity in their client base.
 results:
   body: |-
     * 250% increase in client retention
