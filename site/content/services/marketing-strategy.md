@@ -1,4 +1,11 @@
 ---
+seo:
+  meta_description: >-
+    Marketing without a strategy is like a journey without a map; you might know
+    where you want to get to but there's no telling what troubles you might find
+    along the way.
+  meta_keywords: Marketing Strategy Brisbane
+  meta_title: Marketing Strategy Brisbane | Marketplace Strategy Solutions
 title: Marketing Strategy
 intro: Plan for success with a tailored marketing strategy
 icon: /img/marketing-strategy.svg
@@ -17,7 +24,7 @@ towards better brand awareness, business growth, and future success.
 ## Develop your winning marketing strategy
 
 Join the many leading businesses that have successfully mapped their winning
-marketing strategy with Marketplace.
+[marketing strategy with Marketplace](https://marketplacestrategysolutions.com.au/).
 
 * Market research and competitive analysis
 * Brand strategy and finding your USP
