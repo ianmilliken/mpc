@@ -1,15 +1,23 @@
 ---
+seo:
+  meta_description: >-
+    For more than 30 years, Marketplace Strategy Solutions has been the trusted
+    marketing partner to some of Brisbane, Queensland and Australia’s leading
+    businesses.
+  meta_title: Who We Are | Marketplace Strategy Solutions
 title: Who we are
 mission:
   body: >-
-    For more than 30 years, Marketplace Strategy Solutions has been the trusted
-    marketing partner to some of Brisbane, Queensland and Australia’s leading
-    businesses. Our strength lies in the ability of our team to bring ideas to
-    the table which help your business increase its stature in the marketplace.
-    You only have to look at the names on our client list to appreciate how we
-    can help you do the same. We understand that success can be won quickly, but
-    ensuring its longevity is another skill set altogether; so we challenge you
-    to think big, and give us a call.
+    For more than 30 years, [Marketplace Strategy
+    Solutions](https://marketplacestrategysolutions.com.au/) has been the
+    trusted marketing partner to some of Brisbane, Queensland and Australia’s
+    leading businesses. Our strength lies in the ability of our team to bring
+    ideas to the table which help your business increase its stature in the
+    marketplace. You only have to look at the names on our client list to
+    appreciate how we can help you do the same. We understand that success can
+    be won quickly, but ensuring its longevity is another skill set altogether;
+    so we challenge you to think big, and [give us a
+    call](https://marketplacestrategysolutions.com.au/contact/).
   title: Why Choose Us
   video: 'https://www.youtube.com/embed/eKI4fOgwuQA'
 story:
@@ -28,7 +36,12 @@ story:
     our skill set has expanded over time to incorporate things like digital
     marketing, website development and social media management, whilst still
     keeping a few traditional tricks up our sleeve, like the invaluable
-    marketing plan, advertising campaigns and creative design.
+    [marketing
+    plan](https://marketplacestrategysolutions.com.au/services/marketing-strategy/),
+    [advertising
+    campaigns](https://marketplacestrategysolutions.com.au/services/advertising/)
+    and [creative
+    design](https://marketplacestrategysolutions.com.au/services/design/).
 
 
     From developers to retailers, lawyers to architects, we’ve worked with such
@@ -37,8 +50,9 @@ story:
     business growth needs.
 
 
-    We like to think our story is best told by the words of our happy clients.
-    View our testimonials here.
+    We like to think our story is best told by the words of [our happy
+    clients](https://marketplacestrategysolutions.com.au/work/). View our
+    testimonials here.
   highlight: A full service marketing agency
   title: Our Story
 team:
@@ -61,7 +75,5 @@ logo_wall:
   - client: Noosa Northrise
   - client: Dish
   - client: Remax
-seo:
-  meta_title: Who We Are | Marketplace Strategy Solutions
-  meta_description: For more than 30 years, Marketplace Strategy Solutions has been the trusted marketing partner to some of Brisbane, Queensland and Australia’s leading businesses.
 ---
+
