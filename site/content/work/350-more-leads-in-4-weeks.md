@@ -1,4 +1,10 @@
 ---
+seo:
+  meta_description: >-
+    Having only received the two quote requests for 2018, we structured a Google
+    AdWords campaign for their business tasked with placing their business at
+    the top of relevant Google searches within their market.
+  meta_title: 'PPC Case Study: 350% more leads in 4 weeks with PPC advertising'
 title: 350% more leads in 4 weeks with PPC advertising
 description: Digital Marketing - Google AdWords
 keywords: AdWords Campaign
@@ -45,8 +51,9 @@ results:
     * Opened the door for the franchise's property portfolio to potentially grow
     by 6%
 
-    * Identified key market research info like typical age, location of users
-    who clicked on ads
+    * Identified key [market research
+    info](https://marketplacestrategysolutions.com.au/) like typical age,
+    location of users who clicked on ads
 
     * Only cost $100/week to advertise
 ---
