@@ -1,19 +1,21 @@
 ---
+seo:
+  meta_description: >-
+    Our focus is on quality design that aligns with your intended message and is
+    achieved for your deadline. We design logos, billboards, business cards,
+    corporate merchandise, websites and newspaper advertisements.
+  meta_title: Design Services Brisbane | Marketplace Strategy Solutions
 title: Design
 intro: 'Ads, flyers, brochures - anything you need to make a great first impression'
 icon: /img/design.svg
 icon_reverse: /img/design-reverse.svg
 image: /img/services6-min.png
 serviceType: Primary
-seo:
-  meta_title: Design Services Brisbane | Marketplace Strategy Solutions
-  meta_description: Our focus is on quality design that aligns with your intended message and is achieved for your deadline. We design logos, billboards, business cards, corporate merchandise, websites and newspaper advertisements.
 ---
-
 Design is a key part of making valuable impressions on your prospective
 customers, but it can be a costly process if not done properly or on time.
 
-Our creative work is developed in line with your marketing objectives and
+Our [creative work](https://marketplacestrategysolutions.com.au/work/jeff-the-hornet-horn-campaign/) is developed in line with your marketing objectives and
 business development strategy. Our focus is on quality design that aligns with
 your intended message and is achieved for your deadline.
 
@@ -26,7 +28,7 @@ out.
 
 So, whether you’re in need of a re-brand, stand-out marketing collateral or a
 new website you can be sure that your design will compliment your message and
-brand.
+[brand](https://marketplacestrategysolutions.com.au/).
 
 * Logo design
 * Brand materials and company stationery
