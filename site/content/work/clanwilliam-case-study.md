@@ -1,4 +1,10 @@
 ---
+seo:
+  meta_description: >-
+    Clanwilliam Aged Care has a rich history of success spanning some 40 years
+    in aged care and nursing, but huge competitive forces in the market created
+    a need to become more visible within the Brisbane marketplace.
+  meta_title: 'Case Study: Branding & Digital Marketing for Aged Care'
 title: Branding & Digital Marketing in the Booming Aged Care Sector
 description: Clanwilliam Case Study
 keywords: Clanwilliam
@@ -6,9 +12,10 @@ thumbnail: /img/nerangamenities.png
 client: Clanwilliam Aged care
 brief:
   body: >-
-    Clanwilliam Aged Care has a rich history of success spanning some 40 years
-    in aged care and nursing, but huge competitive forces in the market created
-    a need to become more visible within the Brisbane marketplace.
+    [Clanwilliam Aged Care](http://www.clanwilliam.com.au/) has a rich history
+    of success spanning some 40 years in aged care and nursing, but huge
+    competitive forces in the market created a need to become more visible
+    within the Brisbane marketplace.
 
 
     Clanwilliam engaged with us from March 2017 to develop a marketing and
@@ -31,8 +38,9 @@ service_list:
   - service: Market Research
 solution:
   body: >-
-    Like most of our briefs, our work with Clanwilliam began with a strategy
-    workshop in which the following became the way forward;
+    Like most of our briefs, our work with Clanwilliam began with a [strategy
+    workshop](https://marketplacestrategysolutions.com.au/services/marketing-strategy/)
+    in which the following became the way forward;
 
 
     * Via a company re-brand, position Clanwilliam as the ‘family provider’ in a
