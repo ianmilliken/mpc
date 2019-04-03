@@ -8,7 +8,7 @@ seo:
     marketing
   meta_title: Viral Marketing in 2019
 title: Viral Marketing in 2019
-publishDate: '2019-01-21T09:08:00+10:00'
+publishDate: '2019-04-03T09:08:00+10:00'
 author: Jordan
 image: /img/shutterstock_289487888.jpg
 ---
